@@ -1,0 +1,120 @@
+clear
+exit
+exit
+chsh -s /bin/bash
+ls
+cd .dotfiles/
+cd ../
+ls
+cd Documents/
+ls
+cd../
+cd ../
+ls
+ls
+cd ../
+ls
+cd Shared/
+ls
+cd ../
+sl
+ls
+cd ../
+ls
+cd Volumes/
+ls
+cd ../
+ls
+cd ~/Library/Mobile\ Documents/com~apple~CloudDocs/
+ls
+cd Documents/
+ls
+cd ~/Documents/
+ls
+clang++
+clang
+clang-tidy
+ls
+sudo port install cmake
+cmake --version
+clear
+ls
+cd Do
+cd Documents/
+ls
+cd projects/
+ls
+cd hermes
+ls
+cd ../
+ls
+ls
+cd
+ssh-keygen -rsa -C "cybercritter@katie"
+ssh-keygen -t rsa -C "cybercritter@katie"
+cat .ssh/id_rsa.pub 
+cd Documents/projects/
+ls
+git clone git@github.com:cybercritter/Generic-Messaging-Service.git
+curl -L https://iterm2.com/shell_integration/install_shell_integration_and_utilities.sh | bash
+ls
+ls
+clear
+cd Documents/projects/
+cd Generic-Messaging-Service/
+ls
+mkdir cs
+ls
+git add .cs
+git add .cs
+git add cs
+touch cs/__init__.py
+git add .
+git st
+git stash
+git cob add_message_header
+git co -b add_message_header
+git stash pop
+git 
+ls
+ls
+pip --version
+pip3 --version
+c
+cd
+ls
+cd Documents/
+ls
+cd projects/
+ls
+cd Generic-Messaging-Service/
+ls
+cd ../
+python -m pip install -r Requiements.txt
+python3 -m pip install -r Requiements.txt
+python3 -m pip upgrade pip
+python3 -m pip --upgrade pip
+python3 -m pip install --upgrade pip
+echo "export PATH=/Users/michael/Library/Python/3.9/bin:$PATH"
+python3 -m pip install --upgrade pip[
+python3 -m pip install --upgrade pip
+python3 -m pip install -r Requiements.txt
+mv Generic-Messaging-Service/Requirements.txt .
+python3 -m pip install -r Requiements.txt
+python3 -m pip install -r Requirements.txt
+mkdir ~/.venv
+python3 -m venv ~/.venv
+echo "source ~/.venv/bin/activate" >> ~/.bashrc
+. ~/bashrc
+. ~/.bashrc
+python --verison
+which python
+\which python
+python
+. ~/.venv/bin/activate
+\which python
+rm -rf ~/venv/*
+more /Applications/Python\ 3.11/Update\ Shell\ Profile.command 
+. /Applications/Python\ 3.11/Update\ Shell\ Profile.command 
+/Applications/Python\ 3.11/Install\ Certificates.command ; exit;
+/Applications/Python\ 3.11/Update\ Shell\ Profile.command ; exit;

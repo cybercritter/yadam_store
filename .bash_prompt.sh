@@ -1,0 +1,1 @@
+/Users/michael/.dotfiles/bash/bash_prompt.sh.symlink

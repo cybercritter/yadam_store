@@ -1,0 +1,83 @@
+# Colors
+# ######
+
+DULL=0
+BRIGHT=1
+NORMAL_COLOR="\[$ESC[m\]"
+
+##
+# Shortcuts for Colored Text ( Bright and FG Only )
+##
+
+# DULL TEXT
+
+BLACK="\[$ESC[${DULL};30m\]"
+RED="\[$ESC[${DULL};31m\]"
+GREEN="\[$ESC[${DULL};32m\]"
+YELLOW="\[$ESC[${DULL};33m\]"
+BLUE="\[$ESC[${DULL};34m\]"
+VIOLET="\[$ESC[${DULL};35m\]"
+CYAN="\[$ESC[${DULL};36m\]"
+WHITE="\[$ESC[${DULL};37m\]"
+
+# BRIGHT TEXT
+BRIGHT_BLACK="\[$ESC[${BRIGHT};30m\]"
+BRIGHT_RED="\[$ESC[${BRIGHT};31m\]"
+BRIGHT_GREEN="\[$ESC[${BRIGHT};32m\]"
+BRIGHT_YELLOW="\[$ESC[${BRIGHT};33m\]"
+BRIGHT_BLUE="\[$ESC[${BRIGHT};34m\]"
+BRIGHT_VIOLET="\[$ESC[${BRIGHT};35m\]"
+BRIGHT_CYAN="\[$ESC[${BRIGHT};36m\]"
+BRIGHT_WHITE="\[$ESC[${BRIGHT};37m\]"
+
+# Colorized Git branch and status
+# ###############################
+
+function parse_git_branch {
+
+  git rev-parse --git-dir &> /dev/null
+  git_status="$(git status 2> /dev/null)"
+  branch_pattern="^# On branch ([^${IFS}]*)"
+  remote_pattern="# Your branch is (.*) of"
+  diverge_pattern="# Your branch and (.*) have diverged"
+  
+  if [[ ! ${git_status}} =~ "working directory clean" ]]; then
+    state="${BRIGHT_RED} Z"
+  else 
+	state="${BLUE} C"
+  fi
+  # add an else if or two here if you want to get more specific
+  if [[ ${git_status} =~ ${remote_pattern} ]]; then
+    if [[ ${BASH_REMATCH[1]} == "ahead" ]]; then
+      remote="${YELLOW} ^"
+    else
+      remote="${YELLOW} v"
+    fi
+  fi
+  if [[ ${git_status} =~ ${diverge_pattern} ]]; then
+    remote="${YELLOW} <>"
+  fi
+  if [[ ${git_status} =~ ${branch_pattern} ]]; then
+    branch=${BASH_REMATCH[1]}
+    echo " ${BRIGHT_BLUE}(${BRIGHT_CYAN}${branch}${BRIGHT_BLUE})${remote}${state}"
+  fi
+}
+
+# PROMPT
+# ######
+
+function prompt_func() {
+    previous_return_value=$?;
+    # prompt="${TITLEBAR}$BLUE[$RED\w$GREEN$(__git_ps1)$YELLOW$(git_dirty_flag)$BLUE]$COLOR_NONE "
+    #prompt="${TITLEBAR}${BLUE}[${RED}\w${GREEN}$(parse_git_branch)${BLUE}]${COLOR_NONE} "
+	
+	prompt="${BRIGHT_BLUE}[${CYAN}\u@\h${WHITE}:${BRIGHT_GREEN}\w${BRIGHT_BLUE}]${BRIGHT_YELLOW}$(parse_git_branch) \n${NORMAL_COLOR}"
+    if test $previous_return_value -eq 0
+    then
+        PS1="${prompt}\$ "
+    else
+        PS1="${prompt}${RED}\$${NORMAL_COLOR} "
+    fi
+}
+
+PROMPT_COMMAND=prompt_func

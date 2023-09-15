@@ -1,1 +1,0 @@
-/Users/michael/.dotfiles/bash/bash_aliases.sh.symlink

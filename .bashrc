@@ -1,5 +1,4 @@
 source ~/.git-completion.bash
-source ~/.bash_aliases.sh
 
 # set PATH so it includes user's private bin if it exists
 if [ -d "$HOME/bin" ] ; then
@@ -79,4 +78,3 @@ if [ -f ~/.git-prompt.sh ]; then
    export GIT_PS1_SHOWDIRTYSTATE=1
    export GIT_PS1_SHOWUPSTREAM="auto"
 fi
-source ~/.venv/bin/activate

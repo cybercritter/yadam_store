@@ -10,11 +10,20 @@
 
 # hlsearch on (H) or off (h):
 ~H
+# Last Search Pattern:
+~MSle0~/cmake
+
 # Command Line History (newest to oldest):
 :wq
-|2,0,1695576306,,"wq"
+|2,0,1695576489,,"wq"
+:Wq
+|2,0,1695576488,,"Wq"
+:w
+|2,0,1695576487,,"w"
 
 # Search String History (newest to oldest):
+?/cmake
+|2,1,1695576473,47,"cmake"
 
 # Expression History (newest to oldest):
 
@@ -23,16 +32,36 @@
 # Debug Line History (newest to oldest):
 
 # Registers:
+""-	CHAR	0
+	:
+|3,1,36,0,1,0,1695576479,":"
 
 # File marks:
-'0  1  0  ~/.local/share/yadm/repo.git/COMMIT_EDITMSG
-|4,48,1,0,1695576306,"~/.local/share/yadm/repo.git/COMMIT_EDITMSG"
+'0  134  56  ~/.zshrc
+|4,48,134,56,1695576489,"~/.zshrc"
+'1  1  0  ~/.local/share/yadm/repo.git/COMMIT_EDITMSG
+|4,49,1,0,1695576306,"~/.local/share/yadm/repo.git/COMMIT_EDITMSG"
 
 # Jumplist (newest first):
+-'  134  56  ~/.zshrc
+|4,39,134,56,1695576489,"~/.zshrc"
+-'  119  0  ~/.zshrc
+|4,39,119,0,1695576473,"~/.zshrc"
+-'  1  0  ~/.zshrc
+|4,39,1,0,1695576445,"~/.zshrc"
+-'  1  0  ~/.local/share/yadm/repo.git/COMMIT_EDITMSG
+|4,39,1,0,1695576306,"~/.local/share/yadm/repo.git/COMMIT_EDITMSG"
 -'  1  0  ~/.local/share/yadm/repo.git/COMMIT_EDITMSG
 |4,39,1,0,1695576306,"~/.local/share/yadm/repo.git/COMMIT_EDITMSG"
 
 # History of marks within files (newest to oldest):
+
+> ~/.zshrc
+	*	1695576488	0
+	"	134	56
+	^	134	57
+	.	134	56
+	+	134	56
 
 > ~/.local/share/yadm/repo.git/COMMIT_EDITMSG
 	*	1695576304	0

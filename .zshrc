@@ -131,7 +131,7 @@ if [ $ITERM_SESSION_ID ]; then
 fi
 
 if [ -f "/Applications/CMake.app/Contents/bin/cmake" ]; then
-   export PATH=$PATH:/Applications/CMake.app/Contents/bin
+   export PATH=/Applications/CMake.app/Contents/bin:$PATH
 fi
 # -------------------------------------------------------------------
 # Functions ported directly from .bashrc

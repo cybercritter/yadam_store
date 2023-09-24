@@ -130,7 +130,9 @@ if [ $ITERM_SESSION_ID ]; then
    }
 fi
 
-
+if [ -f "/Applications/CMake.app/Contents/bin/cmake" ]; then
+   export PATH=$PATH:/Applications/CMake.app/Contents/bin
+fi
 # -------------------------------------------------------------------
 # Functions ported directly from .bashrc
 # -------------------------------------------------------------------
@@ -233,3 +235,20 @@ bindkey "${terminfo[kcuu1]}" up-line-or-beginning-search
 
 # start typing + [Down-Arrow] - fuzzy find history backward
 bindkey "${terminfo[kcud1]}" down-line-or-beginning-search
+
+
+# >>> conda initialize >>>
+# !! Contents within this block are managed by 'conda init' !!
+__conda_setup="$('/Users/michael/anaconda3/bin/conda' 'shell.zsh' 'hook' 2> /dev/null)"
+if [ $? -eq 0 ]; then
+    eval "$__conda_setup"
+else
+    if [ -f "/Users/michael/anaconda3/etc/profile.d/conda.sh" ]; then
+        . "/Users/michael/anaconda3/etc/profile.d/conda.sh"
+    else
+        export PATH="/Users/michael/anaconda3/bin:$PATH"
+    fi
+fi
+unset __conda_setup
+# <<< conda initialize <<<
+

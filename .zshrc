@@ -202,13 +202,6 @@ backupToDrive(){
    echo "New .zshrc backed up to yadm."
 }
 
-#backupToDrive(){
-#   yadm add ~/.zshrc
-#   yadm commit -m "updated .zshrc"
-#   yadm push
-#   echo "New .zshrc backed up to yadm."
-#}
-
 sourceZsh(){
    source ~/.zshrc
    backupToDrive ~/.zshrc

@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/zsh
 alias ssh='ssh -XY -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null'
 alias lsp='ls -s -Q -v -S -1p -H -i -X'
 alias cp='cp -rpi'

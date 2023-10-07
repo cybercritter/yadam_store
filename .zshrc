@@ -130,9 +130,7 @@ if [ $ITERM_SESSION_ID ]; then
    }
 fi
 
-if [ -f "/Applications/CMake.app/Contents/bin/cmake" ]; then
-   export PATH=/Applications/CMake.app/Contents/bin:$PATH
-fi
+
 # -------------------------------------------------------------------
 # Functions ported directly from .bashrc
 # -------------------------------------------------------------------
@@ -202,6 +200,13 @@ backupToDrive(){
    echo "New .zshrc backed up to yadm."
 }
 
+#backupToDrive(){
+#   yadm add ~/.zshrc
+#   yadm commit -m "updated .zshrc"
+#   yadm push
+#   echo "New .zshrc backed up to yadm."
+#}
+
 sourceZsh(){
    source ~/.zshrc
    backupToDrive ~/.zshrc
@@ -228,3 +233,4 @@ bindkey "${terminfo[kcuu1]}" up-line-or-beginning-search
 
 # start typing + [Down-Arrow] - fuzzy find history backward
 bindkey "${terminfo[kcud1]}" down-line-or-beginning-search
+

@@ -14,14 +14,14 @@
 ~MSle0~/unt
 
 # Command Line History (newest to oldest):
+:q
+|2,0,1696727816,,"q"
+:w
+|2,0,1696727065,,"w"
 :wq
 |2,0,1696726745,,"wq"
-:w
-|2,0,1696726745,,"w"
 :u
 |2,0,1696726693,,"u"
-:q
-|2,0,1696726271,,"q"
 :120
 |2,0,1696725192,,"120"
 
@@ -45,64 +45,74 @@
 |3,0,0,1,1,0,1696724350,"#ZSH_THEME=\"bullet-train\""
 "1	LINE	0
 	
-|3,0,1,1,1,0,1696726733,""
+|3,0,1,1,1,0,1696726834,""
 "2	LINE	0
-	export AM_GIT_UN_TRACKED_COLOR=red
-|3,0,2,1,1,0,1696726733,"export AM_GIT_UN_TRACKED_COLOR=red"
-"3	LINE	0
-	export AM_GIT_TRACKED_COLOR=green
-|3,0,3,1,1,0,1696726733,"export AM_GIT_TRACKED_COLOR=green"
-"4	LINE	0
-	export AM_GIT_UN_TRACKED_COLOR=red
-|3,0,4,1,1,0,1696726706,"export AM_GIT_UN_TRACKED_COLOR=red"
-"5	LINE	0
-	export AM_GIT_TRACKED_COLOR=green
-|3,0,5,1,1,0,1696726706,"export AM_GIT_TRACKED_COLOR=green"
-"6	LINE	0
-	export AM_USE_NERD_FONT=1 # previously `USE_NERD_FONT`
-|3,0,6,1,1,0,1696726706,"export AM_USE_NERD_FONT=1 # previously `USE_NERD_FONT`"
-"7	LINE	0
 	
-|3,0,7,1,1,0,1696726706,""
+|3,0,2,1,1,0,1696726733,""
+"3	LINE	0
+	export AM_GIT_UN_TRACKED_COLOR=red
+|3,0,3,1,1,0,1696726733,"export AM_GIT_UN_TRACKED_COLOR=red"
+"4	LINE	0
+	export AM_GIT_TRACKED_COLOR=green
+|3,0,4,1,1,0,1696726733,"export AM_GIT_TRACKED_COLOR=green"
+"5	LINE	0
+	export AM_GIT_UN_TRACKED_COLOR=red
+|3,0,5,1,1,0,1696726706,"export AM_GIT_UN_TRACKED_COLOR=red"
+"6	LINE	0
+	export AM_GIT_TRACKED_COLOR=green
+|3,0,6,1,1,0,1696726706,"export AM_GIT_TRACKED_COLOR=green"
+"7	LINE	0
+	export AM_USE_NERD_FONT=1 # previously `USE_NERD_FONT`
+|3,0,7,1,1,0,1696726706,"export AM_USE_NERD_FONT=1 # previously `USE_NERD_FONT`"
 "8	LINE	0
-	export AM_GIT_PULL_SYM='↓' # Git New Commit Symbol
-|3,0,8,1,1,0,1696726706,"export AM_GIT_PULL_SYM='↓' # Git New Commit Symbol"
+	
+|3,0,8,1,1,0,1696726706,""
 "9	LINE	0
-	export AM_GIT_PUSH_SYM='↑' # Git Un-pushed Commit Symbol
-|3,0,9,1,1,0,1696726705,"export AM_GIT_PUSH_SYM='↑' # Git Un-pushed Commit Symbol"
+	export AM_GIT_PULL_SYM='↓' # Git New Commit Symbol
+|3,0,9,1,1,0,1696726706,"export AM_GIT_PULL_SYM='↓' # Git New Commit Symbol"
 ""-	CHAR	0
-	 
-|3,1,36,0,1,0,1696726743," "
+	mono
+|3,1,36,0,1,0,1696727061,"mono"
 
 # File marks:
-'0  2  0  ~/.zshrc
-|4,48,2,0,1696726745,"~/.zshrc"
-'1  78  0  ~/.amrc
-|4,49,78,0,1696726728,"~/.amrc"
-'2  44  0  ~/.amrc
-|4,50,44,0,1696726666,"~/.amrc"
-'3  44  0  ~/.amrc
-|4,51,44,0,1696726666,"~/.amrc"
-'4  1  0  ~/.amrc
-|4,52,1,0,1696726591,"~/.amrc"
-'5  1  0  ~/.amrc
-|4,53,1,0,1696726591,"~/.amrc"
-'6  1  0  ~/.amrc
-|4,54,1,0,1696726591,"~/.amrc"
-'7  1  0  ~/.amrc
-|4,55,1,0,1696726591,"~/.amrc"
-'8  52  0  ~/.oh-my-zsh/custom/themes/alien-minimal/alien-minimal.zsh
-|4,56,52,0,1696726271,"~/.oh-my-zsh/custom/themes/alien-minimal/alien-minimal.zsh"
-'9  11  37  ~/.zshrc
-|4,57,11,37,1696725658,"~/.zshrc"
+'0  4  22  ~/.amrc
+|4,48,4,22,1696727816,"~/.amrc"
+'1  2  0  ~/.zshrc
+|4,49,2,0,1696726745,"~/.zshrc"
+'2  77  0  ~/.amrc
+|4,50,77,0,1696726728,"~/.amrc"
+'3  78  0  ~/.amrc
+|4,51,78,0,1696726728,"~/.amrc"
+'4  44  0  ~/.amrc
+|4,52,44,0,1696726666,"~/.amrc"
+'5  44  0  ~/.amrc
+|4,53,44,0,1696726666,"~/.amrc"
+'6  44  0  ~/.amrc
+|4,54,44,0,1696726666,"~/.amrc"
+'7  44  0  ~/.amrc
+|4,55,44,0,1696726666,"~/.amrc"
+'8  1  0  ~/.amrc
+|4,56,1,0,1696726591,"~/.amrc"
+'9  1  0  ~/.amrc
+|4,57,1,0,1696726591,"~/.amrc"
 
 # Jumplist (newest first):
+-'  4  22  ~/.amrc
+|4,39,4,22,1696727816,"~/.amrc"
+-'  77  0  ~/.amrc
+|4,39,77,0,1696726766,"~/.amrc"
+-'  2  0  ~/.zshrc
+|4,39,2,0,1696726745,"~/.zshrc"
 -'  2  0  ~/.zshrc
 |4,39,2,0,1696726745,"~/.zshrc"
 -'  78  0  ~/.amrc
 |4,39,78,0,1696726728,"~/.amrc"
 -'  44  0  ~/.amrc
 |4,39,44,0,1696726717,"~/.amrc"
+-'  44  0  ~/.amrc
+|4,39,44,0,1696726717,"~/.amrc"
+-'  1  0  ~/.zshrc
+|4,39,1,0,1696726708,"~/.zshrc"
 -'  1  0  ~/.zshrc
 |4,39,1,0,1696726708,"~/.zshrc"
 -'  44  0  ~/.amrc
@@ -112,15 +122,21 @@
 -'  1  0  ~/.amrc
 |4,39,1,0,1696726625,"~/.amrc"
 -'  1  0  ~/.amrc
+|4,39,1,0,1696726625,"~/.amrc"
+-'  1  0  ~/.amrc
 |4,39,1,0,1696726591,"~/.amrc"
--'  73  15  ~/.amrc
-|4,39,73,15,1696726471,"~/.amrc"
 -'  72  15  ~/.amrc
 |4,39,72,15,1696726471,"~/.amrc"
 -'  73  15  ~/.amrc
 |4,39,73,15,1696726471,"~/.amrc"
 -'  72  15  ~/.amrc
 |4,39,72,15,1696726471,"~/.amrc"
+-'  73  15  ~/.amrc
+|4,39,73,15,1696726471,"~/.amrc"
+-'  72  15  ~/.amrc
+|4,39,72,15,1696726471,"~/.amrc"
+-'  39  67  ~/.amrc
+|4,39,39,67,1696726437,"~/.amrc"
 -'  39  67  ~/.amrc
 |4,39,39,67,1696726437,"~/.amrc"
 -'  39  67  ~/.amrc
@@ -133,6 +149,24 @@
 |4,39,37,0,1696726370,"~/.amrc"
 -'  37  0  ~/.amrc
 |4,39,37,0,1696726370,"~/.amrc"
+-'  37  0  ~/.amrc
+|4,39,37,0,1696726370,"~/.amrc"
+-'  52  0  ~/.oh-my-zsh/custom/themes/alien-minimal/alien-minimal.zsh
+|4,39,52,0,1696726271,"~/.oh-my-zsh/custom/themes/alien-minimal/alien-minimal.zsh"
+-'  52  0  ~/.oh-my-zsh/custom/themes/alien-minimal/alien-minimal.zsh
+|4,39,52,0,1696726271,"~/.oh-my-zsh/custom/themes/alien-minimal/alien-minimal.zsh"
+-'  52  0  ~/.oh-my-zsh/custom/themes/alien-minimal/alien-minimal.zsh
+|4,39,52,0,1696726271,"~/.oh-my-zsh/custom/themes/alien-minimal/alien-minimal.zsh"
+-'  52  0  ~/.oh-my-zsh/custom/themes/alien-minimal/alien-minimal.zsh
+|4,39,52,0,1696726271,"~/.oh-my-zsh/custom/themes/alien-minimal/alien-minimal.zsh"
+-'  52  0  ~/.oh-my-zsh/custom/themes/alien-minimal/alien-minimal.zsh
+|4,39,52,0,1696726271,"~/.oh-my-zsh/custom/themes/alien-minimal/alien-minimal.zsh"
+-'  52  0  ~/.oh-my-zsh/custom/themes/alien-minimal/alien-minimal.zsh
+|4,39,52,0,1696726271,"~/.oh-my-zsh/custom/themes/alien-minimal/alien-minimal.zsh"
+-'  52  0  ~/.oh-my-zsh/custom/themes/alien-minimal/alien-minimal.zsh
+|4,39,52,0,1696726271,"~/.oh-my-zsh/custom/themes/alien-minimal/alien-minimal.zsh"
+-'  52  0  ~/.oh-my-zsh/custom/themes/alien-minimal/alien-minimal.zsh
+|4,39,52,0,1696726271,"~/.oh-my-zsh/custom/themes/alien-minimal/alien-minimal.zsh"
 -'  52  0  ~/.oh-my-zsh/custom/themes/alien-minimal/alien-minimal.zsh
 |4,39,52,0,1696726271,"~/.oh-my-zsh/custom/themes/alien-minimal/alien-minimal.zsh"
 -'  52  0  ~/.oh-my-zsh/custom/themes/alien-minimal/alien-minimal.zsh
@@ -165,6 +199,24 @@
 |4,39,1,0,1696726241,"~/.oh-my-zsh/custom/themes/alien-minimal/alien-minimal.zsh"
 -'  1  0  ~/.oh-my-zsh/custom/themes/alien-minimal/alien-minimal.zsh
 |4,39,1,0,1696726241,"~/.oh-my-zsh/custom/themes/alien-minimal/alien-minimal.zsh"
+-'  1  0  ~/.oh-my-zsh/custom/themes/alien-minimal/alien-minimal.zsh
+|4,39,1,0,1696726241,"~/.oh-my-zsh/custom/themes/alien-minimal/alien-minimal.zsh"
+-'  1  0  ~/.oh-my-zsh/custom/themes/alien-minimal/alien-minimal.zsh
+|4,39,1,0,1696726241,"~/.oh-my-zsh/custom/themes/alien-minimal/alien-minimal.zsh"
+-'  1  0  ~/.oh-my-zsh/custom/themes/alien-minimal/alien-minimal.zsh
+|4,39,1,0,1696726241,"~/.oh-my-zsh/custom/themes/alien-minimal/alien-minimal.zsh"
+-'  1  0  ~/.oh-my-zsh/custom/themes/alien-minimal/alien-minimal.zsh
+|4,39,1,0,1696726241,"~/.oh-my-zsh/custom/themes/alien-minimal/alien-minimal.zsh"
+-'  1  0  ~/.oh-my-zsh/custom/themes/alien-minimal/alien-minimal.zsh
+|4,39,1,0,1696726241,"~/.oh-my-zsh/custom/themes/alien-minimal/alien-minimal.zsh"
+-'  1  0  ~/.oh-my-zsh/custom/themes/alien-minimal/alien-minimal.zsh
+|4,39,1,0,1696726241,"~/.oh-my-zsh/custom/themes/alien-minimal/alien-minimal.zsh"
+-'  1  0  ~/.oh-my-zsh/custom/themes/alien-minimal/alien-minimal.zsh
+|4,39,1,0,1696726241,"~/.oh-my-zsh/custom/themes/alien-minimal/alien-minimal.zsh"
+-'  1  0  ~/.oh-my-zsh/custom/themes/alien-minimal/alien-minimal.zsh
+|4,39,1,0,1696726241,"~/.oh-my-zsh/custom/themes/alien-minimal/alien-minimal.zsh"
+-'  11  0  ~/.zshrc
+|4,39,11,0,1696725765,"~/.zshrc"
 -'  11  0  ~/.zshrc
 |4,39,11,0,1696725765,"~/.zshrc"
 -'  11  37  ~/.zshrc
@@ -199,6 +251,38 @@
 |4,39,11,37,1696725658,"~/.zshrc"
 -'  11  37  ~/.zshrc
 |4,39,11,37,1696725658,"~/.zshrc"
+-'  11  37  ~/.zshrc
+|4,39,11,37,1696725658,"~/.zshrc"
+-'  11  37  ~/.zshrc
+|4,39,11,37,1696725658,"~/.zshrc"
+-'  11  37  ~/.zshrc
+|4,39,11,37,1696725658,"~/.zshrc"
+-'  11  37  ~/.zshrc
+|4,39,11,37,1696725658,"~/.zshrc"
+-'  11  37  ~/.zshrc
+|4,39,11,37,1696725658,"~/.zshrc"
+-'  11  37  ~/.zshrc
+|4,39,11,37,1696725658,"~/.zshrc"
+-'  11  37  ~/.zshrc
+|4,39,11,37,1696725658,"~/.zshrc"
+-'  11  37  ~/.zshrc
+|4,39,11,37,1696725658,"~/.zshrc"
+-'  11  37  ~/.zshrc
+|4,39,11,37,1696725658,"~/.zshrc"
+-'  11  37  ~/.zshrc
+|4,39,11,37,1696725658,"~/.zshrc"
+-'  11  37  ~/.zshrc
+|4,39,11,37,1696725658,"~/.zshrc"
+-'  11  37  ~/.zshrc
+|4,39,11,37,1696725658,"~/.zshrc"
+-'  11  37  ~/.zshrc
+|4,39,11,37,1696725658,"~/.zshrc"
+-'  11  37  ~/.zshrc
+|4,39,11,37,1696725658,"~/.zshrc"
+-'  11  37  ~/.zshrc
+|4,39,11,37,1696725658,"~/.zshrc"
+-'  11  37  ~/.zshrc
+|4,39,11,37,1696725658,"~/.zshrc"
 -'  81  1  ~/.gitconfig
 |4,39,81,1,1696725199,"~/.gitconfig"
 -'  81  1  ~/.gitconfig
@@ -213,92 +297,109 @@
 |4,39,81,1,1696725199,"~/.gitconfig"
 -'  81  1  ~/.gitconfig
 |4,39,81,1,1696725199,"~/.gitconfig"
--'  81  1  ~/.gitconfig
-|4,39,81,1,1696725199,"~/.gitconfig"
--'  81  1  ~/.gitconfig
-|4,39,81,1,1696725199,"~/.gitconfig"
--'  81  1  ~/.gitconfig
-|4,39,81,1,1696725199,"~/.gitconfig"
--'  81  1  ~/.gitconfig
-|4,39,81,1,1696725199,"~/.gitconfig"
--'  81  1  ~/.gitconfig
-|4,39,81,1,1696725199,"~/.gitconfig"
--'  81  1  ~/.gitconfig
-|4,39,81,1,1696725199,"~/.gitconfig"
--'  81  1  ~/.gitconfig
-|4,39,81,1,1696725199,"~/.gitconfig"
--'  81  1  ~/.gitconfig
-|4,39,81,1,1696725199,"~/.gitconfig"
--'  81  1  ~/.gitconfig
-|4,39,81,1,1696725199,"~/.gitconfig"
--'  81  1  ~/.gitconfig
-|4,39,81,1,1696725199,"~/.gitconfig"
--'  81  1  ~/.gitconfig
-|4,39,81,1,1696725199,"~/.gitconfig"
--'  81  1  ~/.gitconfig
-|4,39,81,1,1696725199,"~/.gitconfig"
--'  81  1  ~/.gitconfig
-|4,39,81,1,1696725199,"~/.gitconfig"
--'  81  1  ~/.gitconfig
-|4,39,81,1,1696725199,"~/.gitconfig"
--'  81  1  ~/.gitconfig
-|4,39,81,1,1696725199,"~/.gitconfig"
--'  81  1  ~/.gitconfig
-|4,39,81,1,1696725199,"~/.gitconfig"
--'  81  1  ~/.gitconfig
-|4,39,81,1,1696725199,"~/.gitconfig"
--'  81  1  ~/.gitconfig
-|4,39,81,1,1696725199,"~/.gitconfig"
--'  81  1  ~/.gitconfig
-|4,39,81,1,1696725199,"~/.gitconfig"
--'  81  1  ~/.gitconfig
-|4,39,81,1,1696725199,"~/.gitconfig"
--'  81  1  ~/.gitconfig
-|4,39,81,1,1696725199,"~/.gitconfig"
--'  81  1  ~/.gitconfig
-|4,39,81,1,1696725199,"~/.gitconfig"
--'  81  1  ~/.gitconfig
-|4,39,81,1,1696725199,"~/.gitconfig"
--'  81  1  ~/.gitconfig
-|4,39,81,1,1696725199,"~/.gitconfig"
--'  81  1  ~/.gitconfig
-|4,39,81,1,1696725199,"~/.gitconfig"
--'  81  1  ~/.gitconfig
-|4,39,81,1,1696725199,"~/.gitconfig"
--'  81  1  ~/.gitconfig
-|4,39,81,1,1696725199,"~/.gitconfig"
--'  48  1  ~/.gitconfig
-|4,39,48,1,1696725173,"~/.gitconfig"
--'  48  1  ~/.gitconfig
-|4,39,48,1,1696725173,"~/.gitconfig"
--'  48  1  ~/.gitconfig
-|4,39,48,1,1696725173,"~/.gitconfig"
--'  48  1  ~/.gitconfig
-|4,39,48,1,1696725173,"~/.gitconfig"
--'  48  1  ~/.gitconfig
-|4,39,48,1,1696725173,"~/.gitconfig"
--'  48  1  ~/.gitconfig
-|4,39,48,1,1696725173,"~/.gitconfig"
--'  48  1  ~/.gitconfig
-|4,39,48,1,1696725173,"~/.gitconfig"
--'  48  1  ~/.gitconfig
-|4,39,48,1,1696725173,"~/.gitconfig"
--'  48  1  ~/.gitconfig
-|4,39,48,1,1696725173,"~/.gitconfig"
--'  48  1  ~/.gitconfig
-|4,39,48,1,1696725173,"~/.gitconfig"
--'  48  1  ~/.gitconfig
-|4,39,48,1,1696725173,"~/.gitconfig"
--'  48  1  ~/.gitconfig
-|4,39,48,1,1696725173,"~/.gitconfig"
--'  48  1  ~/.gitconfig
-|4,39,48,1,1696725173,"~/.gitconfig"
--'  48  1  ~/.gitconfig
-|4,39,48,1,1696725173,"~/.gitconfig"
--'  48  1  ~/.gitconfig
-|4,39,48,1,1696725173,"~/.gitconfig"
 
 # History of marks within files (newest to oldest):
+
+> ~/.amrc
+	*	1696727815	0
+	"	4	22
+	^	4	23
+	.	4	22
+	+	4	19
+	+	9	0
+	+	7	0
+	+	19	0
+	+	21	0
+	+	20	0
+	+	22	0
+	+	23	0
+	+	24	0
+	+	25	0
+	+	26	0
+	+	27	0
+	+	28	0
+	+	29	0
+	+	30	0
+	+	31	0
+	+	32	0
+	+	33	0
+	+	34	0
+	+	35	0
+	+	36	0
+	+	37	0
+	+	38	0
+	+	37	0
+	+	38	0
+	+	39	0
+	+	43	0
+	+	42	72
+	+	41	74
+	+	40	66
+	+	39	68
+	+	72	0
+	+	72	71
+	+	75	20
+	+	20	0
+	+	22	0
+	+	23	0
+	+	24	0
+	+	25	0
+	+	27	0
+	+	28	0
+	+	29	0
+	+	39	0
+	+	40	0
+	+	43	0
+	+	77	38
+	+	76	0
+	+	77	0
+	+	42	0
+	+	41	0
+	+	72	38
+	+	20	0
+	+	22	0
+	+	23	0
+	+	24	0
+	+	25	0
+	+	27	0
+	+	28	0
+	+	29	0
+	+	45	0
+	+	46	0
+	+	47	0
+	+	48	0
+	+	49	0
+	+	50	0
+	+	51	0
+	+	52	0
+	+	53	0
+	+	54	0
+	+	55	0
+	+	56	0
+	+	57	0
+	+	58	0
+	+	59	0
+	+	60	0
+	+	61	0
+	+	62	0
+	+	63	0
+	+	64	0
+	+	65	0
+	+	66	0
+	+	67	0
+	+	68	0
+	+	69	0
+	+	70	0
+	+	71	0
+	+	72	0
+	+	39	0
+	+	40	0
+	+	41	0
+	+	42	0
+	+	40	26
+	+	42	33
+	+	75	0
+	+	4	22
 
 > ~/.zshrc
 	*	1696726745	0
@@ -332,60 +433,6 @@
 	+	248	0
 	+	1	0
 	+	2	0
-
-> ~/.amrc
-	*	1696726727	0
-	"	78	0
-	^	79	0
-	.	78	0
-	+	4	19
-	+	9	0
-	+	7	0
-	+	19	0
-	+	21	0
-	+	20	0
-	+	22	0
-	+	23	0
-	+	24	0
-	+	25	0
-	+	26	0
-	+	27	0
-	+	28	0
-	+	29	0
-	+	30	0
-	+	31	0
-	+	32	0
-	+	33	0
-	+	34	0
-	+	35	0
-	+	36	0
-	+	37	0
-	+	38	0
-	+	37	0
-	+	38	0
-	+	39	0
-	+	43	0
-	+	42	72
-	+	41	74
-	+	40	66
-	+	39	68
-	+	72	0
-	+	73	71
-	+	76	20
-	+	20	0
-	+	22	0
-	+	23	0
-	+	24	0
-	+	25	0
-	+	27	0
-	+	28	0
-	+	29	0
-	+	39	0
-	+	40	0
-	+	43	0
-	+	78	38
-	+	77	0
-	+	78	0
 
 > ~/.oh-my-zsh/custom/themes/alien-minimal/alien-minimal.zsh
 	*	1696726270	0

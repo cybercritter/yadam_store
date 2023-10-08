@@ -11,18 +11,18 @@
 # hlsearch on (H) or off (h):
 ~H
 # Last Search Pattern:
-~MSle0~/color
+~MSle0~/user
 
 # Last Substitute String:
 $
 
 # Command Line History (newest to oldest):
-:q
-|2,0,1696729019,,"q"
 :wq
-|2,0,1696729002,,"wq"
+|2,0,1696730390,,"wq"
 :w
-|2,0,1696728996,,"w"
+|2,0,1696730379,,"w"
+:q
+|2,0,1696729518,,"q"
 :colorscheme default
 |2,0,1696728981,,"colorscheme default"
 :colorscheme elflord
@@ -33,14 +33,18 @@ $
 |2,0,1696725192,,"120"
 
 # Search String History (newest to oldest):
+?/user
+|2,1,1696730307,47,"user"
+??\a
+|2,1,1696730285,63,"\\a"
+? @$
+|2,1,1696730285,,"@$"
+? \<gitrepo\>
+|2,1,1696730189,,"\\<gitrepo\\>"
 ?/color
 |2,1,1696728955,47,"color"
 ?/AM_
 |2,1,1696728138,47,"AM_"
-??\a
-|2,1,1696728266,63,"\\a"
-? @$
-|2,1,1696728266,,"@$"
 ? \<export\>
 |2,1,1696726370,,"\\<export\\>"
 ?/unt
@@ -55,265 +59,293 @@ $
 # Debug Line History (newest to oldest):
 
 # Registers:
-"0	CHAR	0
-	mono
-|3,0,0,0,1,0,1696728266,"mono"
+""0	CHAR	0
+	#
+|3,1,0,0,1,0,1696730388,"#"
 "1	LINE	0
-	#ZSH_THEME="comfyline"
-|3,0,1,1,1,0,1696728722,"#ZSH_THEME=\"comfyline\""
+	    creaddte_segment xx$USER_b $USER_f "%n" $USER_RANK
+|3,0,1,1,1,0,1696730341,"    creaddte_segment xx$USER_b $USER_f \"%n\" $USER_RANK"
 "2	LINE	0
-	ZSH_THEME="com"
-|3,0,2,1,1,0,1696728718,"ZSH_THEME=\"com\""
+	segment_ranks=($RETVAL_RANK $DIR_RANK $GIT_RANK $VENV_RANK $BAT_RANK $TIME_RANK $DATE_RANK)
+|3,0,2,1,1,0,1696730292,"segment_ranks=($RETVAL_RANK $DIR_RANK $GIT_RANK $VENV_RANK $BAT_RANK $TIME_RANK $DATE_RANK)"
 "3	LINE	0
-	
-|3,0,3,1,1,0,1696726834,""
+	segments=("retval" "dir" "gitrepo" "venv" "currbat" "currtime" "currdate")
+|3,0,3,1,1,0,1696730292,"segments=(\"retval\" \"dir\" \"gitrepo\" \"venv\" \"currbat\" \"currtime\" \"currdate\")"
 "4	LINE	0
 	
-|3,0,4,1,1,0,1696726733,""
+|3,0,4,1,1,0,1696730238,""
 "5	LINE	0
-	export AM_GIT_UN_TRACKED_COLOR=red
-|3,0,5,1,1,0,1696726733,"export AM_GIT_UN_TRACKED_COLOR=red"
+	#ZSH_THEME="comfyline"
+|3,0,5,1,1,0,1696728722,"#ZSH_THEME=\"comfyline\""
 "6	LINE	0
-	export AM_GIT_TRACKED_COLOR=green
-|3,0,6,1,1,0,1696726733,"export AM_GIT_TRACKED_COLOR=green"
+	ZSH_THEME="com"
+|3,0,6,1,1,0,1696728718,"ZSH_THEME=\"com\""
 "7	LINE	0
-	export AM_GIT_UN_TRACKED_COLOR=red
-|3,0,7,1,1,0,1696726706,"export AM_GIT_UN_TRACKED_COLOR=red"
+	
+|3,0,7,1,1,0,1696726834,""
 "8	LINE	0
-	export AM_GIT_TRACKED_COLOR=green
-|3,0,8,1,1,0,1696726706,"export AM_GIT_TRACKED_COLOR=green"
+	
+|3,0,8,1,1,0,1696726733,""
 "9	LINE	0
-	export AM_USE_NERD_FONT=1 # previously `USE_NERD_FONT`
-|3,0,9,1,1,0,1696726706,"export AM_USE_NERD_FONT=1 # previously `USE_NERD_FONT`"
-""-	CHAR	0
-	urphy
-|3,1,36,0,1,0,1696728991,"urphy"
+	export AM_GIT_UN_TRACKED_COLOR=red
+|3,0,9,1,1,0,1696726733,"export AM_GIT_UN_TRACKED_COLOR=red"
+"-	CHAR	0
+	#
+|3,0,36,0,1,0,1696730364,"#"
 
 # File marks:
-'0  50  0  ~/.vimrc
-|4,48,50,0,1696729019,"~/.vimrc"
-'1  50  14  ~/.vimrc
-|4,49,50,14,1696729002,"~/.vimrc"
-'2  1  0  /media/mreid/extradrive1/projects/Generic-Messaging-Service/main.py
-|4,50,1,0,1696728943,"/media/mreid/extradrive1/projects/Generic-Messaging-Service/main.py"
-'3  12  0  ~/.zshrc
-|4,51,12,0,1696728724,"~/.zshrc"
-'4  7  0  ~
-|4,52,7,0,1696728269,"~"
-'5  2  0  ~/.zshrc
-|4,53,2,0,1696728241,"~/.zshrc"
-'6  4  22  ~/.amrc
-|4,54,4,22,1696727816,"~/.amrc"
-'7  2  0  ~/.zshrc
-|4,55,2,0,1696726745,"~/.zshrc"
-'8  2  0  ~/.zshrc
-|4,56,2,0,1696726745,"~/.zshrc"
-'9  77  0  ~/.amrc
-|4,57,77,0,1696726728,"~/.amrc"
+'0  171  8  ~/.oh-my-zsh/custom/themes/comfyline.zsh-theme
+|4,48,171,8,1696730390,"~/.oh-my-zsh/custom/themes/comfyline.zsh-theme"
+'1  340  0  ~/.oh-my-zsh/custom/themes/comfyline.zsh-theme
+|4,49,340,0,1696730241,"~/.oh-my-zsh/custom/themes/comfyline.zsh-theme"
+'2  340  0  ~/.oh-my-zsh/custom/themes/comfyline.zsh-theme
+|4,50,340,0,1696730241,"~/.oh-my-zsh/custom/themes/comfyline.zsh-theme"
+'3  8  13  /media/mreid/extradrive1/projects/Generic-Messaging-Service/tests/test_message_header.py
+|4,51,8,13,1696729648,"/media/mreid/extradrive1/projects/Generic-Messaging-Service/tests/test_message_header.py"
+'4  419  1  ~/.oh-my-zsh/custom/themes/comfyline.zsh-theme
+|4,52,419,1,1696729518,"~/.oh-my-zsh/custom/themes/comfyline.zsh-theme"
+'5  418  1  ~/.oh-my-zsh/custom/themes/comfyline.zsh-theme
+|4,53,418,1,1696729518,"~/.oh-my-zsh/custom/themes/comfyline.zsh-theme"
+'6  421  1  ~/.oh-my-zsh/custom/themes/comfyline.zsh-theme
+|4,54,421,1,1696729518,"~/.oh-my-zsh/custom/themes/comfyline.zsh-theme"
+'7  420  1  ~/.oh-my-zsh/custom/themes/comfyline.zsh-theme
+|4,55,420,1,1696729518,"~/.oh-my-zsh/custom/themes/comfyline.zsh-theme"
+'8  50  0  ~/.vimrc
+|4,56,50,0,1696729019,"~/.vimrc"
+'9  50  14  ~/.vimrc
+|4,57,50,14,1696729002,"~/.vimrc"
 
 # Jumplist (newest first):
+-'  171  8  ~/.oh-my-zsh/custom/themes/comfyline.zsh-theme
+|4,39,171,8,1696730390,"~/.oh-my-zsh/custom/themes/comfyline.zsh-theme"
+-'  175  9  ~/.oh-my-zsh/custom/themes/comfyline.zsh-theme
+|4,39,175,9,1696730313,"~/.oh-my-zsh/custom/themes/comfyline.zsh-theme"
+-'  78  4  ~/.oh-my-zsh/custom/themes/comfyline.zsh-theme
+|4,39,78,4,1696730313,"~/.oh-my-zsh/custom/themes/comfyline.zsh-theme"
+-'  77  8  ~/.oh-my-zsh/custom/themes/comfyline.zsh-theme
+|4,39,77,8,1696730312,"~/.oh-my-zsh/custom/themes/comfyline.zsh-theme"
+-'  75  4  ~/.oh-my-zsh/custom/themes/comfyline.zsh-theme
+|4,39,75,4,1696730312,"~/.oh-my-zsh/custom/themes/comfyline.zsh-theme"
+-'  74  8  ~/.oh-my-zsh/custom/themes/comfyline.zsh-theme
+|4,39,74,8,1696730311,"~/.oh-my-zsh/custom/themes/comfyline.zsh-theme"
+-'  40  4  ~/.oh-my-zsh/custom/themes/comfyline.zsh-theme
+|4,39,40,4,1696730311,"~/.oh-my-zsh/custom/themes/comfyline.zsh-theme"
+-'  39  7  ~/.oh-my-zsh/custom/themes/comfyline.zsh-theme
+|4,39,39,7,1696730311,"~/.oh-my-zsh/custom/themes/comfyline.zsh-theme"
+-'  341  40  ~/.oh-my-zsh/custom/themes/comfyline.zsh-theme
+|4,39,341,40,1696730310,"~/.oh-my-zsh/custom/themes/comfyline.zsh-theme"
+-'  340  31  ~/.oh-my-zsh/custom/themes/comfyline.zsh-theme
+|4,39,340,31,1696730309,"~/.oh-my-zsh/custom/themes/comfyline.zsh-theme"
+-'  236  0  ~/.oh-my-zsh/custom/themes/comfyline.zsh-theme
+|4,39,236,0,1696730307,"~/.oh-my-zsh/custom/themes/comfyline.zsh-theme"
+-'  15  0  ~/.oh-my-zsh/custom/themes
+|4,39,15,0,1696730285,"~/.oh-my-zsh/custom/themes"
+-'  11  0  ~/.oh-my-zsh/custom
+|4,39,11,0,1696730285,"~/.oh-my-zsh/custom"
+-'  340  0  ~/.oh-my-zsh/custom/themes/comfyline.zsh-theme
+|4,39,340,0,1696730241,"~/.oh-my-zsh/custom/themes/comfyline.zsh-theme"
+-'  342  28  ~/.oh-my-zsh/custom/themes/comfyline.zsh-theme
+|4,39,342,28,1696730187,"~/.oh-my-zsh/custom/themes/comfyline.zsh-theme"
+-'  342  28  ~/.oh-my-zsh/custom/themes/comfyline.zsh-theme
+|4,39,342,28,1696730187,"~/.oh-my-zsh/custom/themes/comfyline.zsh-theme"
+-'  419  0  ~/.oh-my-zsh/custom/themes/comfyline.zsh-theme
+|4,39,419,0,1696729716,"~/.oh-my-zsh/custom/themes/comfyline.zsh-theme"
+-'  421  0  ~/.oh-my-zsh/custom/themes/comfyline.zsh-theme
+|4,39,421,0,1696729716,"~/.oh-my-zsh/custom/themes/comfyline.zsh-theme"
+-'  8  13  /media/mreid/extradrive1/projects/Generic-Messaging-Service/tests/test_message_header.py
+|4,39,8,13,1696729648,"/media/mreid/extradrive1/projects/Generic-Messaging-Service/tests/test_message_header.py"
+-'  8  13  /media/mreid/extradrive1/projects/Generic-Messaging-Service/tests/test_message_header.py
+|4,39,8,13,1696729648,"/media/mreid/extradrive1/projects/Generic-Messaging-Service/tests/test_message_header.py"
+-'  8  13  /media/mreid/extradrive1/projects/Generic-Messaging-Service/tests/test_message_header.py
+|4,39,8,13,1696729648,"/media/mreid/extradrive1/projects/Generic-Messaging-Service/tests/test_message_header.py"
+-'  8  13  /media/mreid/extradrive1/projects/Generic-Messaging-Service/tests/test_message_header.py
+|4,39,8,13,1696729648,"/media/mreid/extradrive1/projects/Generic-Messaging-Service/tests/test_message_header.py"
+-'  1  0  /media/mreid/extradrive1/projects/Generic-Messaging-Service/tests/test_message_header.py
+|4,39,1,0,1696729625,"/media/mreid/extradrive1/projects/Generic-Messaging-Service/tests/test_message_header.py"
+-'  1  0  /media/mreid/extradrive1/projects/Generic-Messaging-Service/tests/test_message_header.py
+|4,39,1,0,1696729625,"/media/mreid/extradrive1/projects/Generic-Messaging-Service/tests/test_message_header.py"
+-'  1  0  /media/mreid/extradrive1/projects/Generic-Messaging-Service/tests/test_message_header.py
+|4,39,1,0,1696729625,"/media/mreid/extradrive1/projects/Generic-Messaging-Service/tests/test_message_header.py"
+-'  1  0  /media/mreid/extradrive1/projects/Generic-Messaging-Service/tests/test_message_header.py
+|4,39,1,0,1696729625,"/media/mreid/extradrive1/projects/Generic-Messaging-Service/tests/test_message_header.py"
+-'  418  1  ~/.oh-my-zsh/custom/themes/comfyline.zsh-theme
+|4,39,418,1,1696729518,"~/.oh-my-zsh/custom/themes/comfyline.zsh-theme"
+-'  420  1  ~/.oh-my-zsh/custom/themes/comfyline.zsh-theme
+|4,39,420,1,1696729518,"~/.oh-my-zsh/custom/themes/comfyline.zsh-theme"
+-'  420  1  ~/.oh-my-zsh/custom/themes/comfyline.zsh-theme
+|4,39,420,1,1696729518,"~/.oh-my-zsh/custom/themes/comfyline.zsh-theme"
+-'  15  0  ~/.oh-my-zsh/custom/themes
+|4,39,15,0,1696729196,"~/.oh-my-zsh/custom/themes"
+-'  11  0  ~/.oh-my-zsh/custom
+|4,39,11,0,1696729196,"~/.oh-my-zsh/custom"
+-'  15  0  ~/.oh-my-zsh/custom/themes
+|4,39,15,0,1696729196,"~/.oh-my-zsh/custom/themes"
+-'  11  0  ~/.oh-my-zsh/custom
+|4,39,11,0,1696729196,"~/.oh-my-zsh/custom"
+-'  15  0  ~/.oh-my-zsh/custom/themes
+|4,39,15,0,1696729196,"~/.oh-my-zsh/custom/themes"
+-'  11  0  ~/.oh-my-zsh/custom
+|4,39,11,0,1696729196,"~/.oh-my-zsh/custom"
+-'  15  0  ~/.oh-my-zsh/custom/themes
+|4,39,15,0,1696729196,"~/.oh-my-zsh/custom/themes"
+-'  11  0  ~/.oh-my-zsh/custom
+|4,39,11,0,1696729196,"~/.oh-my-zsh/custom"
 -'  50  0  ~/.vimrc
 |4,39,50,0,1696729019,"~/.vimrc"
+-'  50  0  ~/.vimrc
+|4,39,50,0,1696729019,"~/.vimrc"
+-'  50  0  ~/.vimrc
+|4,39,50,0,1696729019,"~/.vimrc"
+-'  50  0  ~/.vimrc
+|4,39,50,0,1696729019,"~/.vimrc"
+-'  50  0  ~/.vimrc
+|4,39,50,0,1696729019,"~/.vimrc"
+-'  50  0  ~/.vimrc
+|4,39,50,0,1696729019,"~/.vimrc"
+-'  50  0  ~/.vimrc
+|4,39,50,0,1696729019,"~/.vimrc"
+-'  50  0  ~/.vimrc
+|4,39,50,0,1696729019,"~/.vimrc"
+-'  50  0  ~/.vimrc
+|4,39,50,0,1696729019,"~/.vimrc"
+-'  50  0  ~/.vimrc
+|4,39,50,0,1696729019,"~/.vimrc"
+-'  50  0  ~/.vimrc
+|4,39,50,0,1696729019,"~/.vimrc"
+-'  50  0  ~/.vimrc
+|4,39,50,0,1696729019,"~/.vimrc"
+-'  50  0  ~/.vimrc
+|4,39,50,0,1696729019,"~/.vimrc"
+-'  50  0  ~/.vimrc
+|4,39,50,0,1696729019,"~/.vimrc"
+-'  50  0  ~/.vimrc
+|4,39,50,0,1696729019,"~/.vimrc"
+-'  50  0  ~/.vimrc
+|4,39,50,0,1696729019,"~/.vimrc"
+-'  50  14  ~/.vimrc
+|4,39,50,14,1696729002,"~/.vimrc"
+-'  50  14  ~/.vimrc
+|4,39,50,14,1696729002,"~/.vimrc"
+-'  50  14  ~/.vimrc
+|4,39,50,14,1696729002,"~/.vimrc"
+-'  50  14  ~/.vimrc
+|4,39,50,14,1696729002,"~/.vimrc"
+-'  50  14  ~/.vimrc
+|4,39,50,14,1696729002,"~/.vimrc"
+-'  50  14  ~/.vimrc
+|4,39,50,14,1696729002,"~/.vimrc"
+-'  50  14  ~/.vimrc
+|4,39,50,14,1696729002,"~/.vimrc"
+-'  50  14  ~/.vimrc
+|4,39,50,14,1696729002,"~/.vimrc"
+-'  50  14  ~/.vimrc
+|4,39,50,14,1696729002,"~/.vimrc"
+-'  50  14  ~/.vimrc
+|4,39,50,14,1696729002,"~/.vimrc"
+-'  50  14  ~/.vimrc
+|4,39,50,14,1696729002,"~/.vimrc"
+-'  50  14  ~/.vimrc
+|4,39,50,14,1696729002,"~/.vimrc"
+-'  50  14  ~/.vimrc
+|4,39,50,14,1696729002,"~/.vimrc"
+-'  50  14  ~/.vimrc
+|4,39,50,14,1696729002,"~/.vimrc"
+-'  50  14  ~/.vimrc
+|4,39,50,14,1696729002,"~/.vimrc"
 -'  50  14  ~/.vimrc
 |4,39,50,14,1696729002,"~/.vimrc"
 -'  1  0  ~/.vimrc
 |4,39,1,0,1696728955,"~/.vimrc"
 -'  1  0  ~/.vimrc
 |4,39,1,0,1696728955,"~/.vimrc"
--'  1  0  /media/mreid/extradrive1/projects/Generic-Messaging-Service/main.py
-|4,39,1,0,1696728943,"/media/mreid/extradrive1/projects/Generic-Messaging-Service/main.py"
--'  1  0  /media/mreid/extradrive1/projects/Generic-Messaging-Service/main.py
-|4,39,1,0,1696728943,"/media/mreid/extradrive1/projects/Generic-Messaging-Service/main.py"
--'  1  0  /media/mreid/extradrive1/projects/Generic-Messaging-Service/main.py
-|4,39,1,0,1696728943,"/media/mreid/extradrive1/projects/Generic-Messaging-Service/main.py"
--'  1  0  /media/mreid/extradrive1/projects/Generic-Messaging-Service/main.py
-|4,39,1,0,1696728943,"/media/mreid/extradrive1/projects/Generic-Messaging-Service/main.py"
--'  12  0  ~/.zshrc
-|4,39,12,0,1696728724,"~/.zshrc"
--'  12  0  ~/.zshrc
-|4,39,12,0,1696728724,"~/.zshrc"
--'  12  0  ~/.zshrc
-|4,39,12,0,1696728724,"~/.zshrc"
--'  12  0  ~/.zshrc
-|4,39,12,0,1696728724,"~/.zshrc"
--'  12  0  ~/.zshrc
-|4,39,12,0,1696728724,"~/.zshrc"
--'  12  0  ~/.zshrc
-|4,39,12,0,1696728724,"~/.zshrc"
--'  12  0  ~/.zshrc
-|4,39,12,0,1696728724,"~/.zshrc"
--'  12  0  ~/.zshrc
-|4,39,12,0,1696728724,"~/.zshrc"
--'  7  0  ~
-|4,39,7,0,1696728269,"~"
--'  7  0  ~
-|4,39,7,0,1696728269,"~"
--'  7  0  ~
-|4,39,7,0,1696728269,"~"
--'  7  0  ~
-|4,39,7,0,1696728269,"~"
--'  7  0  ~
-|4,39,7,0,1696728269,"~"
--'  7  0  ~
-|4,39,7,0,1696728269,"~"
--'  7  0  ~
-|4,39,7,0,1696728269,"~"
--'  7  0  ~
-|4,39,7,0,1696728269,"~"
--'  73  0  ~
-|4,39,73,0,1696728266,"~"
--'  49  0  ~/.config
-|4,39,49,0,1696728266,"~/.config"
--'  73  0  ~
-|4,39,73,0,1696728266,"~"
--'  49  0  ~/.config
-|4,39,49,0,1696728266,"~/.config"
--'  73  0  ~
-|4,39,73,0,1696728266,"~"
--'  49  0  ~/.config
-|4,39,49,0,1696728266,"~/.config"
--'  73  0  ~
-|4,39,73,0,1696728266,"~"
--'  49  0  ~/.config
-|4,39,49,0,1696728266,"~/.config"
--'  73  0  ~
-|4,39,73,0,1696728266,"~"
--'  49  0  ~/.config
-|4,39,49,0,1696728266,"~/.config"
--'  73  0  ~
-|4,39,73,0,1696728266,"~"
--'  49  0  ~/.config
-|4,39,49,0,1696728266,"~/.config"
--'  73  0  ~
-|4,39,73,0,1696728266,"~"
--'  49  0  ~/.config
-|4,39,49,0,1696728266,"~/.config"
--'  73  0  ~
-|4,39,73,0,1696728266,"~"
--'  49  0  ~/.config
-|4,39,49,0,1696728266,"~/.config"
--'  9  0  ~/.config/ibus
-|4,39,9,0,1696728255,"~/.config/ibus"
--'  9  0  ~/.config/ibus
-|4,39,9,0,1696728255,"~/.config/ibus"
--'  9  0  ~/.config/ibus
-|4,39,9,0,1696728255,"~/.config/ibus"
--'  9  0  ~/.config/ibus
-|4,39,9,0,1696728255,"~/.config/ibus"
--'  9  0  ~/.config/ibus
-|4,39,9,0,1696728255,"~/.config/ibus"
--'  9  0  ~/.config/ibus
-|4,39,9,0,1696728255,"~/.config/ibus"
--'  9  0  ~/.config/ibus
-|4,39,9,0,1696728255,"~/.config/ibus"
--'  9  0  ~/.config/ibus
-|4,39,9,0,1696728255,"~/.config/ibus"
--'  8  0  ~/.config
-|4,39,8,0,1696728252,"~/.config"
--'  1  0  ~/.config
-|4,39,1,0,1696728252,"~/.config"
--'  8  0  ~/.config
-|4,39,8,0,1696728252,"~/.config"
--'  1  0  ~/.config
-|4,39,1,0,1696728252,"~/.config"
--'  8  0  ~/.config
-|4,39,8,0,1696728252,"~/.config"
--'  1  0  ~/.config
-|4,39,1,0,1696728252,"~/.config"
--'  8  0  ~/.config
-|4,39,8,0,1696728252,"~/.config"
--'  1  0  ~/.config
-|4,39,1,0,1696728252,"~/.config"
--'  8  0  ~/.config
-|4,39,8,0,1696728252,"~/.config"
--'  1  0  ~/.config
-|4,39,1,0,1696728252,"~/.config"
--'  8  0  ~/.config
-|4,39,8,0,1696728252,"~/.config"
--'  1  0  ~/.config
-|4,39,1,0,1696728252,"~/.config"
--'  8  0  ~/.config
-|4,39,8,0,1696728252,"~/.config"
--'  1  0  ~/.config
-|4,39,1,0,1696728252,"~/.config"
--'  8  0  ~/.config
-|4,39,8,0,1696728252,"~/.config"
--'  1  0  ~/.config
-|4,39,1,0,1696728252,"~/.config"
--'  2  0  ~/.zshrc
-|4,39,2,0,1696728241,"~/.zshrc"
--'  2  0  ~/.zshrc
-|4,39,2,0,1696728241,"~/.zshrc"
--'  2  0  ~/.zshrc
-|4,39,2,0,1696728241,"~/.zshrc"
--'  2  0  ~/.zshrc
-|4,39,2,0,1696728241,"~/.zshrc"
--'  2  0  ~/.zshrc
-|4,39,2,0,1696728241,"~/.zshrc"
--'  2  0  ~/.zshrc
-|4,39,2,0,1696728241,"~/.zshrc"
--'  2  0  ~/.zshrc
-|4,39,2,0,1696728241,"~/.zshrc"
--'  2  0  ~/.zshrc
-|4,39,2,0,1696728241,"~/.zshrc"
--'  2  0  ~/.zshrc
-|4,39,2,0,1696728241,"~/.zshrc"
--'  2  0  ~/.zshrc
-|4,39,2,0,1696728241,"~/.zshrc"
--'  2  0  ~/.zshrc
-|4,39,2,0,1696728241,"~/.zshrc"
--'  2  0  ~/.zshrc
-|4,39,2,0,1696728241,"~/.zshrc"
--'  2  0  ~/.zshrc
-|4,39,2,0,1696728241,"~/.zshrc"
--'  2  0  ~/.zshrc
-|4,39,2,0,1696728241,"~/.zshrc"
--'  2  0  ~/.zshrc
-|4,39,2,0,1696728241,"~/.zshrc"
--'  2  0  ~/.zshrc
-|4,39,2,0,1696728241,"~/.zshrc"
--'  168  17  ~/.zshrc
-|4,39,168,17,1696727974,"~/.zshrc"
--'  168  17  ~/.zshrc
-|4,39,168,17,1696727974,"~/.zshrc"
--'  168  17  ~/.zshrc
-|4,39,168,17,1696727974,"~/.zshrc"
--'  168  17  ~/.zshrc
-|4,39,168,17,1696727974,"~/.zshrc"
--'  168  17  ~/.zshrc
-|4,39,168,17,1696727974,"~/.zshrc"
--'  168  17  ~/.zshrc
-|4,39,168,17,1696727974,"~/.zshrc"
--'  168  17  ~/.zshrc
-|4,39,168,17,1696727974,"~/.zshrc"
--'  168  17  ~/.zshrc
-|4,39,168,17,1696727974,"~/.zshrc"
--'  2  0  ~/.zshrc
-|4,39,2,0,1696727824,"~/.zshrc"
--'  2  0  ~/.zshrc
-|4,39,2,0,1696727824,"~/.zshrc"
--'  2  0  ~/.zshrc
-|4,39,2,0,1696727824,"~/.zshrc"
--'  2  0  ~/.zshrc
-|4,39,2,0,1696727824,"~/.zshrc"
--'  2  0  ~/.zshrc
-|4,39,2,0,1696727824,"~/.zshrc"
--'  2  0  ~/.zshrc
-|4,39,2,0,1696727824,"~/.zshrc"
--'  2  0  ~/.zshrc
-|4,39,2,0,1696727824,"~/.zshrc"
--'  2  0  ~/.zshrc
-|4,39,2,0,1696727824,"~/.zshrc"
--'  4  22  ~/.amrc
-|4,39,4,22,1696727816,"~/.amrc"
--'  4  22  ~/.amrc
-|4,39,4,22,1696727816,"~/.amrc"
--'  4  22  ~/.amrc
-|4,39,4,22,1696727816,"~/.amrc"
--'  4  22  ~/.amrc
-|4,39,4,22,1696727816,"~/.amrc"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1696728955,"~/.vimrc"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1696728955,"~/.vimrc"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1696728955,"~/.vimrc"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1696728955,"~/.vimrc"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1696728955,"~/.vimrc"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1696728955,"~/.vimrc"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1696728955,"~/.vimrc"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1696728955,"~/.vimrc"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1696728955,"~/.vimrc"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1696728955,"~/.vimrc"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1696728955,"~/.vimrc"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1696728955,"~/.vimrc"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1696728955,"~/.vimrc"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1696728955,"~/.vimrc"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1696728955,"~/.vimrc"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1696728955,"~/.vimrc"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1696728955,"~/.vimrc"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1696728955,"~/.vimrc"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1696728955,"~/.vimrc"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1696728955,"~/.vimrc"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1696728955,"~/.vimrc"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1696728955,"~/.vimrc"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1696728955,"~/.vimrc"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1696728955,"~/.vimrc"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1696728955,"~/.vimrc"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1696728955,"~/.vimrc"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1696728955,"~/.vimrc"
 
 # History of marks within files (newest to oldest):
+
+> ~/.oh-my-zsh/custom/themes/comfyline.zsh-theme
+	*	1696730389	0
+	"	171	8
+	^	171	9
+	.	171	8
+	+	24	4
+	+	25	27
+	+	29	28
+	+	25	28
+	+	29	31
+	+	340	0
+	+	342	19
+	+	341	0
+	+	342	28
+	+	340	0
+	+	341	0
+	+	342	0
+	+	176	0
+	+	176	4
+	+	176	0
+	+	185	4
+	+	169	8
+	+	171	8
+	n	340	31
+
+> /media/mreid/extradrive1/projects/Generic-Messaging-Service/tests/test_message_header.py
+	*	1696729647	0
+	"	8	13
+	^	8	14
+	.	8	13
+	+	8	13
 
 > ~/.vimrc
 	*	1696729003	0

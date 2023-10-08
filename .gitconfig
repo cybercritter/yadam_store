@@ -45,9 +45,6 @@
    changed = yellow
    untracked = red
 
-[status]
- showuntrackedfiles = no
-
 [commit]
  template = ~/.gitmessage.txt
 

@@ -12,9 +12,9 @@
 ~H
 # Command Line History (newest to oldest):
 :wq
-|2,0,1696723308,,"wq"
+|2,0,1696723574,,"wq"
 :w
-|2,0,1696723307,,"w"
+|2,0,1696723569,,"w"
 
 # Search String History (newest to oldest):
 
@@ -26,29 +26,45 @@
 
 # Registers:
 ""1	LINE	0
+	source zsh-interactive-cd.plugin.zsddhi
+|3,1,1,1,1,0,1696723563,"source zsh-interactive-cd.plugin.zsddhi"
+"2	LINE	0
+	
+|3,0,2,1,1,0,1696723382,""
+"3	LINE	0
 	   python 
-|3,1,1,1,1,0,1696723008,"   python "
+|3,0,3,1,1,0,1696723008,"   python "
 "-	CHAR	0
 	/
 |3,0,36,0,1,0,1696722332,"/"
 
 # File marks:
-'0  87  3  ~/.zshrc
-|4,48,87,3,1696723308,"~/.zshrc"
+'0  91  0  ~/.zshrc
+|4,48,91,0,1696723574,"~/.zshrc"
+'1  87  3  ~/.zshrc
+|4,49,87,3,1696723308,"~/.zshrc"
+'2  87  3  ~/.zshrc
+|4,50,87,3,1696723308,"~/.zshrc"
 
 # Jumplist (newest first):
+-'  91  0  ~/.zshrc
+|4,39,91,0,1696723574,"~/.zshrc"
+-'  87  3  ~/.zshrc
+|4,39,87,3,1696723378,"~/.zshrc"
 -'  87  3  ~/.zshrc
 |4,39,87,3,1696723308,"~/.zshrc"
+-'  1  0  ~/.zshrc
+|4,39,1,0,1696722247,"~/.zshrc"
 -'  1  0  ~/.zshrc
 |4,39,1,0,1696722247,"~/.zshrc"
 
 # History of marks within files (newest to oldest):
 
 > ~/.zshrc
-	*	1696723307	0
-	"	87	3
-	^	87	4
-	.	86	21
+	*	1696723569	0
+	"	91	0
+	^	91	0
+	.	90	0
 	+	11	22
 	+	29	0
 	+	33	0
@@ -64,3 +80,4 @@
 	+	83	0
 	+	78	6
 	+	86	21
+	+	90	0

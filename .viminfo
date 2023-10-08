@@ -11,18 +11,18 @@
 # hlsearch on (H) or off (h):
 ~H
 # Last Search Pattern:
-~MSle0~/src
+~MSle0~/PATH
 
 # Last Substitute String:
 $
 
 # Command Line History (newest to oldest):
+:wq
+|2,0,1696748526,,"wq"
+:w
+|2,0,1696748525,,"w"
 :q
 |2,0,1696748212,,"q"
-:wq
-|2,0,1696730390,,"wq"
-:w
-|2,0,1696730379,,"w"
 :colorscheme default
 |2,0,1696728981,,"colorscheme default"
 :colorscheme elflord
@@ -33,6 +33,8 @@ $
 |2,0,1696725192,,"120"
 
 # Search String History (newest to oldest):
+?/PATH
+|2,1,1696748507,47,"PATH"
 ?/src
 |2,1,1696748195,47,"src"
 ?/user
@@ -96,36 +98,52 @@ $
 |3,0,36,0,1,0,1696730364,"#"
 
 # File marks:
-'0  12  26  ~/KeenWrite/installer.sh
-|4,48,12,26,1696748212,"~/KeenWrite/installer.sh"
-'1  171  8  ~/.oh-my-zsh/custom/themes/comfyline.zsh-theme
-|4,49,171,8,1696730390,"~/.oh-my-zsh/custom/themes/comfyline.zsh-theme"
-'2  340  0  ~/.oh-my-zsh/custom/themes/comfyline.zsh-theme
-|4,50,340,0,1696730241,"~/.oh-my-zsh/custom/themes/comfyline.zsh-theme"
+'0  2  37  ~/.zshrc
+|4,48,2,37,1696748526,"~/.zshrc"
+'1  12  26  ~/KeenWrite/installer.sh
+|4,49,12,26,1696748212,"~/KeenWrite/installer.sh"
+'2  171  8  ~/.oh-my-zsh/custom/themes/comfyline.zsh-theme
+|4,50,171,8,1696730390,"~/.oh-my-zsh/custom/themes/comfyline.zsh-theme"
 '3  340  0  ~/.oh-my-zsh/custom/themes/comfyline.zsh-theme
 |4,51,340,0,1696730241,"~/.oh-my-zsh/custom/themes/comfyline.zsh-theme"
-'4  8  13  /media/mreid/extradrive1/projects/Generic-Messaging-Service/tests/test_message_header.py
-|4,52,8,13,1696729648,"/media/mreid/extradrive1/projects/Generic-Messaging-Service/tests/test_message_header.py"
-'5  419  1  ~/.oh-my-zsh/custom/themes/comfyline.zsh-theme
-|4,53,419,1,1696729518,"~/.oh-my-zsh/custom/themes/comfyline.zsh-theme"
-'6  418  1  ~/.oh-my-zsh/custom/themes/comfyline.zsh-theme
-|4,54,418,1,1696729518,"~/.oh-my-zsh/custom/themes/comfyline.zsh-theme"
-'7  421  1  ~/.oh-my-zsh/custom/themes/comfyline.zsh-theme
-|4,55,421,1,1696729518,"~/.oh-my-zsh/custom/themes/comfyline.zsh-theme"
-'8  420  1  ~/.oh-my-zsh/custom/themes/comfyline.zsh-theme
-|4,56,420,1,1696729518,"~/.oh-my-zsh/custom/themes/comfyline.zsh-theme"
-'9  50  0  ~/.vimrc
-|4,57,50,0,1696729019,"~/.vimrc"
+'4  340  0  ~/.oh-my-zsh/custom/themes/comfyline.zsh-theme
+|4,52,340,0,1696730241,"~/.oh-my-zsh/custom/themes/comfyline.zsh-theme"
+'5  8  13  /media/mreid/extradrive1/projects/Generic-Messaging-Service/tests/test_message_header.py
+|4,53,8,13,1696729648,"/media/mreid/extradrive1/projects/Generic-Messaging-Service/tests/test_message_header.py"
+'6  419  1  ~/.oh-my-zsh/custom/themes/comfyline.zsh-theme
+|4,54,419,1,1696729518,"~/.oh-my-zsh/custom/themes/comfyline.zsh-theme"
+'7  418  1  ~/.oh-my-zsh/custom/themes/comfyline.zsh-theme
+|4,55,418,1,1696729518,"~/.oh-my-zsh/custom/themes/comfyline.zsh-theme"
+'8  421  1  ~/.oh-my-zsh/custom/themes/comfyline.zsh-theme
+|4,56,421,1,1696729518,"~/.oh-my-zsh/custom/themes/comfyline.zsh-theme"
+'9  420  1  ~/.oh-my-zsh/custom/themes/comfyline.zsh-theme
+|4,57,420,1,1696729518,"~/.oh-my-zsh/custom/themes/comfyline.zsh-theme"
 
 # Jumplist (newest first):
+-'  2  37  ~/.zshrc
+|4,39,2,37,1696748526,"~/.zshrc"
+-'  1  55  ~/.zshrc
+|4,39,1,55,1696748508,"~/.zshrc"
+-'  246  0  ~/.zshrc
+|4,39,246,0,1696748507,"~/.zshrc"
+-'  12  0  ~/.zshrc
+|4,39,12,0,1696748501,"~/.zshrc"
 -'  12  26  ~/KeenWrite/installer.sh
 |4,39,12,26,1696748212,"~/KeenWrite/installer.sh"
+-'  12  26  ~/KeenWrite/installer.sh
+|4,39,12,26,1696748212,"~/KeenWrite/installer.sh"
+-'  1  0  ~/KeenWrite/installer.sh
+|4,39,1,0,1696748195,"~/KeenWrite/installer.sh"
 -'  1  0  ~/KeenWrite/installer.sh
 |4,39,1,0,1696748195,"~/KeenWrite/installer.sh"
 -'  171  8  ~/.oh-my-zsh/custom/themes/comfyline.zsh-theme
 |4,39,171,8,1696730390,"~/.oh-my-zsh/custom/themes/comfyline.zsh-theme"
 -'  171  8  ~/.oh-my-zsh/custom/themes/comfyline.zsh-theme
 |4,39,171,8,1696730390,"~/.oh-my-zsh/custom/themes/comfyline.zsh-theme"
+-'  171  8  ~/.oh-my-zsh/custom/themes/comfyline.zsh-theme
+|4,39,171,8,1696730390,"~/.oh-my-zsh/custom/themes/comfyline.zsh-theme"
+-'  171  8  ~/.oh-my-zsh/custom/themes/comfyline.zsh-theme
+|4,39,171,8,1696730390,"~/.oh-my-zsh/custom/themes/comfyline.zsh-theme"
 -'  175  9  ~/.oh-my-zsh/custom/themes/comfyline.zsh-theme
 |4,39,175,9,1696730313,"~/.oh-my-zsh/custom/themes/comfyline.zsh-theme"
 -'  78  4  ~/.oh-my-zsh/custom/themes/comfyline.zsh-theme
@@ -134,6 +152,22 @@ $
 |4,39,175,9,1696730313,"~/.oh-my-zsh/custom/themes/comfyline.zsh-theme"
 -'  78  4  ~/.oh-my-zsh/custom/themes/comfyline.zsh-theme
 |4,39,78,4,1696730313,"~/.oh-my-zsh/custom/themes/comfyline.zsh-theme"
+-'  175  9  ~/.oh-my-zsh/custom/themes/comfyline.zsh-theme
+|4,39,175,9,1696730313,"~/.oh-my-zsh/custom/themes/comfyline.zsh-theme"
+-'  78  4  ~/.oh-my-zsh/custom/themes/comfyline.zsh-theme
+|4,39,78,4,1696730313,"~/.oh-my-zsh/custom/themes/comfyline.zsh-theme"
+-'  175  9  ~/.oh-my-zsh/custom/themes/comfyline.zsh-theme
+|4,39,175,9,1696730313,"~/.oh-my-zsh/custom/themes/comfyline.zsh-theme"
+-'  78  4  ~/.oh-my-zsh/custom/themes/comfyline.zsh-theme
+|4,39,78,4,1696730313,"~/.oh-my-zsh/custom/themes/comfyline.zsh-theme"
+-'  77  8  ~/.oh-my-zsh/custom/themes/comfyline.zsh-theme
+|4,39,77,8,1696730312,"~/.oh-my-zsh/custom/themes/comfyline.zsh-theme"
+-'  75  4  ~/.oh-my-zsh/custom/themes/comfyline.zsh-theme
+|4,39,75,4,1696730312,"~/.oh-my-zsh/custom/themes/comfyline.zsh-theme"
+-'  77  8  ~/.oh-my-zsh/custom/themes/comfyline.zsh-theme
+|4,39,77,8,1696730312,"~/.oh-my-zsh/custom/themes/comfyline.zsh-theme"
+-'  75  4  ~/.oh-my-zsh/custom/themes/comfyline.zsh-theme
+|4,39,75,4,1696730312,"~/.oh-my-zsh/custom/themes/comfyline.zsh-theme"
 -'  77  8  ~/.oh-my-zsh/custom/themes/comfyline.zsh-theme
 |4,39,77,8,1696730312,"~/.oh-my-zsh/custom/themes/comfyline.zsh-theme"
 -'  75  4  ~/.oh-my-zsh/custom/themes/comfyline.zsh-theme
@@ -154,6 +188,22 @@ $
 |4,39,40,4,1696730311,"~/.oh-my-zsh/custom/themes/comfyline.zsh-theme"
 -'  39  7  ~/.oh-my-zsh/custom/themes/comfyline.zsh-theme
 |4,39,39,7,1696730311,"~/.oh-my-zsh/custom/themes/comfyline.zsh-theme"
+-'  74  8  ~/.oh-my-zsh/custom/themes/comfyline.zsh-theme
+|4,39,74,8,1696730311,"~/.oh-my-zsh/custom/themes/comfyline.zsh-theme"
+-'  40  4  ~/.oh-my-zsh/custom/themes/comfyline.zsh-theme
+|4,39,40,4,1696730311,"~/.oh-my-zsh/custom/themes/comfyline.zsh-theme"
+-'  39  7  ~/.oh-my-zsh/custom/themes/comfyline.zsh-theme
+|4,39,39,7,1696730311,"~/.oh-my-zsh/custom/themes/comfyline.zsh-theme"
+-'  74  8  ~/.oh-my-zsh/custom/themes/comfyline.zsh-theme
+|4,39,74,8,1696730311,"~/.oh-my-zsh/custom/themes/comfyline.zsh-theme"
+-'  40  4  ~/.oh-my-zsh/custom/themes/comfyline.zsh-theme
+|4,39,40,4,1696730311,"~/.oh-my-zsh/custom/themes/comfyline.zsh-theme"
+-'  39  7  ~/.oh-my-zsh/custom/themes/comfyline.zsh-theme
+|4,39,39,7,1696730311,"~/.oh-my-zsh/custom/themes/comfyline.zsh-theme"
+-'  341  40  ~/.oh-my-zsh/custom/themes/comfyline.zsh-theme
+|4,39,341,40,1696730310,"~/.oh-my-zsh/custom/themes/comfyline.zsh-theme"
+-'  341  40  ~/.oh-my-zsh/custom/themes/comfyline.zsh-theme
+|4,39,341,40,1696730310,"~/.oh-my-zsh/custom/themes/comfyline.zsh-theme"
 -'  341  40  ~/.oh-my-zsh/custom/themes/comfyline.zsh-theme
 |4,39,341,40,1696730310,"~/.oh-my-zsh/custom/themes/comfyline.zsh-theme"
 -'  341  40  ~/.oh-my-zsh/custom/themes/comfyline.zsh-theme
@@ -162,6 +212,14 @@ $
 |4,39,340,31,1696730309,"~/.oh-my-zsh/custom/themes/comfyline.zsh-theme"
 -'  340  31  ~/.oh-my-zsh/custom/themes/comfyline.zsh-theme
 |4,39,340,31,1696730309,"~/.oh-my-zsh/custom/themes/comfyline.zsh-theme"
+-'  340  31  ~/.oh-my-zsh/custom/themes/comfyline.zsh-theme
+|4,39,340,31,1696730309,"~/.oh-my-zsh/custom/themes/comfyline.zsh-theme"
+-'  340  31  ~/.oh-my-zsh/custom/themes/comfyline.zsh-theme
+|4,39,340,31,1696730309,"~/.oh-my-zsh/custom/themes/comfyline.zsh-theme"
+-'  236  0  ~/.oh-my-zsh/custom/themes/comfyline.zsh-theme
+|4,39,236,0,1696730307,"~/.oh-my-zsh/custom/themes/comfyline.zsh-theme"
+-'  236  0  ~/.oh-my-zsh/custom/themes/comfyline.zsh-theme
+|4,39,236,0,1696730307,"~/.oh-my-zsh/custom/themes/comfyline.zsh-theme"
 -'  236  0  ~/.oh-my-zsh/custom/themes/comfyline.zsh-theme
 |4,39,236,0,1696730307,"~/.oh-my-zsh/custom/themes/comfyline.zsh-theme"
 -'  236  0  ~/.oh-my-zsh/custom/themes/comfyline.zsh-theme
@@ -174,6 +232,18 @@ $
 |4,39,15,0,1696730285,"~/.oh-my-zsh/custom/themes"
 -'  11  0  ~/.oh-my-zsh/custom
 |4,39,11,0,1696730285,"~/.oh-my-zsh/custom"
+-'  15  0  ~/.oh-my-zsh/custom/themes
+|4,39,15,0,1696730285,"~/.oh-my-zsh/custom/themes"
+-'  11  0  ~/.oh-my-zsh/custom
+|4,39,11,0,1696730285,"~/.oh-my-zsh/custom"
+-'  15  0  ~/.oh-my-zsh/custom/themes
+|4,39,15,0,1696730285,"~/.oh-my-zsh/custom/themes"
+-'  11  0  ~/.oh-my-zsh/custom
+|4,39,11,0,1696730285,"~/.oh-my-zsh/custom"
+-'  340  0  ~/.oh-my-zsh/custom/themes/comfyline.zsh-theme
+|4,39,340,0,1696730241,"~/.oh-my-zsh/custom/themes/comfyline.zsh-theme"
+-'  340  0  ~/.oh-my-zsh/custom/themes/comfyline.zsh-theme
+|4,39,340,0,1696730241,"~/.oh-my-zsh/custom/themes/comfyline.zsh-theme"
 -'  340  0  ~/.oh-my-zsh/custom/themes/comfyline.zsh-theme
 |4,39,340,0,1696730241,"~/.oh-my-zsh/custom/themes/comfyline.zsh-theme"
 -'  340  0  ~/.oh-my-zsh/custom/themes/comfyline.zsh-theme
@@ -186,6 +256,22 @@ $
 |4,39,342,28,1696730187,"~/.oh-my-zsh/custom/themes/comfyline.zsh-theme"
 -'  342  28  ~/.oh-my-zsh/custom/themes/comfyline.zsh-theme
 |4,39,342,28,1696730187,"~/.oh-my-zsh/custom/themes/comfyline.zsh-theme"
+-'  342  28  ~/.oh-my-zsh/custom/themes/comfyline.zsh-theme
+|4,39,342,28,1696730187,"~/.oh-my-zsh/custom/themes/comfyline.zsh-theme"
+-'  342  28  ~/.oh-my-zsh/custom/themes/comfyline.zsh-theme
+|4,39,342,28,1696730187,"~/.oh-my-zsh/custom/themes/comfyline.zsh-theme"
+-'  342  28  ~/.oh-my-zsh/custom/themes/comfyline.zsh-theme
+|4,39,342,28,1696730187,"~/.oh-my-zsh/custom/themes/comfyline.zsh-theme"
+-'  342  28  ~/.oh-my-zsh/custom/themes/comfyline.zsh-theme
+|4,39,342,28,1696730187,"~/.oh-my-zsh/custom/themes/comfyline.zsh-theme"
+-'  419  0  ~/.oh-my-zsh/custom/themes/comfyline.zsh-theme
+|4,39,419,0,1696729716,"~/.oh-my-zsh/custom/themes/comfyline.zsh-theme"
+-'  421  0  ~/.oh-my-zsh/custom/themes/comfyline.zsh-theme
+|4,39,421,0,1696729716,"~/.oh-my-zsh/custom/themes/comfyline.zsh-theme"
+-'  419  0  ~/.oh-my-zsh/custom/themes/comfyline.zsh-theme
+|4,39,419,0,1696729716,"~/.oh-my-zsh/custom/themes/comfyline.zsh-theme"
+-'  421  0  ~/.oh-my-zsh/custom/themes/comfyline.zsh-theme
+|4,39,421,0,1696729716,"~/.oh-my-zsh/custom/themes/comfyline.zsh-theme"
 -'  419  0  ~/.oh-my-zsh/custom/themes/comfyline.zsh-theme
 |4,39,419,0,1696729716,"~/.oh-my-zsh/custom/themes/comfyline.zsh-theme"
 -'  421  0  ~/.oh-my-zsh/custom/themes/comfyline.zsh-theme
@@ -210,6 +296,22 @@ $
 |4,39,8,13,1696729648,"/media/mreid/extradrive1/projects/Generic-Messaging-Service/tests/test_message_header.py"
 -'  8  13  /media/mreid/extradrive1/projects/Generic-Messaging-Service/tests/test_message_header.py
 |4,39,8,13,1696729648,"/media/mreid/extradrive1/projects/Generic-Messaging-Service/tests/test_message_header.py"
+-'  8  13  /media/mreid/extradrive1/projects/Generic-Messaging-Service/tests/test_message_header.py
+|4,39,8,13,1696729648,"/media/mreid/extradrive1/projects/Generic-Messaging-Service/tests/test_message_header.py"
+-'  8  13  /media/mreid/extradrive1/projects/Generic-Messaging-Service/tests/test_message_header.py
+|4,39,8,13,1696729648,"/media/mreid/extradrive1/projects/Generic-Messaging-Service/tests/test_message_header.py"
+-'  8  13  /media/mreid/extradrive1/projects/Generic-Messaging-Service/tests/test_message_header.py
+|4,39,8,13,1696729648,"/media/mreid/extradrive1/projects/Generic-Messaging-Service/tests/test_message_header.py"
+-'  8  13  /media/mreid/extradrive1/projects/Generic-Messaging-Service/tests/test_message_header.py
+|4,39,8,13,1696729648,"/media/mreid/extradrive1/projects/Generic-Messaging-Service/tests/test_message_header.py"
+-'  8  13  /media/mreid/extradrive1/projects/Generic-Messaging-Service/tests/test_message_header.py
+|4,39,8,13,1696729648,"/media/mreid/extradrive1/projects/Generic-Messaging-Service/tests/test_message_header.py"
+-'  8  13  /media/mreid/extradrive1/projects/Generic-Messaging-Service/tests/test_message_header.py
+|4,39,8,13,1696729648,"/media/mreid/extradrive1/projects/Generic-Messaging-Service/tests/test_message_header.py"
+-'  8  13  /media/mreid/extradrive1/projects/Generic-Messaging-Service/tests/test_message_header.py
+|4,39,8,13,1696729648,"/media/mreid/extradrive1/projects/Generic-Messaging-Service/tests/test_message_header.py"
+-'  8  13  /media/mreid/extradrive1/projects/Generic-Messaging-Service/tests/test_message_header.py
+|4,39,8,13,1696729648,"/media/mreid/extradrive1/projects/Generic-Messaging-Service/tests/test_message_header.py"
 -'  1  0  /media/mreid/extradrive1/projects/Generic-Messaging-Service/tests/test_message_header.py
 |4,39,1,0,1696729625,"/media/mreid/extradrive1/projects/Generic-Messaging-Service/tests/test_message_header.py"
 -'  1  0  /media/mreid/extradrive1/projects/Generic-Messaging-Service/tests/test_message_header.py
@@ -218,108 +320,51 @@ $
 |4,39,1,0,1696729625,"/media/mreid/extradrive1/projects/Generic-Messaging-Service/tests/test_message_header.py"
 -'  1  0  /media/mreid/extradrive1/projects/Generic-Messaging-Service/tests/test_message_header.py
 |4,39,1,0,1696729625,"/media/mreid/extradrive1/projects/Generic-Messaging-Service/tests/test_message_header.py"
--'  1  0  /media/mreid/extradrive1/projects/Generic-Messaging-Service/tests/test_message_header.py
-|4,39,1,0,1696729625,"/media/mreid/extradrive1/projects/Generic-Messaging-Service/tests/test_message_header.py"
--'  1  0  /media/mreid/extradrive1/projects/Generic-Messaging-Service/tests/test_message_header.py
-|4,39,1,0,1696729625,"/media/mreid/extradrive1/projects/Generic-Messaging-Service/tests/test_message_header.py"
--'  1  0  /media/mreid/extradrive1/projects/Generic-Messaging-Service/tests/test_message_header.py
-|4,39,1,0,1696729625,"/media/mreid/extradrive1/projects/Generic-Messaging-Service/tests/test_message_header.py"
--'  1  0  /media/mreid/extradrive1/projects/Generic-Messaging-Service/tests/test_message_header.py
-|4,39,1,0,1696729625,"/media/mreid/extradrive1/projects/Generic-Messaging-Service/tests/test_message_header.py"
--'  418  1  ~/.oh-my-zsh/custom/themes/comfyline.zsh-theme
-|4,39,418,1,1696729518,"~/.oh-my-zsh/custom/themes/comfyline.zsh-theme"
--'  420  1  ~/.oh-my-zsh/custom/themes/comfyline.zsh-theme
-|4,39,420,1,1696729518,"~/.oh-my-zsh/custom/themes/comfyline.zsh-theme"
--'  420  1  ~/.oh-my-zsh/custom/themes/comfyline.zsh-theme
-|4,39,420,1,1696729518,"~/.oh-my-zsh/custom/themes/comfyline.zsh-theme"
--'  418  1  ~/.oh-my-zsh/custom/themes/comfyline.zsh-theme
-|4,39,418,1,1696729518,"~/.oh-my-zsh/custom/themes/comfyline.zsh-theme"
--'  420  1  ~/.oh-my-zsh/custom/themes/comfyline.zsh-theme
-|4,39,420,1,1696729518,"~/.oh-my-zsh/custom/themes/comfyline.zsh-theme"
--'  420  1  ~/.oh-my-zsh/custom/themes/comfyline.zsh-theme
-|4,39,420,1,1696729518,"~/.oh-my-zsh/custom/themes/comfyline.zsh-theme"
--'  15  0  ~/.oh-my-zsh/custom/themes
-|4,39,15,0,1696729196,"~/.oh-my-zsh/custom/themes"
--'  11  0  ~/.oh-my-zsh/custom
-|4,39,11,0,1696729196,"~/.oh-my-zsh/custom"
--'  15  0  ~/.oh-my-zsh/custom/themes
-|4,39,15,0,1696729196,"~/.oh-my-zsh/custom/themes"
--'  11  0  ~/.oh-my-zsh/custom
-|4,39,11,0,1696729196,"~/.oh-my-zsh/custom"
--'  15  0  ~/.oh-my-zsh/custom/themes
-|4,39,15,0,1696729196,"~/.oh-my-zsh/custom/themes"
--'  11  0  ~/.oh-my-zsh/custom
-|4,39,11,0,1696729196,"~/.oh-my-zsh/custom"
--'  15  0  ~/.oh-my-zsh/custom/themes
-|4,39,15,0,1696729196,"~/.oh-my-zsh/custom/themes"
--'  11  0  ~/.oh-my-zsh/custom
-|4,39,11,0,1696729196,"~/.oh-my-zsh/custom"
--'  15  0  ~/.oh-my-zsh/custom/themes
-|4,39,15,0,1696729196,"~/.oh-my-zsh/custom/themes"
--'  11  0  ~/.oh-my-zsh/custom
-|4,39,11,0,1696729196,"~/.oh-my-zsh/custom"
--'  15  0  ~/.oh-my-zsh/custom/themes
-|4,39,15,0,1696729196,"~/.oh-my-zsh/custom/themes"
--'  11  0  ~/.oh-my-zsh/custom
-|4,39,11,0,1696729196,"~/.oh-my-zsh/custom"
--'  15  0  ~/.oh-my-zsh/custom/themes
-|4,39,15,0,1696729196,"~/.oh-my-zsh/custom/themes"
--'  11  0  ~/.oh-my-zsh/custom
-|4,39,11,0,1696729196,"~/.oh-my-zsh/custom"
--'  15  0  ~/.oh-my-zsh/custom/themes
-|4,39,15,0,1696729196,"~/.oh-my-zsh/custom/themes"
--'  11  0  ~/.oh-my-zsh/custom
-|4,39,11,0,1696729196,"~/.oh-my-zsh/custom"
--'  50  0  ~/.vimrc
-|4,39,50,0,1696729019,"~/.vimrc"
--'  50  0  ~/.vimrc
-|4,39,50,0,1696729019,"~/.vimrc"
--'  50  0  ~/.vimrc
-|4,39,50,0,1696729019,"~/.vimrc"
--'  50  0  ~/.vimrc
-|4,39,50,0,1696729019,"~/.vimrc"
--'  50  0  ~/.vimrc
-|4,39,50,0,1696729019,"~/.vimrc"
--'  50  0  ~/.vimrc
-|4,39,50,0,1696729019,"~/.vimrc"
--'  50  0  ~/.vimrc
-|4,39,50,0,1696729019,"~/.vimrc"
--'  50  0  ~/.vimrc
-|4,39,50,0,1696729019,"~/.vimrc"
--'  50  0  ~/.vimrc
-|4,39,50,0,1696729019,"~/.vimrc"
--'  50  0  ~/.vimrc
-|4,39,50,0,1696729019,"~/.vimrc"
--'  50  0  ~/.vimrc
-|4,39,50,0,1696729019,"~/.vimrc"
--'  50  0  ~/.vimrc
-|4,39,50,0,1696729019,"~/.vimrc"
--'  50  0  ~/.vimrc
-|4,39,50,0,1696729019,"~/.vimrc"
--'  50  0  ~/.vimrc
-|4,39,50,0,1696729019,"~/.vimrc"
--'  50  0  ~/.vimrc
-|4,39,50,0,1696729019,"~/.vimrc"
--'  50  0  ~/.vimrc
-|4,39,50,0,1696729019,"~/.vimrc"
--'  50  0  ~/.vimrc
-|4,39,50,0,1696729019,"~/.vimrc"
--'  50  0  ~/.vimrc
-|4,39,50,0,1696729019,"~/.vimrc"
--'  50  0  ~/.vimrc
-|4,39,50,0,1696729019,"~/.vimrc"
--'  50  0  ~/.vimrc
-|4,39,50,0,1696729019,"~/.vimrc"
--'  50  0  ~/.vimrc
-|4,39,50,0,1696729019,"~/.vimrc"
--'  50  0  ~/.vimrc
-|4,39,50,0,1696729019,"~/.vimrc"
--'  50  0  ~/.vimrc
-|4,39,50,0,1696729019,"~/.vimrc"
--'  50  0  ~/.vimrc
-|4,39,50,0,1696729019,"~/.vimrc"
 
 # History of marks within files (newest to oldest):
+
+> ~/.zshrc
+	*	1696748526	0
+	"	2	37
+	^	2	38
+	.	2	37
+	+	11	22
+	+	28	0
+	+	32	0
+	+	50	0
+	+	66	15
+	+	76	9
+	+	77	7
+	+	79	10
+	+	80	10
+	+	81	11
+	+	83	8
+	+	79	0
+	+	82	0
+	+	77	6
+	+	85	21
+	+	89	0
+	+	11	0
+	+	11	37
+	+	1	0
+	+	1	51
+	+	1	49
+	+	1	0
+	+	247	2
+	+	1	34
+	+	247	0
+	+	246	0
+	+	1	0
+	+	2	0
+	+	11	19
+	+	168	0
+	+	168	22
+	+	169	5
+	+	170	4
+	+	171	5
+	+	11	0
+	+	12	0
+	+	2	37
 
 > ~/KeenWrite/installer.sh
 	*	1696748211	0
@@ -367,47 +412,6 @@ $
 > /media/mreid/extradrive1/projects/Generic-Messaging-Service/main.py
 	*	1696728941	0
 	"	1	0
-
-> ~/.zshrc
-	*	1696728723	0
-	"	12	0
-	.	12	0
-	+	11	22
-	+	28	0
-	+	32	0
-	+	50	0
-	+	66	15
-	+	76	9
-	+	77	7
-	+	79	10
-	+	80	10
-	+	81	11
-	+	83	8
-	+	79	0
-	+	82	0
-	+	77	6
-	+	85	21
-	+	89	0
-	+	11	0
-	+	11	37
-	+	1	0
-	+	1	51
-	+	1	49
-	+	1	0
-	+	247	2
-	+	1	34
-	+	247	0
-	+	246	0
-	+	1	0
-	+	2	0
-	+	11	19
-	+	168	0
-	+	168	22
-	+	169	5
-	+	170	4
-	+	171	5
-	+	11	0
-	+	12	0
 
 > ~/.amrc
 	*	1696727815	0

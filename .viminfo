@@ -15,9 +15,9 @@
 
 # Command Line History (newest to oldest):
 :wq
-|2,0,1696726591,,"wq"
+|2,0,1696726666,,"wq"
 :w
-|2,0,1696726586,,"w"
+|2,0,1696726664,,"w"
 :q
 |2,0,1696726271,,"q"
 :120
@@ -64,40 +64,58 @@
 |3,1,36,0,1,0,1696726440," "
 
 # File marks:
-'0  1  0  ~/.amrc
-|4,48,1,0,1696726591,"~/.amrc"
-'1  52  0  ~/.oh-my-zsh/custom/themes/alien-minimal/alien-minimal.zsh
-|4,49,52,0,1696726271,"~/.oh-my-zsh/custom/themes/alien-minimal/alien-minimal.zsh"
-'2  11  37  ~/.zshrc
-|4,50,11,37,1696725658,"~/.zshrc"
-'3  81  1  ~/.gitconfig
-|4,51,81,1,1696725199,"~/.gitconfig"
-'4  48  24  ~/.gitconfig
-|4,52,48,24,1696725166,"~/.gitconfig"
-'5  49  24  ~/.gitconfig
-|4,53,49,24,1696725166,"~/.gitconfig"
-'6  11  19  ~/.zshrc
-|4,54,11,19,1696724911,"~/.zshrc"
-'7  179  7  ~/.gitignore
-|4,55,179,7,1696723619,"~/.gitignore"
-'8  92  0  ~/.zshrc
-|4,56,92,0,1696723574,"~/.zshrc"
-'9  91  0  ~/.zshrc
-|4,57,91,0,1696723574,"~/.zshrc"
+'0  44  0  ~/.amrc
+|4,48,44,0,1696726666,"~/.amrc"
+'1  1  0  ~/.amrc
+|4,49,1,0,1696726591,"~/.amrc"
+'2  1  0  ~/.amrc
+|4,50,1,0,1696726591,"~/.amrc"
+'3  52  0  ~/.oh-my-zsh/custom/themes/alien-minimal/alien-minimal.zsh
+|4,51,52,0,1696726271,"~/.oh-my-zsh/custom/themes/alien-minimal/alien-minimal.zsh"
+'4  11  37  ~/.zshrc
+|4,52,11,37,1696725658,"~/.zshrc"
+'5  81  1  ~/.gitconfig
+|4,53,81,1,1696725199,"~/.gitconfig"
+'6  48  24  ~/.gitconfig
+|4,54,48,24,1696725166,"~/.gitconfig"
+'7  49  24  ~/.gitconfig
+|4,55,49,24,1696725166,"~/.gitconfig"
+'8  11  19  ~/.zshrc
+|4,56,11,19,1696724911,"~/.zshrc"
+'9  179  7  ~/.gitignore
+|4,57,179,7,1696723619,"~/.gitignore"
 
 # Jumplist (newest first):
+-'  44  0  ~/.amrc
+|4,39,44,0,1696726666,"~/.amrc"
+-'  1  0  ~/.amrc
+|4,39,1,0,1696726625,"~/.amrc"
 -'  1  0  ~/.amrc
 |4,39,1,0,1696726591,"~/.amrc"
+-'  73  15  ~/.amrc
+|4,39,73,15,1696726471,"~/.amrc"
 -'  72  15  ~/.amrc
 |4,39,72,15,1696726471,"~/.amrc"
 -'  39  67  ~/.amrc
 |4,39,39,67,1696726437,"~/.amrc"
+-'  39  67  ~/.amrc
+|4,39,39,67,1696726437,"~/.amrc"
+-'  37  0  ~/.amrc
+|4,39,37,0,1696726370,"~/.amrc"
 -'  37  0  ~/.amrc
 |4,39,37,0,1696726370,"~/.amrc"
 -'  52  0  ~/.oh-my-zsh/custom/themes/alien-minimal/alien-minimal.zsh
 |4,39,52,0,1696726271,"~/.oh-my-zsh/custom/themes/alien-minimal/alien-minimal.zsh"
 -'  52  0  ~/.oh-my-zsh/custom/themes/alien-minimal/alien-minimal.zsh
 |4,39,52,0,1696726271,"~/.oh-my-zsh/custom/themes/alien-minimal/alien-minimal.zsh"
+-'  52  0  ~/.oh-my-zsh/custom/themes/alien-minimal/alien-minimal.zsh
+|4,39,52,0,1696726271,"~/.oh-my-zsh/custom/themes/alien-minimal/alien-minimal.zsh"
+-'  52  0  ~/.oh-my-zsh/custom/themes/alien-minimal/alien-minimal.zsh
+|4,39,52,0,1696726271,"~/.oh-my-zsh/custom/themes/alien-minimal/alien-minimal.zsh"
+-'  1  0  ~/.oh-my-zsh/custom/themes/alien-minimal/alien-minimal.zsh
+|4,39,1,0,1696726241,"~/.oh-my-zsh/custom/themes/alien-minimal/alien-minimal.zsh"
+-'  1  0  ~/.oh-my-zsh/custom/themes/alien-minimal/alien-minimal.zsh
+|4,39,1,0,1696726241,"~/.oh-my-zsh/custom/themes/alien-minimal/alien-minimal.zsh"
 -'  1  0  ~/.oh-my-zsh/custom/themes/alien-minimal/alien-minimal.zsh
 |4,39,1,0,1696726241,"~/.oh-my-zsh/custom/themes/alien-minimal/alien-minimal.zsh"
 -'  1  0  ~/.oh-my-zsh/custom/themes/alien-minimal/alien-minimal.zsh
@@ -110,6 +128,30 @@
 |4,39,11,37,1696725658,"~/.zshrc"
 -'  11  37  ~/.zshrc
 |4,39,11,37,1696725658,"~/.zshrc"
+-'  11  37  ~/.zshrc
+|4,39,11,37,1696725658,"~/.zshrc"
+-'  11  37  ~/.zshrc
+|4,39,11,37,1696725658,"~/.zshrc"
+-'  11  37  ~/.zshrc
+|4,39,11,37,1696725658,"~/.zshrc"
+-'  11  37  ~/.zshrc
+|4,39,11,37,1696725658,"~/.zshrc"
+-'  81  1  ~/.gitconfig
+|4,39,81,1,1696725199,"~/.gitconfig"
+-'  81  1  ~/.gitconfig
+|4,39,81,1,1696725199,"~/.gitconfig"
+-'  81  1  ~/.gitconfig
+|4,39,81,1,1696725199,"~/.gitconfig"
+-'  81  1  ~/.gitconfig
+|4,39,81,1,1696725199,"~/.gitconfig"
+-'  81  1  ~/.gitconfig
+|4,39,81,1,1696725199,"~/.gitconfig"
+-'  81  1  ~/.gitconfig
+|4,39,81,1,1696725199,"~/.gitconfig"
+-'  81  1  ~/.gitconfig
+|4,39,81,1,1696725199,"~/.gitconfig"
+-'  81  1  ~/.gitconfig
+|4,39,81,1,1696725199,"~/.gitconfig"
 -'  81  1  ~/.gitconfig
 |4,39,81,1,1696725199,"~/.gitconfig"
 -'  81  1  ~/.gitconfig
@@ -142,6 +184,38 @@
 |4,39,48,1,1696725173,"~/.gitconfig"
 -'  48  1  ~/.gitconfig
 |4,39,48,1,1696725173,"~/.gitconfig"
+-'  48  1  ~/.gitconfig
+|4,39,48,1,1696725173,"~/.gitconfig"
+-'  48  1  ~/.gitconfig
+|4,39,48,1,1696725173,"~/.gitconfig"
+-'  48  1  ~/.gitconfig
+|4,39,48,1,1696725173,"~/.gitconfig"
+-'  48  1  ~/.gitconfig
+|4,39,48,1,1696725173,"~/.gitconfig"
+-'  48  1  ~/.gitconfig
+|4,39,48,1,1696725173,"~/.gitconfig"
+-'  48  1  ~/.gitconfig
+|4,39,48,1,1696725173,"~/.gitconfig"
+-'  48  1  ~/.gitconfig
+|4,39,48,1,1696725173,"~/.gitconfig"
+-'  48  1  ~/.gitconfig
+|4,39,48,1,1696725173,"~/.gitconfig"
+-'  49  24  ~/.gitconfig
+|4,39,49,24,1696725166,"~/.gitconfig"
+-'  49  24  ~/.gitconfig
+|4,39,49,24,1696725166,"~/.gitconfig"
+-'  49  24  ~/.gitconfig
+|4,39,49,24,1696725166,"~/.gitconfig"
+-'  49  24  ~/.gitconfig
+|4,39,49,24,1696725166,"~/.gitconfig"
+-'  49  24  ~/.gitconfig
+|4,39,49,24,1696725166,"~/.gitconfig"
+-'  49  24  ~/.gitconfig
+|4,39,49,24,1696725166,"~/.gitconfig"
+-'  49  24  ~/.gitconfig
+|4,39,49,24,1696725166,"~/.gitconfig"
+-'  49  24  ~/.gitconfig
+|4,39,49,24,1696725166,"~/.gitconfig"
 -'  49  24  ~/.gitconfig
 |4,39,49,24,1696725166,"~/.gitconfig"
 -'  49  24  ~/.gitconfig
@@ -190,110 +264,36 @@
 |4,39,46,3,1696725159,"~/.gitconfig"
 -'  46  3  ~/.gitconfig
 |4,39,46,3,1696725159,"~/.gitconfig"
--'  1  0  ~/.gitconfig
-|4,39,1,0,1696725158,"~/.gitconfig"
--'  1  0  ~/.gitconfig
-|4,39,1,0,1696725158,"~/.gitconfig"
--'  1  0  ~/.gitconfig
-|4,39,1,0,1696725158,"~/.gitconfig"
--'  1  0  ~/.gitconfig
-|4,39,1,0,1696725158,"~/.gitconfig"
--'  1  0  ~/.gitconfig
-|4,39,1,0,1696725158,"~/.gitconfig"
--'  1  0  ~/.gitconfig
-|4,39,1,0,1696725158,"~/.gitconfig"
--'  1  0  ~/.gitconfig
-|4,39,1,0,1696725158,"~/.gitconfig"
--'  1  0  ~/.gitconfig
-|4,39,1,0,1696725158,"~/.gitconfig"
--'  1  0  ~/.gitconfig
-|4,39,1,0,1696725158,"~/.gitconfig"
--'  1  0  ~/.gitconfig
-|4,39,1,0,1696725158,"~/.gitconfig"
--'  1  0  ~/.gitconfig
-|4,39,1,0,1696725158,"~/.gitconfig"
--'  1  0  ~/.gitconfig
-|4,39,1,0,1696725158,"~/.gitconfig"
--'  1  0  ~/.gitconfig
-|4,39,1,0,1696725158,"~/.gitconfig"
--'  1  0  ~/.gitconfig
-|4,39,1,0,1696725158,"~/.gitconfig"
--'  1  0  ~/.gitconfig
-|4,39,1,0,1696725158,"~/.gitconfig"
--'  1  0  ~/.gitconfig
-|4,39,1,0,1696725158,"~/.gitconfig"
--'  11  19  ~/.zshrc
-|4,39,11,19,1696724911,"~/.zshrc"
--'  11  19  ~/.zshrc
-|4,39,11,19,1696724911,"~/.zshrc"
--'  11  19  ~/.zshrc
-|4,39,11,19,1696724911,"~/.zshrc"
--'  11  19  ~/.zshrc
-|4,39,11,19,1696724911,"~/.zshrc"
--'  11  19  ~/.zshrc
-|4,39,11,19,1696724911,"~/.zshrc"
--'  11  19  ~/.zshrc
-|4,39,11,19,1696724911,"~/.zshrc"
--'  11  19  ~/.zshrc
-|4,39,11,19,1696724911,"~/.zshrc"
--'  11  19  ~/.zshrc
-|4,39,11,19,1696724911,"~/.zshrc"
--'  11  19  ~/.zshrc
-|4,39,11,19,1696724911,"~/.zshrc"
--'  11  19  ~/.zshrc
-|4,39,11,19,1696724911,"~/.zshrc"
--'  11  19  ~/.zshrc
-|4,39,11,19,1696724911,"~/.zshrc"
--'  11  19  ~/.zshrc
-|4,39,11,19,1696724911,"~/.zshrc"
--'  11  19  ~/.zshrc
-|4,39,11,19,1696724911,"~/.zshrc"
--'  11  19  ~/.zshrc
-|4,39,11,19,1696724911,"~/.zshrc"
--'  11  19  ~/.zshrc
-|4,39,11,19,1696724911,"~/.zshrc"
--'  11  19  ~/.zshrc
-|4,39,11,19,1696724911,"~/.zshrc"
--'  92  0  ~/.zshrc
-|4,39,92,0,1696724325,"~/.zshrc"
--'  92  0  ~/.zshrc
-|4,39,92,0,1696724325,"~/.zshrc"
--'  92  0  ~/.zshrc
-|4,39,92,0,1696724325,"~/.zshrc"
--'  92  0  ~/.zshrc
-|4,39,92,0,1696724325,"~/.zshrc"
--'  92  0  ~/.zshrc
-|4,39,92,0,1696724325,"~/.zshrc"
--'  92  0  ~/.zshrc
-|4,39,92,0,1696724325,"~/.zshrc"
--'  92  0  ~/.zshrc
-|4,39,92,0,1696724325,"~/.zshrc"
--'  92  0  ~/.zshrc
-|4,39,92,0,1696724325,"~/.zshrc"
--'  92  0  ~/.zshrc
-|4,39,92,0,1696724325,"~/.zshrc"
--'  92  0  ~/.zshrc
-|4,39,92,0,1696724325,"~/.zshrc"
--'  92  0  ~/.zshrc
-|4,39,92,0,1696724325,"~/.zshrc"
--'  92  0  ~/.zshrc
-|4,39,92,0,1696724325,"~/.zshrc"
--'  92  0  ~/.zshrc
-|4,39,92,0,1696724325,"~/.zshrc"
--'  92  0  ~/.zshrc
-|4,39,92,0,1696724325,"~/.zshrc"
--'  92  0  ~/.zshrc
-|4,39,92,0,1696724325,"~/.zshrc"
--'  92  0  ~/.zshrc
-|4,39,92,0,1696724325,"~/.zshrc"
+-'  46  3  ~/.gitconfig
+|4,39,46,3,1696725159,"~/.gitconfig"
+-'  46  3  ~/.gitconfig
+|4,39,46,3,1696725159,"~/.gitconfig"
+-'  46  3  ~/.gitconfig
+|4,39,46,3,1696725159,"~/.gitconfig"
+-'  46  3  ~/.gitconfig
+|4,39,46,3,1696725159,"~/.gitconfig"
+-'  46  3  ~/.gitconfig
+|4,39,46,3,1696725159,"~/.gitconfig"
+-'  46  3  ~/.gitconfig
+|4,39,46,3,1696725159,"~/.gitconfig"
+-'  46  3  ~/.gitconfig
+|4,39,46,3,1696725159,"~/.gitconfig"
+-'  46  3  ~/.gitconfig
+|4,39,46,3,1696725159,"~/.gitconfig"
+-'  46  3  ~/.gitconfig
+|4,39,46,3,1696725159,"~/.gitconfig"
+-'  46  3  ~/.gitconfig
+|4,39,46,3,1696725159,"~/.gitconfig"
+-'  46  3  ~/.gitconfig
+|4,39,46,3,1696725159,"~/.gitconfig"
 
 # History of marks within files (newest to oldest):
 
 > ~/.amrc
-	*	1696726586	0
-	"	1	0
-	^	1	0
-	.	75	20
+	*	1696726664	0
+	"	44	0
+	^	44	0
+	.	43	0
 	+	4	19
 	+	9	0
 	+	7	0
@@ -325,9 +325,20 @@
 	+	41	74
 	+	40	66
 	+	39	68
-	+	71	0
-	+	72	71
-	+	75	20
+	+	72	0
+	+	73	71
+	+	76	20
+	+	20	0
+	+	22	0
+	+	23	0
+	+	24	0
+	+	25	0
+	+	27	0
+	+	28	0
+	+	29	0
+	+	39	0
+	+	40	0
+	+	43	0
 
 > ~/.oh-my-zsh/custom/themes/alien-minimal/alien-minimal.zsh
 	*	1696726270	0

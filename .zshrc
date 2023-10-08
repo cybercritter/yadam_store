@@ -1,3 +1,31 @@
+export AM_JAVA_SYM='JAVA:'  # JAVA Version Symbol
+export AM_PY_SYM='PY:'      # Python Version Symbol
+export AM_RB_SYM='RB:'      # Ruby Version Symbol 
+export AM_GO_SYM='GO:'      # Go Version Symbol 
+export AM_ELIXIR_SYM='EX:'  # Elixir Version Symbol 
+export AM_CRYSTAL_SYM='CR:' # Crystal Version Symbol 
+export AM_NODE_SYM='NODE:'  # Node Version Symbol 
+export AM_PHP_SYM='PHP:'    # PHP Version Symbol 
+
+export AM_GIT_STASH_SYM='@'  # Git Stash Count Symbbol
+export AM_GIT_BARE_SYM='☢'   # Git bare repo Symbbol
+export AM_GIT_SYM=G          # Git Symbol
+export AM_HG_SYM=M           # Mercurial Symbol
+export AM_SSH_SYM=[S]        # SSH Indicator Symbol
+export AM_VIM_INSERT_SYM='[I]'  # VI mode symbol
+export AM_VIM_NORMAL_SYM='[N]'  # VI mode symbol
+ 
+export AM_GIT_ADD_SYM='+'  # Git New Tracked File Symbol
+export AM_GIT_DEL_SYM='-'  # Git Deleted File Symbol
+export AM_GIT_MOD_SYM='*'  # Git Modified File Symbol
+export AM_GIT_NEW_SYM='?'  # Git New Un-tracked File Symbol
+export AM_GIT_PUSH_SYM='↑' # Git Un-pushed Commit Symbol
+export AM_GIT_PULL_SYM='↓' # Git New Commit Symbol
+
+export AM_USE_NERD_FONT=1 # previously `USE_NERD_FONT`
+export AM_GIT_TRACKED_COLOR=green
+export AM_GIT_UN_TRACKED_COLOR=red
+
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
@@ -245,3 +273,5 @@ bindkey "${terminfo[kcuu1]}" up-line-or-beginning-search
 # start typing + [Down-Arrow] - fuzzy find history backward
 bindkey "${terminfo[kcud1]}" down-line-or-beginning-search
 
+
+AM_

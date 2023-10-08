@@ -10,13 +10,18 @@
 
 # hlsearch on (H) or off (h):
 ~H
+# Last Search Pattern:
+~MSle0~/vim
+
 # Command Line History (newest to oldest):
 :wq
-|2,0,1696723574,,"wq"
+|2,0,1696723619,,"wq"
 :w
-|2,0,1696723569,,"w"
+|2,0,1696723618,,"w"
 
 # Search String History (newest to oldest):
+?/vim
+|2,1,1696723605,47,"vim"
 
 # Expression History (newest to oldest):
 
@@ -39,26 +44,49 @@
 |3,0,36,0,1,0,1696722332,"/"
 
 # File marks:
-'0  91  0  ~/.zshrc
-|4,48,91,0,1696723574,"~/.zshrc"
-'1  87  3  ~/.zshrc
-|4,49,87,3,1696723308,"~/.zshrc"
+'0  179  7  ~/.gitignore
+|4,48,179,7,1696723619,"~/.gitignore"
+'1  91  0  ~/.zshrc
+|4,49,91,0,1696723574,"~/.zshrc"
 '2  87  3  ~/.zshrc
 |4,50,87,3,1696723308,"~/.zshrc"
+'3  87  3  ~/.zshrc
+|4,51,87,3,1696723308,"~/.zshrc"
 
 # Jumplist (newest first):
+-'  179  7  ~/.gitignore
+|4,39,179,7,1696723619,"~/.gitignore"
+-'  1  0  ~/.gitignore
+|4,39,1,0,1696723599,"~/.gitignore"
+-'  91  0  ~/.zshrc
+|4,39,91,0,1696723574,"~/.zshrc"
 -'  91  0  ~/.zshrc
 |4,39,91,0,1696723574,"~/.zshrc"
 -'  87  3  ~/.zshrc
 |4,39,87,3,1696723378,"~/.zshrc"
+-'  87  3  ~/.zshrc
+|4,39,87,3,1696723378,"~/.zshrc"
+-'  87  3  ~/.zshrc
+|4,39,87,3,1696723308,"~/.zshrc"
 -'  87  3  ~/.zshrc
 |4,39,87,3,1696723308,"~/.zshrc"
 -'  1  0  ~/.zshrc
 |4,39,1,0,1696722247,"~/.zshrc"
 -'  1  0  ~/.zshrc
 |4,39,1,0,1696722247,"~/.zshrc"
+-'  1  0  ~/.zshrc
+|4,39,1,0,1696722247,"~/.zshrc"
+-'  1  0  ~/.zshrc
+|4,39,1,0,1696722247,"~/.zshrc"
 
 # History of marks within files (newest to oldest):
+
+> ~/.gitignore
+	*	1696723618	0
+	"	179	7
+	^	179	8
+	.	179	7
+	+	179	7
 
 > ~/.zshrc
 	*	1696723569	0

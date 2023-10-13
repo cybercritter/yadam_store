@@ -10,15 +10,20 @@
 
 # hlsearch on (H) or off (h):
 ~H
+# Last Search Pattern:
+~MSle0~/opt
+
 # Command Line History (newest to oldest):
 :wq
-|2,0,1696889149,,"wq"
+|2,0,1697161960,,"wq"
 :w
-|2,0,1696889148,,"w"
+|2,0,1697161959,,"w"
 :we
 |2,0,1696800967,,"we"
 
 # Search String History (newest to oldest):
+?/opt
+|2,1,1697161913,47,"opt"
 
 # Expression History (newest to oldest):
 
@@ -27,39 +32,45 @@
 # Debug Line History (newest to oldest):
 
 # Registers:
-""1	LINE	0
+"1	LINE	0
 	309
 <PATH=/opt/node/bin:/home/cybercritter/bin:/home/cybercritter/.venv/bin:/home/cybercritter/.local/bin:/opt/python/3.12.0/bin:/home/cybercritter/bin:/opt/gradle/bin:/usr/local/bin:/home/cybercritter/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
-|3,1,1,1,1,0,1696889146,"PATH=/opt/node/bin:/home/cybercritter/bin:/home/cybercritter/.venv/bin:/home/cybercritter/.local/bin:/opt/python/3.12.0/bin:/home/cybercritter/bin:/opt/gradle/bin:/usr/local/bin:/home/cybercritter/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin"
-"-	CHAR	0
-	 
-|3,0,36,0,1,0,1696802210," "
+|3,0,1,1,1,0,1696889146,"PATH=/opt/node/bin:/home/cybercritter/bin:/home/cybercritter/.venv/bin:/home/cybercritter/.local/bin:/opt/python/3.12.0/bin:/home/cybercritter/bin:/opt/gradle/bin:/usr/local/bin:/home/cybercritter/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin"
+""-	CHAR	0
+	r
+|3,1,36,0,1,0,1697161951,"r"
 
 # File marks:
-'0  247  0  ~/.zshrc
-|4,48,247,0,1696889149,"~/.zshrc"
-'1  2  34  ~/.zshrc
-|4,49,2,34,1696802914,"~/.zshrc"
+'0  247  174  ~/.zshrc
+|4,48,247,174,1697161960,"~/.zshrc"
+'1  247  0  ~/.zshrc
+|4,49,247,0,1696889149,"~/.zshrc"
 '2  2  34  ~/.zshrc
 |4,50,2,34,1696802914,"~/.zshrc"
-'3  12  118  ~/build-python312.sh
-|4,51,12,118,1696802219,"~/build-python312.sh"
-'4  3  0  ~/build-python312.sh
-|4,52,3,0,1696801516,"~/build-python312.sh"
-'5  3  0  ~/build-python312.sh
-|4,53,3,0,1696801516,"~/build-python312.sh"
-'6  22  13  ~/posix-deps-apt.sh
-|4,54,22,13,1696800969,"~/posix-deps-apt.sh"
-'7  11  10  ~/.zshrc
-|4,55,11,10,1696796032,"~/.zshrc"
-'8  11  10  ~/.zshrc
-|4,56,11,10,1696796032,"~/.zshrc"
-'9  11  10  ~/.zshrc
-|4,57,11,10,1696796032,"~/.zshrc"
+'3  2  34  ~/.zshrc
+|4,51,2,34,1696802914,"~/.zshrc"
+'4  2  34  ~/.zshrc
+|4,52,2,34,1696802914,"~/.zshrc"
+'5  2  34  ~/.zshrc
+|4,53,2,34,1696802914,"~/.zshrc"
+'6  12  118  ~/build-python312.sh
+|4,54,12,118,1696802219,"~/build-python312.sh"
+'7  3  0  ~/build-python312.sh
+|4,55,3,0,1696801516,"~/build-python312.sh"
+'8  3  0  ~/build-python312.sh
+|4,56,3,0,1696801516,"~/build-python312.sh"
+'9  22  13  ~/posix-deps-apt.sh
+|4,57,22,13,1696800969,"~/posix-deps-apt.sh"
 
 # Jumplist (newest first):
+-'  247  174  ~/.zshrc
+|4,39,247,174,1697161960,"~/.zshrc"
+-'  248  4  ~/.zshrc
+|4,39,248,4,1697161937,"~/.zshrc"
 -'  247  0  ~/.zshrc
 |4,39,247,0,1696889149,"~/.zshrc"
+-'  2  0  ~/.zshrc
+|4,39,2,0,1696889142,"~/.zshrc"
 -'  2  0  ~/.zshrc
 |4,39,2,0,1696889142,"~/.zshrc"
 -'  2  34  ~/.zshrc
@@ -68,10 +79,22 @@
 |4,39,246,0,1696802711,"~/.zshrc"
 -'  246  0  ~/.zshrc
 |4,39,246,0,1696802711,"~/.zshrc"
+-'  246  0  ~/.zshrc
+|4,39,246,0,1696802711,"~/.zshrc"
 -'  11  0  ~/.zshrc
 |4,39,11,0,1696802709,"~/.zshrc"
 -'  11  0  ~/.zshrc
 |4,39,11,0,1696802709,"~/.zshrc"
+-'  11  0  ~/.zshrc
+|4,39,11,0,1696802709,"~/.zshrc"
+-'  12  118  ~/build-python312.sh
+|4,39,12,118,1696802219,"~/build-python312.sh"
+-'  12  118  ~/build-python312.sh
+|4,39,12,118,1696802219,"~/build-python312.sh"
+-'  12  118  ~/build-python312.sh
+|4,39,12,118,1696802219,"~/build-python312.sh"
+-'  12  118  ~/build-python312.sh
+|4,39,12,118,1696802219,"~/build-python312.sh"
 -'  12  118  ~/build-python312.sh
 |4,39,12,118,1696802219,"~/build-python312.sh"
 -'  12  118  ~/build-python312.sh
@@ -88,6 +111,22 @@
 |4,39,3,0,1696802152,"~/build-python312.sh"
 -'  3  0  ~/build-python312.sh
 |4,39,3,0,1696802152,"~/build-python312.sh"
+-'  3  0  ~/build-python312.sh
+|4,39,3,0,1696802152,"~/build-python312.sh"
+-'  3  0  ~/build-python312.sh
+|4,39,3,0,1696802152,"~/build-python312.sh"
+-'  3  0  ~/build-python312.sh
+|4,39,3,0,1696802152,"~/build-python312.sh"
+-'  3  0  ~/build-python312.sh
+|4,39,3,0,1696802152,"~/build-python312.sh"
+-'  3  0  ~/build-python312.sh
+|4,39,3,0,1696801516,"~/build-python312.sh"
+-'  3  0  ~/build-python312.sh
+|4,39,3,0,1696801516,"~/build-python312.sh"
+-'  3  0  ~/build-python312.sh
+|4,39,3,0,1696801516,"~/build-python312.sh"
+-'  3  0  ~/build-python312.sh
+|4,39,3,0,1696801516,"~/build-python312.sh"
 -'  3  0  ~/build-python312.sh
 |4,39,3,0,1696801516,"~/build-python312.sh"
 -'  3  0  ~/build-python312.sh
@@ -112,6 +151,54 @@
 |4,39,1,0,1696801492,"~/build-python312.sh"
 -'  1  0  ~/build-python312.sh
 |4,39,1,0,1696801492,"~/build-python312.sh"
+-'  1  0  ~/build-python312.sh
+|4,39,1,0,1696801492,"~/build-python312.sh"
+-'  1  0  ~/build-python312.sh
+|4,39,1,0,1696801492,"~/build-python312.sh"
+-'  1  0  ~/build-python312.sh
+|4,39,1,0,1696801492,"~/build-python312.sh"
+-'  1  0  ~/build-python312.sh
+|4,39,1,0,1696801492,"~/build-python312.sh"
+-'  1  0  ~/build-python312.sh
+|4,39,1,0,1696801492,"~/build-python312.sh"
+-'  1  0  ~/build-python312.sh
+|4,39,1,0,1696801492,"~/build-python312.sh"
+-'  1  0  ~/build-python312.sh
+|4,39,1,0,1696801492,"~/build-python312.sh"
+-'  1  0  ~/build-python312.sh
+|4,39,1,0,1696801492,"~/build-python312.sh"
+-'  22  13  ~/posix-deps-apt.sh
+|4,39,22,13,1696800969,"~/posix-deps-apt.sh"
+-'  22  13  ~/posix-deps-apt.sh
+|4,39,22,13,1696800969,"~/posix-deps-apt.sh"
+-'  22  13  ~/posix-deps-apt.sh
+|4,39,22,13,1696800969,"~/posix-deps-apt.sh"
+-'  22  13  ~/posix-deps-apt.sh
+|4,39,22,13,1696800969,"~/posix-deps-apt.sh"
+-'  22  13  ~/posix-deps-apt.sh
+|4,39,22,13,1696800969,"~/posix-deps-apt.sh"
+-'  22  13  ~/posix-deps-apt.sh
+|4,39,22,13,1696800969,"~/posix-deps-apt.sh"
+-'  22  13  ~/posix-deps-apt.sh
+|4,39,22,13,1696800969,"~/posix-deps-apt.sh"
+-'  22  13  ~/posix-deps-apt.sh
+|4,39,22,13,1696800969,"~/posix-deps-apt.sh"
+-'  22  13  ~/posix-deps-apt.sh
+|4,39,22,13,1696800969,"~/posix-deps-apt.sh"
+-'  22  13  ~/posix-deps-apt.sh
+|4,39,22,13,1696800969,"~/posix-deps-apt.sh"
+-'  22  13  ~/posix-deps-apt.sh
+|4,39,22,13,1696800969,"~/posix-deps-apt.sh"
+-'  22  13  ~/posix-deps-apt.sh
+|4,39,22,13,1696800969,"~/posix-deps-apt.sh"
+-'  22  13  ~/posix-deps-apt.sh
+|4,39,22,13,1696800969,"~/posix-deps-apt.sh"
+-'  22  13  ~/posix-deps-apt.sh
+|4,39,22,13,1696800969,"~/posix-deps-apt.sh"
+-'  22  13  ~/posix-deps-apt.sh
+|4,39,22,13,1696800969,"~/posix-deps-apt.sh"
+-'  22  13  ~/posix-deps-apt.sh
+|4,39,22,13,1696800969,"~/posix-deps-apt.sh"
 -'  22  13  ~/posix-deps-apt.sh
 |4,39,22,13,1696800969,"~/posix-deps-apt.sh"
 -'  22  13  ~/posix-deps-apt.sh
@@ -176,99 +263,20 @@
 |4,39,1,0,1696800944,"~/posix-deps-apt.sh"
 -'  1  0  ~/posix-deps-apt.sh
 |4,39,1,0,1696800944,"~/posix-deps-apt.sh"
--'  11  10  ~/.zshrc
-|4,39,11,10,1696796032,"~/.zshrc"
--'  11  10  ~/.zshrc
-|4,39,11,10,1696796032,"~/.zshrc"
--'  11  10  ~/.zshrc
-|4,39,11,10,1696796032,"~/.zshrc"
--'  11  10  ~/.zshrc
-|4,39,11,10,1696796032,"~/.zshrc"
--'  11  10  ~/.zshrc
-|4,39,11,10,1696796032,"~/.zshrc"
--'  11  10  ~/.zshrc
-|4,39,11,10,1696796032,"~/.zshrc"
--'  11  10  ~/.zshrc
-|4,39,11,10,1696796032,"~/.zshrc"
--'  11  10  ~/.zshrc
-|4,39,11,10,1696796032,"~/.zshrc"
--'  1  0  ~/.zshrc
-|4,39,1,0,1696796015,"~/.zshrc"
--'  1  0  ~/.zshrc
-|4,39,1,0,1696796015,"~/.zshrc"
--'  1  0  ~/.zshrc
-|4,39,1,0,1696796015,"~/.zshrc"
--'  1  0  ~/.zshrc
-|4,39,1,0,1696796015,"~/.zshrc"
--'  1  0  ~/.zshrc
-|4,39,1,0,1696796015,"~/.zshrc"
--'  1  0  ~/.zshrc
-|4,39,1,0,1696796015,"~/.zshrc"
--'  1  0  ~/.zshrc
-|4,39,1,0,1696796015,"~/.zshrc"
--'  1  0  ~/.zshrc
-|4,39,1,0,1696796015,"~/.zshrc"
--'  1  0  ~/.zshrc
-|4,39,1,0,1696796015,"~/.zshrc"
--'  1  0  ~/.zshrc
-|4,39,1,0,1696796015,"~/.zshrc"
--'  1  26  ~/.ssh/id_ed25519.pub
-|4,39,1,26,1696794989,"~/.ssh/id_ed25519.pub"
--'  1  26  ~/.ssh/id_ed25519.pub
-|4,39,1,26,1696794989,"~/.ssh/id_ed25519.pub"
--'  1  26  ~/.ssh/id_ed25519.pub
-|4,39,1,26,1696794989,"~/.ssh/id_ed25519.pub"
--'  1  26  ~/.ssh/id_ed25519.pub
-|4,39,1,26,1696794989,"~/.ssh/id_ed25519.pub"
--'  1  26  ~/.ssh/id_ed25519.pub
-|4,39,1,26,1696794989,"~/.ssh/id_ed25519.pub"
--'  1  26  ~/.ssh/id_ed25519.pub
-|4,39,1,26,1696794989,"~/.ssh/id_ed25519.pub"
--'  1  26  ~/.ssh/id_ed25519.pub
-|4,39,1,26,1696794989,"~/.ssh/id_ed25519.pub"
--'  1  26  ~/.ssh/id_ed25519.pub
-|4,39,1,26,1696794989,"~/.ssh/id_ed25519.pub"
--'  1  26  ~/.ssh/id_ed25519.pub
-|4,39,1,26,1696794989,"~/.ssh/id_ed25519.pub"
--'  1  26  ~/.ssh/id_ed25519.pub
-|4,39,1,26,1696794989,"~/.ssh/id_ed25519.pub"
--'  1  26  ~/.ssh/id_ed25519.pub
-|4,39,1,26,1696794989,"~/.ssh/id_ed25519.pub"
--'  1  26  ~/.ssh/id_ed25519.pub
-|4,39,1,26,1696794989,"~/.ssh/id_ed25519.pub"
--'  1  26  ~/.ssh/id_ed25519.pub
-|4,39,1,26,1696794989,"~/.ssh/id_ed25519.pub"
--'  1  26  ~/.ssh/id_ed25519.pub
-|4,39,1,26,1696794989,"~/.ssh/id_ed25519.pub"
--'  1  26  ~/.ssh/id_ed25519.pub
-|4,39,1,26,1696794989,"~/.ssh/id_ed25519.pub"
--'  1  26  ~/.ssh/id_ed25519.pub
-|4,39,1,26,1696794989,"~/.ssh/id_ed25519.pub"
--'  1  26  ~/.ssh/id_ed25519.pub
-|4,39,1,26,1696794989,"~/.ssh/id_ed25519.pub"
--'  1  26  ~/.ssh/id_ed25519.pub
-|4,39,1,26,1696794989,"~/.ssh/id_ed25519.pub"
--'  1  26  ~/.ssh/id_ed25519.pub
-|4,39,1,26,1696794989,"~/.ssh/id_ed25519.pub"
--'  1  26  ~/.ssh/id_ed25519.pub
-|4,39,1,26,1696794989,"~/.ssh/id_ed25519.pub"
--'  1  26  ~/.ssh/id_ed25519.pub
-|4,39,1,26,1696794989,"~/.ssh/id_ed25519.pub"
--'  1  26  ~/.ssh/id_ed25519.pub
-|4,39,1,26,1696794989,"~/.ssh/id_ed25519.pub"
--'  1  26  ~/.ssh/id_ed25519.pub
-|4,39,1,26,1696794989,"~/.ssh/id_ed25519.pub"
 
 # History of marks within files (newest to oldest):
 
 > ~/.zshrc
-	*	1696889148	0
-	"	247	0
-	^	2	35
-	.	247	0
+	*	1697161959	0
+	"	247	174
+	^	247	175
+	.	247	174
 	+	11	10
 	+	2	34
 	+	247	0
+	+	247	123
+	+	248	0
+	+	247	174
 
 > ~/build-python312.sh
 	*	1696802213	0

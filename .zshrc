@@ -244,4 +244,4 @@ bindkey "${terminfo[kcuu1]}" up-line-or-beginning-search
 bindkey "${terminfo[kcud1]}" down-line-or-beginning-search
 
 
-export PATH=/opt/node/bin:/home/cybercritter/bin:/home/cybercritter/.venv/bin:/home/cybercritter/.local/bin:/opt/python/3.12.0/bin:/home/cybercritter/bin:/opt/gradle/bin:/usr/local/bin:/home/cybercritter/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+export PATH=/opt/node/bin:/home/cybercritter/bin:/home/cybercritter/.venv/bin:/home/cybercritter/.local/bin:/opt/bin:/home/mreid/bin:/opt/gradle/bin:/usr/local/bin:/home/mreid/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin

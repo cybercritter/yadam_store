@@ -11,17 +11,29 @@
 # hlsearch on (H) or off (h):
 ~H
 # Last Search Pattern:
-~MSle0~/opt
+~MSle0~/update
 
 # Command Line History (newest to oldest):
 :wq
-|2,0,1697161960,,"wq"
+|2,0,1697390385,,"wq"
+:Wq
+|2,0,1697390384,,"Wq"
 :w
-|2,0,1697161959,,"w"
+|2,0,1697390384,,"w"
+:38
+|2,0,1697390323,,"38"
+:q
+|2,0,1697231695,,"q"
+:q!
+|2,0,1697162554,,"q!"
 :we
 |2,0,1696800967,,"we"
 
 # Search String History (newest to oldest):
+?/update
+|2,1,1697390277,47,"update"
+?/fzf
+|2,1,1697315840,47,"fzf"
 ?/opt
 |2,1,1697161913,47,"opt"
 
@@ -33,242 +45,274 @@
 
 # Registers:
 "1	LINE	0
+	//192.168.50.180/shared /media/winston cifs vers=3.0,credentials=/root/.smb_creds
+|3,0,1,1,1,0,1697162550,"//192.168.50.180/shared /media/winston cifs vers=3.0,credentials=/root/.smb_creds"
+"2	LINE	0
 	309
 <PATH=/opt/node/bin:/home/cybercritter/bin:/home/cybercritter/.venv/bin:/home/cybercritter/.local/bin:/opt/python/3.12.0/bin:/home/cybercritter/bin:/opt/gradle/bin:/usr/local/bin:/home/cybercritter/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
-|3,0,1,1,1,0,1696889146,"PATH=/opt/node/bin:/home/cybercritter/bin:/home/cybercritter/.venv/bin:/home/cybercritter/.local/bin:/opt/python/3.12.0/bin:/home/cybercritter/bin:/opt/gradle/bin:/usr/local/bin:/home/cybercritter/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin"
+|3,0,2,1,1,0,1696889146,"PATH=/opt/node/bin:/home/cybercritter/bin:/home/cybercritter/.venv/bin:/home/cybercritter/.local/bin:/opt/python/3.12.0/bin:/home/cybercritter/bin:/opt/gradle/bin:/usr/local/bin:/home/cybercritter/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin"
 ""-	CHAR	0
-	r
-|3,1,36,0,1,0,1697161951,"r"
+	h
+|3,1,36,0,1,0,1697390310,"h"
 
 # File marks:
-'0  247  174  ~/.zshrc
-|4,48,247,174,1697161960,"~/.zshrc"
-'1  247  0  ~/.zshrc
-|4,49,247,0,1696889149,"~/.zshrc"
-'2  2  34  ~/.zshrc
-|4,50,2,34,1696802914,"~/.zshrc"
-'3  2  34  ~/.zshrc
-|4,51,2,34,1696802914,"~/.zshrc"
-'4  2  34  ~/.zshrc
-|4,52,2,34,1696802914,"~/.zshrc"
-'5  2  34  ~/.zshrc
-|4,53,2,34,1696802914,"~/.zshrc"
-'6  12  118  ~/build-python312.sh
-|4,54,12,118,1696802219,"~/build-python312.sh"
-'7  3  0  ~/build-python312.sh
-|4,55,3,0,1696801516,"~/build-python312.sh"
-'8  3  0  ~/build-python312.sh
-|4,56,3,0,1696801516,"~/build-python312.sh"
-'9  22  13  ~/posix-deps-apt.sh
-|4,57,22,13,1696800969,"~/posix-deps-apt.sh"
+'0  37  27  ~/.aliases
+|4,48,37,27,1697390385,"~/.aliases"
+'1  7  31  ~/.aliases
+|4,49,7,31,1697390312,"~/.aliases"
+'2  7  31  ~/.aliases
+|4,50,7,31,1697390312,"~/.aliases"
+'3  7  23  ~/.aliases
+|4,51,7,23,1697390288,"~/.aliases"
+'4  7  23  ~/.aliases
+|4,52,7,23,1697390288,"~/.aliases"
+'5  37  27  ~/.aliases
+|4,53,37,27,1697390264,"~/.aliases"
+'6  37  27  ~/.aliases
+|4,54,37,27,1697390264,"~/.aliases"
+'7  37  27  ~/.aliases
+|4,55,37,27,1697390264,"~/.aliases"
+'8  37  27  ~/.aliases
+|4,56,37,27,1697390264,"~/.aliases"
+'9  37  27  ~/.aliases
+|4,57,37,27,1697390264,"~/.aliases"
 
 # Jumplist (newest first):
--'  247  174  ~/.zshrc
-|4,39,247,174,1697161960,"~/.zshrc"
--'  248  4  ~/.zshrc
-|4,39,248,4,1697161937,"~/.zshrc"
--'  247  0  ~/.zshrc
-|4,39,247,0,1696889149,"~/.zshrc"
--'  2  0  ~/.zshrc
-|4,39,2,0,1696889142,"~/.zshrc"
--'  2  0  ~/.zshrc
-|4,39,2,0,1696889142,"~/.zshrc"
--'  2  34  ~/.zshrc
-|4,39,2,34,1696802914,"~/.zshrc"
--'  246  0  ~/.zshrc
-|4,39,246,0,1696802711,"~/.zshrc"
--'  246  0  ~/.zshrc
-|4,39,246,0,1696802711,"~/.zshrc"
--'  246  0  ~/.zshrc
-|4,39,246,0,1696802711,"~/.zshrc"
--'  11  0  ~/.zshrc
-|4,39,11,0,1696802709,"~/.zshrc"
--'  11  0  ~/.zshrc
-|4,39,11,0,1696802709,"~/.zshrc"
--'  11  0  ~/.zshrc
-|4,39,11,0,1696802709,"~/.zshrc"
--'  12  118  ~/build-python312.sh
-|4,39,12,118,1696802219,"~/build-python312.sh"
--'  12  118  ~/build-python312.sh
-|4,39,12,118,1696802219,"~/build-python312.sh"
--'  12  118  ~/build-python312.sh
-|4,39,12,118,1696802219,"~/build-python312.sh"
--'  12  118  ~/build-python312.sh
-|4,39,12,118,1696802219,"~/build-python312.sh"
--'  12  118  ~/build-python312.sh
-|4,39,12,118,1696802219,"~/build-python312.sh"
--'  12  118  ~/build-python312.sh
-|4,39,12,118,1696802219,"~/build-python312.sh"
--'  12  118  ~/build-python312.sh
-|4,39,12,118,1696802219,"~/build-python312.sh"
--'  12  118  ~/build-python312.sh
-|4,39,12,118,1696802219,"~/build-python312.sh"
--'  3  0  ~/build-python312.sh
-|4,39,3,0,1696802152,"~/build-python312.sh"
--'  3  0  ~/build-python312.sh
-|4,39,3,0,1696802152,"~/build-python312.sh"
--'  3  0  ~/build-python312.sh
-|4,39,3,0,1696802152,"~/build-python312.sh"
--'  3  0  ~/build-python312.sh
-|4,39,3,0,1696802152,"~/build-python312.sh"
--'  3  0  ~/build-python312.sh
-|4,39,3,0,1696802152,"~/build-python312.sh"
--'  3  0  ~/build-python312.sh
-|4,39,3,0,1696802152,"~/build-python312.sh"
--'  3  0  ~/build-python312.sh
-|4,39,3,0,1696802152,"~/build-python312.sh"
--'  3  0  ~/build-python312.sh
-|4,39,3,0,1696802152,"~/build-python312.sh"
--'  3  0  ~/build-python312.sh
-|4,39,3,0,1696801516,"~/build-python312.sh"
--'  3  0  ~/build-python312.sh
-|4,39,3,0,1696801516,"~/build-python312.sh"
--'  3  0  ~/build-python312.sh
-|4,39,3,0,1696801516,"~/build-python312.sh"
--'  3  0  ~/build-python312.sh
-|4,39,3,0,1696801516,"~/build-python312.sh"
--'  3  0  ~/build-python312.sh
-|4,39,3,0,1696801516,"~/build-python312.sh"
--'  3  0  ~/build-python312.sh
-|4,39,3,0,1696801516,"~/build-python312.sh"
--'  3  0  ~/build-python312.sh
-|4,39,3,0,1696801516,"~/build-python312.sh"
--'  3  0  ~/build-python312.sh
-|4,39,3,0,1696801516,"~/build-python312.sh"
--'  1  0  ~/build-python312.sh
-|4,39,1,0,1696801492,"~/build-python312.sh"
--'  1  0  ~/build-python312.sh
-|4,39,1,0,1696801492,"~/build-python312.sh"
--'  1  0  ~/build-python312.sh
-|4,39,1,0,1696801492,"~/build-python312.sh"
--'  1  0  ~/build-python312.sh
-|4,39,1,0,1696801492,"~/build-python312.sh"
--'  1  0  ~/build-python312.sh
-|4,39,1,0,1696801492,"~/build-python312.sh"
--'  1  0  ~/build-python312.sh
-|4,39,1,0,1696801492,"~/build-python312.sh"
--'  1  0  ~/build-python312.sh
-|4,39,1,0,1696801492,"~/build-python312.sh"
--'  1  0  ~/build-python312.sh
-|4,39,1,0,1696801492,"~/build-python312.sh"
--'  1  0  ~/build-python312.sh
-|4,39,1,0,1696801492,"~/build-python312.sh"
--'  1  0  ~/build-python312.sh
-|4,39,1,0,1696801492,"~/build-python312.sh"
--'  1  0  ~/build-python312.sh
-|4,39,1,0,1696801492,"~/build-python312.sh"
--'  1  0  ~/build-python312.sh
-|4,39,1,0,1696801492,"~/build-python312.sh"
--'  1  0  ~/build-python312.sh
-|4,39,1,0,1696801492,"~/build-python312.sh"
--'  1  0  ~/build-python312.sh
-|4,39,1,0,1696801492,"~/build-python312.sh"
--'  1  0  ~/build-python312.sh
-|4,39,1,0,1696801492,"~/build-python312.sh"
--'  1  0  ~/build-python312.sh
-|4,39,1,0,1696801492,"~/build-python312.sh"
--'  22  13  ~/posix-deps-apt.sh
-|4,39,22,13,1696800969,"~/posix-deps-apt.sh"
--'  22  13  ~/posix-deps-apt.sh
-|4,39,22,13,1696800969,"~/posix-deps-apt.sh"
--'  22  13  ~/posix-deps-apt.sh
-|4,39,22,13,1696800969,"~/posix-deps-apt.sh"
--'  22  13  ~/posix-deps-apt.sh
-|4,39,22,13,1696800969,"~/posix-deps-apt.sh"
--'  22  13  ~/posix-deps-apt.sh
-|4,39,22,13,1696800969,"~/posix-deps-apt.sh"
--'  22  13  ~/posix-deps-apt.sh
-|4,39,22,13,1696800969,"~/posix-deps-apt.sh"
--'  22  13  ~/posix-deps-apt.sh
-|4,39,22,13,1696800969,"~/posix-deps-apt.sh"
--'  22  13  ~/posix-deps-apt.sh
-|4,39,22,13,1696800969,"~/posix-deps-apt.sh"
--'  22  13  ~/posix-deps-apt.sh
-|4,39,22,13,1696800969,"~/posix-deps-apt.sh"
--'  22  13  ~/posix-deps-apt.sh
-|4,39,22,13,1696800969,"~/posix-deps-apt.sh"
--'  22  13  ~/posix-deps-apt.sh
-|4,39,22,13,1696800969,"~/posix-deps-apt.sh"
--'  22  13  ~/posix-deps-apt.sh
-|4,39,22,13,1696800969,"~/posix-deps-apt.sh"
--'  22  13  ~/posix-deps-apt.sh
-|4,39,22,13,1696800969,"~/posix-deps-apt.sh"
--'  22  13  ~/posix-deps-apt.sh
-|4,39,22,13,1696800969,"~/posix-deps-apt.sh"
--'  22  13  ~/posix-deps-apt.sh
-|4,39,22,13,1696800969,"~/posix-deps-apt.sh"
--'  22  13  ~/posix-deps-apt.sh
-|4,39,22,13,1696800969,"~/posix-deps-apt.sh"
--'  22  13  ~/posix-deps-apt.sh
-|4,39,22,13,1696800969,"~/posix-deps-apt.sh"
--'  22  13  ~/posix-deps-apt.sh
-|4,39,22,13,1696800969,"~/posix-deps-apt.sh"
--'  22  13  ~/posix-deps-apt.sh
-|4,39,22,13,1696800969,"~/posix-deps-apt.sh"
--'  22  13  ~/posix-deps-apt.sh
-|4,39,22,13,1696800969,"~/posix-deps-apt.sh"
--'  22  13  ~/posix-deps-apt.sh
-|4,39,22,13,1696800969,"~/posix-deps-apt.sh"
--'  22  13  ~/posix-deps-apt.sh
-|4,39,22,13,1696800969,"~/posix-deps-apt.sh"
--'  22  13  ~/posix-deps-apt.sh
-|4,39,22,13,1696800969,"~/posix-deps-apt.sh"
--'  22  13  ~/posix-deps-apt.sh
-|4,39,22,13,1696800969,"~/posix-deps-apt.sh"
--'  22  13  ~/posix-deps-apt.sh
-|4,39,22,13,1696800969,"~/posix-deps-apt.sh"
--'  22  13  ~/posix-deps-apt.sh
-|4,39,22,13,1696800969,"~/posix-deps-apt.sh"
--'  22  13  ~/posix-deps-apt.sh
-|4,39,22,13,1696800969,"~/posix-deps-apt.sh"
--'  22  13  ~/posix-deps-apt.sh
-|4,39,22,13,1696800969,"~/posix-deps-apt.sh"
--'  22  13  ~/posix-deps-apt.sh
-|4,39,22,13,1696800969,"~/posix-deps-apt.sh"
--'  22  13  ~/posix-deps-apt.sh
-|4,39,22,13,1696800969,"~/posix-deps-apt.sh"
--'  22  13  ~/posix-deps-apt.sh
-|4,39,22,13,1696800969,"~/posix-deps-apt.sh"
--'  22  13  ~/posix-deps-apt.sh
-|4,39,22,13,1696800969,"~/posix-deps-apt.sh"
--'  1  0  ~/posix-deps-apt.sh
-|4,39,1,0,1696800944,"~/posix-deps-apt.sh"
--'  1  0  ~/posix-deps-apt.sh
-|4,39,1,0,1696800944,"~/posix-deps-apt.sh"
--'  1  0  ~/posix-deps-apt.sh
-|4,39,1,0,1696800944,"~/posix-deps-apt.sh"
--'  1  0  ~/posix-deps-apt.sh
-|4,39,1,0,1696800944,"~/posix-deps-apt.sh"
--'  1  0  ~/posix-deps-apt.sh
-|4,39,1,0,1696800944,"~/posix-deps-apt.sh"
--'  1  0  ~/posix-deps-apt.sh
-|4,39,1,0,1696800944,"~/posix-deps-apt.sh"
--'  1  0  ~/posix-deps-apt.sh
-|4,39,1,0,1696800944,"~/posix-deps-apt.sh"
--'  1  0  ~/posix-deps-apt.sh
-|4,39,1,0,1696800944,"~/posix-deps-apt.sh"
--'  1  0  ~/posix-deps-apt.sh
-|4,39,1,0,1696800944,"~/posix-deps-apt.sh"
--'  1  0  ~/posix-deps-apt.sh
-|4,39,1,0,1696800944,"~/posix-deps-apt.sh"
--'  1  0  ~/posix-deps-apt.sh
-|4,39,1,0,1696800944,"~/posix-deps-apt.sh"
--'  1  0  ~/posix-deps-apt.sh
-|4,39,1,0,1696800944,"~/posix-deps-apt.sh"
--'  1  0  ~/posix-deps-apt.sh
-|4,39,1,0,1696800944,"~/posix-deps-apt.sh"
--'  1  0  ~/posix-deps-apt.sh
-|4,39,1,0,1696800944,"~/posix-deps-apt.sh"
--'  1  0  ~/posix-deps-apt.sh
-|4,39,1,0,1696800944,"~/posix-deps-apt.sh"
--'  1  0  ~/posix-deps-apt.sh
-|4,39,1,0,1696800944,"~/posix-deps-apt.sh"
+-'  37  27  ~/.aliases
+|4,39,37,27,1697390385,"~/.aliases"
+-'  7  0  ~/.aliases
+|4,39,7,0,1697390316,"~/.aliases"
+-'  7  31  ~/.aliases
+|4,39,7,31,1697390312,"~/.aliases"
+-'  7  23  ~/.aliases
+|4,39,7,23,1697390288,"~/.aliases"
+-'  37  0  ~/.aliases
+|4,39,37,0,1697390277,"~/.aliases"
+-'  37  0  ~/.aliases
+|4,39,37,0,1697390277,"~/.aliases"
+-'  37  27  ~/.aliases
+|4,39,37,27,1697390264,"~/.aliases"
+-'  1  0  ~/.aliases
+|4,39,1,0,1697390246,"~/.aliases"
+-'  1  0  ~/.aliases
+|4,39,1,0,1697390246,"~/.aliases"
+-'  1  0  ~/.aliases
+|4,39,1,0,1697390246,"~/.aliases"
+-'  1  0  ~/.aliases
+|4,39,1,0,1697390246,"~/.aliases"
+-'  4  39  ~/project/cmake_test_proj/CMakeList.txt
+|4,39,4,39,1697389926,"~/project/cmake_test_proj/CMakeList.txt"
+-'  4  39  ~/project/cmake_test_proj/CMakeList.txt
+|4,39,4,39,1697389926,"~/project/cmake_test_proj/CMakeList.txt"
+-'  4  39  ~/project/cmake_test_proj/CMakeList.txt
+|4,39,4,39,1697389926,"~/project/cmake_test_proj/CMakeList.txt"
+-'  4  39  ~/project/cmake_test_proj/CMakeList.txt
+|4,39,4,39,1697389926,"~/project/cmake_test_proj/CMakeList.txt"
+-'  4  39  ~/project/cmake_test_proj/CMakeList.txt
+|4,39,4,39,1697389926,"~/project/cmake_test_proj/CMakeList.txt"
+-'  4  39  ~/project/cmake_test_proj/CMakeList.txt
+|4,39,4,39,1697389926,"~/project/cmake_test_proj/CMakeList.txt"
+-'  4  39  ~/project/cmake_test_proj/CMakeList.txt
+|4,39,4,39,1697389926,"~/project/cmake_test_proj/CMakeList.txt"
+-'  4  39  ~/project/cmake_test_proj/CMakeList.txt
+|4,39,4,39,1697389926,"~/project/cmake_test_proj/CMakeList.txt"
+-'  4  39  ~/project/cmake_test_proj/CMakeList.txt
+|4,39,4,39,1697389926,"~/project/cmake_test_proj/CMakeList.txt"
+-'  4  39  ~/project/cmake_test_proj/CMakeList.txt
+|4,39,4,39,1697389926,"~/project/cmake_test_proj/CMakeList.txt"
+-'  4  39  ~/project/cmake_test_proj/CMakeList.txt
+|4,39,4,39,1697389926,"~/project/cmake_test_proj/CMakeList.txt"
+-'  4  39  ~/project/cmake_test_proj/CMakeList.txt
+|4,39,4,39,1697389926,"~/project/cmake_test_proj/CMakeList.txt"
+-'  4  39  ~/project/cmake_test_proj/CMakeList.txt
+|4,39,4,39,1697389926,"~/project/cmake_test_proj/CMakeList.txt"
+-'  4  39  ~/project/cmake_test_proj/CMakeList.txt
+|4,39,4,39,1697389926,"~/project/cmake_test_proj/CMakeList.txt"
+-'  4  39  ~/project/cmake_test_proj/CMakeList.txt
+|4,39,4,39,1697389926,"~/project/cmake_test_proj/CMakeList.txt"
+-'  4  39  ~/project/cmake_test_proj/CMakeList.txt
+|4,39,4,39,1697389926,"~/project/cmake_test_proj/CMakeList.txt"
+-'  1  0  ~/project/cmake_test_proj/CMakeList.txt
+|4,39,1,0,1697389864,"~/project/cmake_test_proj/CMakeList.txt"
+-'  1  0  ~/project/cmake_test_proj/CMakeList.txt
+|4,39,1,0,1697389864,"~/project/cmake_test_proj/CMakeList.txt"
+-'  1  0  ~/project/cmake_test_proj/CMakeList.txt
+|4,39,1,0,1697389864,"~/project/cmake_test_proj/CMakeList.txt"
+-'  1  0  ~/project/cmake_test_proj/CMakeList.txt
+|4,39,1,0,1697389864,"~/project/cmake_test_proj/CMakeList.txt"
+-'  1  0  ~/project/cmake_test_proj/CMakeList.txt
+|4,39,1,0,1697389864,"~/project/cmake_test_proj/CMakeList.txt"
+-'  1  0  ~/project/cmake_test_proj/CMakeList.txt
+|4,39,1,0,1697389864,"~/project/cmake_test_proj/CMakeList.txt"
+-'  1  0  ~/project/cmake_test_proj/CMakeList.txt
+|4,39,1,0,1697389864,"~/project/cmake_test_proj/CMakeList.txt"
+-'  1  0  ~/project/cmake_test_proj/CMakeList.txt
+|4,39,1,0,1697389864,"~/project/cmake_test_proj/CMakeList.txt"
+-'  1  0  ~/project/cmake_test_proj/CMakeList.txt
+|4,39,1,0,1697389864,"~/project/cmake_test_proj/CMakeList.txt"
+-'  1  0  ~/project/cmake_test_proj/CMakeList.txt
+|4,39,1,0,1697389864,"~/project/cmake_test_proj/CMakeList.txt"
+-'  1  0  ~/project/cmake_test_proj/CMakeList.txt
+|4,39,1,0,1697389864,"~/project/cmake_test_proj/CMakeList.txt"
+-'  1  0  ~/project/cmake_test_proj/CMakeList.txt
+|4,39,1,0,1697389864,"~/project/cmake_test_proj/CMakeList.txt"
+-'  1  0  ~/project/cmake_test_proj/CMakeList.txt
+|4,39,1,0,1697389864,"~/project/cmake_test_proj/CMakeList.txt"
+-'  1  0  ~/project/cmake_test_proj/CMakeList.txt
+|4,39,1,0,1697389864,"~/project/cmake_test_proj/CMakeList.txt"
+-'  1  0  ~/project/cmake_test_proj/CMakeList.txt
+|4,39,1,0,1697389864,"~/project/cmake_test_proj/CMakeList.txt"
+-'  1  0  ~/project/cmake_test_proj/CMakeList.txt
+|4,39,1,0,1697389864,"~/project/cmake_test_proj/CMakeList.txt"
+-'  6  11  ~/project/cmake_test_proj/main.cpp
+|4,39,6,11,1697389856,"~/project/cmake_test_proj/main.cpp"
+-'  6  11  ~/project/cmake_test_proj/main.cpp
+|4,39,6,11,1697389856,"~/project/cmake_test_proj/main.cpp"
+-'  6  11  ~/project/cmake_test_proj/main.cpp
+|4,39,6,11,1697389856,"~/project/cmake_test_proj/main.cpp"
+-'  6  11  ~/project/cmake_test_proj/main.cpp
+|4,39,6,11,1697389856,"~/project/cmake_test_proj/main.cpp"
+-'  6  11  ~/project/cmake_test_proj/main.cpp
+|4,39,6,11,1697389856,"~/project/cmake_test_proj/main.cpp"
+-'  6  11  ~/project/cmake_test_proj/main.cpp
+|4,39,6,11,1697389856,"~/project/cmake_test_proj/main.cpp"
+-'  6  11  ~/project/cmake_test_proj/main.cpp
+|4,39,6,11,1697389856,"~/project/cmake_test_proj/main.cpp"
+-'  6  11  ~/project/cmake_test_proj/main.cpp
+|4,39,6,11,1697389856,"~/project/cmake_test_proj/main.cpp"
+-'  6  11  ~/project/cmake_test_proj/main.cpp
+|4,39,6,11,1697389856,"~/project/cmake_test_proj/main.cpp"
+-'  6  11  ~/project/cmake_test_proj/main.cpp
+|4,39,6,11,1697389856,"~/project/cmake_test_proj/main.cpp"
+-'  6  11  ~/project/cmake_test_proj/main.cpp
+|4,39,6,11,1697389856,"~/project/cmake_test_proj/main.cpp"
+-'  6  11  ~/project/cmake_test_proj/main.cpp
+|4,39,6,11,1697389856,"~/project/cmake_test_proj/main.cpp"
+-'  6  11  ~/project/cmake_test_proj/main.cpp
+|4,39,6,11,1697389856,"~/project/cmake_test_proj/main.cpp"
+-'  6  11  ~/project/cmake_test_proj/main.cpp
+|4,39,6,11,1697389856,"~/project/cmake_test_proj/main.cpp"
+-'  6  11  ~/project/cmake_test_proj/main.cpp
+|4,39,6,11,1697389856,"~/project/cmake_test_proj/main.cpp"
+-'  6  11  ~/project/cmake_test_proj/main.cpp
+|4,39,6,11,1697389856,"~/project/cmake_test_proj/main.cpp"
+-'  6  11  ~/project/cmake_test_proj/main.cpp
+|4,39,6,11,1697389856,"~/project/cmake_test_proj/main.cpp"
+-'  6  11  ~/project/cmake_test_proj/main.cpp
+|4,39,6,11,1697389856,"~/project/cmake_test_proj/main.cpp"
+-'  6  11  ~/project/cmake_test_proj/main.cpp
+|4,39,6,11,1697389856,"~/project/cmake_test_proj/main.cpp"
+-'  6  11  ~/project/cmake_test_proj/main.cpp
+|4,39,6,11,1697389856,"~/project/cmake_test_proj/main.cpp"
+-'  6  11  ~/project/cmake_test_proj/main.cpp
+|4,39,6,11,1697389856,"~/project/cmake_test_proj/main.cpp"
+-'  6  11  ~/project/cmake_test_proj/main.cpp
+|4,39,6,11,1697389856,"~/project/cmake_test_proj/main.cpp"
+-'  6  11  ~/project/cmake_test_proj/main.cpp
+|4,39,6,11,1697389856,"~/project/cmake_test_proj/main.cpp"
+-'  6  11  ~/project/cmake_test_proj/main.cpp
+|4,39,6,11,1697389856,"~/project/cmake_test_proj/main.cpp"
+-'  6  11  ~/project/cmake_test_proj/main.cpp
+|4,39,6,11,1697389856,"~/project/cmake_test_proj/main.cpp"
+-'  6  11  ~/project/cmake_test_proj/main.cpp
+|4,39,6,11,1697389856,"~/project/cmake_test_proj/main.cpp"
+-'  6  11  ~/project/cmake_test_proj/main.cpp
+|4,39,6,11,1697389856,"~/project/cmake_test_proj/main.cpp"
+-'  6  11  ~/project/cmake_test_proj/main.cpp
+|4,39,6,11,1697389856,"~/project/cmake_test_proj/main.cpp"
+-'  6  11  ~/project/cmake_test_proj/main.cpp
+|4,39,6,11,1697389856,"~/project/cmake_test_proj/main.cpp"
+-'  6  11  ~/project/cmake_test_proj/main.cpp
+|4,39,6,11,1697389856,"~/project/cmake_test_proj/main.cpp"
+-'  6  11  ~/project/cmake_test_proj/main.cpp
+|4,39,6,11,1697389856,"~/project/cmake_test_proj/main.cpp"
+-'  6  11  ~/project/cmake_test_proj/main.cpp
+|4,39,6,11,1697389856,"~/project/cmake_test_proj/main.cpp"
+-'  1  0  ~/project/cmake_test_proj/main.cpp
+|4,39,1,0,1697389813,"~/project/cmake_test_proj/main.cpp"
+-'  1  0  ~/project/cmake_test_proj/main.cpp
+|4,39,1,0,1697389813,"~/project/cmake_test_proj/main.cpp"
+-'  1  0  ~/project/cmake_test_proj/main.cpp
+|4,39,1,0,1697389813,"~/project/cmake_test_proj/main.cpp"
+-'  1  0  ~/project/cmake_test_proj/main.cpp
+|4,39,1,0,1697389813,"~/project/cmake_test_proj/main.cpp"
+-'  1  0  ~/project/cmake_test_proj/main.cpp
+|4,39,1,0,1697389813,"~/project/cmake_test_proj/main.cpp"
+-'  1  0  ~/project/cmake_test_proj/main.cpp
+|4,39,1,0,1697389813,"~/project/cmake_test_proj/main.cpp"
+-'  1  0  ~/project/cmake_test_proj/main.cpp
+|4,39,1,0,1697389813,"~/project/cmake_test_proj/main.cpp"
+-'  1  0  ~/project/cmake_test_proj/main.cpp
+|4,39,1,0,1697389813,"~/project/cmake_test_proj/main.cpp"
+-'  1  0  ~/project/cmake_test_proj/main.cpp
+|4,39,1,0,1697389813,"~/project/cmake_test_proj/main.cpp"
+-'  1  0  ~/project/cmake_test_proj/main.cpp
+|4,39,1,0,1697389813,"~/project/cmake_test_proj/main.cpp"
+-'  1  0  ~/project/cmake_test_proj/main.cpp
+|4,39,1,0,1697389813,"~/project/cmake_test_proj/main.cpp"
+-'  1  0  ~/project/cmake_test_proj/main.cpp
+|4,39,1,0,1697389813,"~/project/cmake_test_proj/main.cpp"
+-'  1  0  ~/project/cmake_test_proj/main.cpp
+|4,39,1,0,1697389813,"~/project/cmake_test_proj/main.cpp"
+-'  1  0  ~/project/cmake_test_proj/main.cpp
+|4,39,1,0,1697389813,"~/project/cmake_test_proj/main.cpp"
+-'  1  0  ~/project/cmake_test_proj/main.cpp
+|4,39,1,0,1697389813,"~/project/cmake_test_proj/main.cpp"
+-'  1  0  ~/project/cmake_test_proj/main.cpp
+|4,39,1,0,1697389813,"~/project/cmake_test_proj/main.cpp"
+-'  1  0  ~/project/cmake_test_proj/main.cpp
+|4,39,1,0,1697389813,"~/project/cmake_test_proj/main.cpp"
+-'  1  0  ~/project/cmake_test_proj/main.cpp
+|4,39,1,0,1697389813,"~/project/cmake_test_proj/main.cpp"
+-'  1  0  ~/project/cmake_test_proj/main.cpp
+|4,39,1,0,1697389813,"~/project/cmake_test_proj/main.cpp"
+-'  1  0  ~/project/cmake_test_proj/main.cpp
+|4,39,1,0,1697389813,"~/project/cmake_test_proj/main.cpp"
+-'  1  0  ~/project/cmake_test_proj/main.cpp
+|4,39,1,0,1697389813,"~/project/cmake_test_proj/main.cpp"
+-'  1  0  ~/project/cmake_test_proj/main.cpp
+|4,39,1,0,1697389813,"~/project/cmake_test_proj/main.cpp"
+-'  1  0  ~/project/cmake_test_proj/main.cpp
+|4,39,1,0,1697389813,"~/project/cmake_test_proj/main.cpp"
+-'  1  0  ~/project/cmake_test_proj/main.cpp
+|4,39,1,0,1697389813,"~/project/cmake_test_proj/main.cpp"
+-'  1  0  ~/project/cmake_test_proj/main.cpp
+|4,39,1,0,1697389813,"~/project/cmake_test_proj/main.cpp"
 
 # History of marks within files (newest to oldest):
 
+> ~/.aliases
+	*	1697390384	0
+	"	37	27
+	^	37	28
+	.	37	27
+	+	36	34
+	+	37	27
+	+	7	31
+	+	37	27
+
+> ~/project/cmake_test_proj/CMakeList.txt
+	*	1697389926	0
+	"	4	39
+	^	4	40
+	.	4	39
+	+	3	0
+	+	1	0
+	+	2	0
+	+	1	36
+	+	4	39
+
+> ~/project/cmake_test_proj/main.cpp
+	*	1697389855	0
+	"	6	11
+	^	6	12
+	.	6	11
+	+	7	0
+	+	6	11
+
 > ~/.zshrc
-	*	1697161959	0
-	"	247	174
+	*	1697315840	0
+	"	247	0
 	^	247	175
 	.	247	174
 	+	11	10
@@ -277,6 +321,16 @@
 	+	247	123
 	+	248	0
 	+	247	174
+
+> ~/log_snapshot_after_crash.log
+	*	1697231676	0
+	"	1	0
+
+> /etc/fstab
+	*	1697162553	0
+	"	11	0
+	.	12	0
+	+	12	0
 
 > ~/build-python312.sh
 	*	1696802213	0

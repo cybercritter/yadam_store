@@ -1,5 +1,5 @@
 # If you come from bash you might have to change your $PATH.
-export PATH=/opt/python/3.12.0/bin:$HOME/bin:/opt/gradle/bin:/usr/local/bin:$PATH
+export PATH=/home/mreid/bin:/opt/python/3.12.0/bin:$HOME/bin:/usr/local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
 export ZSH="$HOME/.oh-my-zsh"

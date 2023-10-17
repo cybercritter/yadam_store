@@ -11,25 +11,45 @@
 # hlsearch on (H) or off (h):
 ~H
 # Last Search Pattern:
-~MSle0~/them
+~MSle0~/file
 
 # Command Line History (newest to oldest):
-:wq
-|2,0,1697497095,,"wq"
+:q!
+|2,0,1697500794,,"q!"
 :w
-|2,0,1697497094,,"w"
+|2,0,1697500752,,"w"
+:b2
+|2,0,1697500663,,"b2"
+:b1
+|2,0,1697500042,,"b1"
+:e ~/.dir_colors
+|2,0,1697499905,,"e ~/.dir_colors"
+:wq
+|2,0,1697498410,,"wq"
+:colorscheme murphy
+|2,0,1697498175,,"colorscheme murphy"
+:e ~/.vimrc
+|2,0,1697498159,,"e ~/.vimrc"
+:q
+|2,0,1697497999,,"q"
 :Wq
 |2,0,1697390384,,"Wq"
 :38
 |2,0,1697390323,,"38"
-:q
-|2,0,1697231695,,"q"
-:q!
-|2,0,1697162554,,"q!"
 :we
 |2,0,1696800967,,"we"
 
 # Search String History (newest to oldest):
+?/file
+|2,1,1697499910,47,"file"
+?/LS_COLORS
+|2,1,1697499586,47,"LS_COLORS"
+?/colorscheme
+|2,1,1697498116,47,"colorscheme"
+?/symlinks
+|2,1,1697497968,47,"symlinks"
+?/links
+|2,1,1697497957,47,"links"
 ?/them
 |2,1,1697497073,47,"them"
 ?/update
@@ -46,259 +66,295 @@
 # Debug Line History (newest to oldest):
 
 # Registers:
-""0	LINE	0
+"0	LINE	0
 	ZSH_THEME="bira"
-|3,1,0,1,1,0,1697497076,"ZSH_THEME=\"bira\""
+|3,0,0,1,1,0,1697497076,"ZSH_THEME=\"bira\""
 "1	LINE	0
-	//192.168.50.180/shared /media/winston cifs vers=3.0,credentials=/root/.smb_creds
-|3,0,1,1,1,0,1697162550,"//192.168.50.180/shared /media/winston cifs vers=3.0,credentials=/root/.smb_creds"
+	export LS_COLORS
+|3,0,1,1,1,0,1697500645,"export LS_COLORS"
 "2	LINE	0
+	LS_COLORS="$LS_COLORS:di=00;44:fi=0;36"
+|3,0,2,1,1,0,1697500644,"LS_COLORS=\"$LS_COLORS:di=00;44:fi=0;36\""
+"3	LINE	0
+	LS_COLORS=$LS_COLORS:'di=1;32:fi=0;39:'; export LS_COLORS
+|3,0,3,1,1,0,1697499900,"LS_COLORS=$LS_COLORS:'di=1;32:fi=0;39:'; export LS_COLORS"
+"4	LINE	0
+	#ZSH_THEME="half-life"
+|3,0,4,1,1,0,1697498406,"#ZSH_THEME=\"half-life\""
+"5	LINE	0
+	ZSH_THEME="linuxonly"
+|3,0,5,1,1,0,1697498405,"ZSH_THEME=\"linuxonly\""
+"6	LINE	0
+	//192.168.50.180/shared /media/winston cifs vers=3.0,credentials=/root/.smb_creds
+|3,0,6,1,1,0,1697162550,"//192.168.50.180/shared /media/winston cifs vers=3.0,credentials=/root/.smb_creds"
+"7	LINE	0
 	309
 <PATH=/opt/node/bin:/home/cybercritter/bin:/home/cybercritter/.venv/bin:/home/cybercritter/.local/bin:/opt/python/3.12.0/bin:/home/cybercritter/bin:/opt/gradle/bin:/usr/local/bin:/home/cybercritter/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
-|3,0,2,1,1,0,1696889146,"PATH=/opt/node/bin:/home/cybercritter/bin:/home/cybercritter/.venv/bin:/home/cybercritter/.local/bin:/opt/python/3.12.0/bin:/home/cybercritter/bin:/opt/gradle/bin:/usr/local/bin:/home/cybercritter/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin"
-"-	CHAR	0
-	h
-|3,0,36,0,1,0,1697390310,"h"
+|3,0,7,1,1,0,1696889146,"PATH=/opt/node/bin:/home/cybercritter/bin:/home/cybercritter/.venv/bin:/home/cybercritter/.local/bin:/opt/python/3.12.0/bin:/home/cybercritter/bin:/opt/gradle/bin:/usr/local/bin:/home/cybercritter/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin"
+""-	CHAR	0
+	00
+|3,1,36,0,1,0,1697500746,"00"
 
 # File marks:
-'0  12  18  ~/.zshrc
-|4,48,12,18,1697497095,"~/.zshrc"
-'1  37  27  ~/.aliases
-|4,49,37,27,1697390385,"~/.aliases"
-'2  7  31  ~/.aliases
-|4,50,7,31,1697390312,"~/.aliases"
-'3  7  31  ~/.aliases
-|4,51,7,31,1697390312,"~/.aliases"
-'4  7  23  ~/.aliases
-|4,52,7,23,1697390288,"~/.aliases"
-'5  7  23  ~/.aliases
-|4,53,7,23,1697390288,"~/.aliases"
-'6  37  27  ~/.aliases
-|4,54,37,27,1697390264,"~/.aliases"
-'7  37  27  ~/.aliases
-|4,55,37,27,1697390264,"~/.aliases"
-'8  37  27  ~/.aliases
-|4,56,37,27,1697390264,"~/.aliases"
-'9  37  27  ~/.aliases
-|4,57,37,27,1697390264,"~/.aliases"
+'0  148  8  ~/.dir_colors
+|4,48,148,8,1697500794,"~/.dir_colors"
+'1  11  0  ~/.zshrc
+|4,49,11,0,1697498410,"~/.zshrc"
+'2  11  0  ~/.zshrc
+|4,50,11,0,1697498410,"~/.zshrc"
+'3  56  0  ~/.vimrc
+|4,51,56,0,1697498181,"~/.vimrc"
+'4  56  18  ~/.vimrc
+|4,52,56,18,1697498141,"~/.vimrc"
+'5  12  19  ~/.zshrc
+|4,53,12,19,1697498102,"~/.zshrc"
+'6  12  19  ~/.zshrc
+|4,54,12,19,1697498102,"~/.zshrc"
+'7  12  19  ~/.zshrc
+|4,55,12,19,1697498102,"~/.zshrc"
+'8  12  19  ~/.zshrc
+|4,56,12,19,1697498102,"~/.zshrc"
+'9  12  19  ~/.zshrc
+|4,57,12,19,1697498102,"~/.zshrc"
 
 # Jumplist (newest first):
+-'  148  8  ~/.dir_colors
+|4,39,148,8,1697500794,"~/.dir_colors"
+-'  152  3  ~/.dir_colors
+|4,39,152,3,1697500674,"~/.dir_colors"
+-'  38  0  ~/.zshrc
+|4,39,38,0,1697500663,"~/.zshrc"
+-'  174  6  ~/.dir_colors
+|4,39,174,6,1697500042,"~/.dir_colors"
+-'  185  11  ~/.dir_colors
+|4,39,185,11,1697499926,"~/.dir_colors"
+-'  173  2  ~/.dir_colors
+|4,39,173,2,1697499922,"~/.dir_colors"
+-'  170  14  ~/.dir_colors
+|4,39,170,14,1697499911,"~/.dir_colors"
+-'  167  0  ~/.dir_colors
+|4,39,167,0,1697499910,"~/.dir_colors"
+-'  11  0  ~/.zshrc
+|4,39,11,0,1697499586,"~/.zshrc"
+-'  11  0  ~/.zshrc
+|4,39,11,0,1697498410,"~/.zshrc"
+-'  12  0  ~/.zshrc
+|4,39,12,0,1697498182,"~/.zshrc"
+-'  12  0  ~/.zshrc
+|4,39,12,0,1697498182,"~/.zshrc"
+-'  56  0  ~/.vimrc
+|4,39,56,0,1697498181,"~/.vimrc"
+-'  56  0  ~/.vimrc
+|4,39,56,0,1697498181,"~/.vimrc"
+-'  56  0  ~/.vimrc
+|4,39,56,0,1697498181,"~/.vimrc"
+-'  56  0  ~/.vimrc
+|4,39,56,0,1697498181,"~/.vimrc"
+-'  12  0  ~/.zshrc
+|4,39,12,0,1697498159,"~/.zshrc"
+-'  56  18  ~/.vimrc
+|4,39,56,18,1697498141,"~/.vimrc"
+-'  56  18  ~/.vimrc
+|4,39,56,18,1697498141,"~/.vimrc"
+-'  56  18  ~/.vimrc
+|4,39,56,18,1697498141,"~/.vimrc"
+-'  56  18  ~/.vimrc
+|4,39,56,18,1697498141,"~/.vimrc"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1697498116,"~/.vimrc"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1697498116,"~/.vimrc"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1697498116,"~/.vimrc"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1697498116,"~/.vimrc"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1697498116,"~/.vimrc"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1697498116,"~/.vimrc"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1697498116,"~/.vimrc"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1697498116,"~/.vimrc"
+-'  12  19  ~/.zshrc
+|4,39,12,19,1697498102,"~/.zshrc"
+-'  12  19  ~/.zshrc
+|4,39,12,19,1697498102,"~/.zshrc"
+-'  167  11  ~/.dir_colors
+|4,39,167,11,1697497999,"~/.dir_colors"
+-'  167  11  ~/.dir_colors
+|4,39,167,11,1697497999,"~/.dir_colors"
+-'  167  11  ~/.dir_colors
+|4,39,167,11,1697497999,"~/.dir_colors"
+-'  167  11  ~/.dir_colors
+|4,39,167,11,1697497999,"~/.dir_colors"
+-'  167  11  ~/.dir_colors
+|4,39,167,11,1697497999,"~/.dir_colors"
+-'  167  11  ~/.dir_colors
+|4,39,167,11,1697497999,"~/.dir_colors"
+-'  167  11  ~/.dir_colors
+|4,39,167,11,1697497999,"~/.dir_colors"
+-'  167  11  ~/.dir_colors
+|4,39,167,11,1697497999,"~/.dir_colors"
+-'  170  34  ~/.dir_colors
+|4,39,170,34,1697497972,"~/.dir_colors"
+-'  170  34  ~/.dir_colors
+|4,39,170,34,1697497972,"~/.dir_colors"
+-'  170  34  ~/.dir_colors
+|4,39,170,34,1697497972,"~/.dir_colors"
+-'  170  34  ~/.dir_colors
+|4,39,170,34,1697497972,"~/.dir_colors"
+-'  170  34  ~/.dir_colors
+|4,39,170,34,1697497972,"~/.dir_colors"
+-'  170  34  ~/.dir_colors
+|4,39,170,34,1697497972,"~/.dir_colors"
+-'  170  34  ~/.dir_colors
+|4,39,170,34,1697497972,"~/.dir_colors"
+-'  170  34  ~/.dir_colors
+|4,39,170,34,1697497972,"~/.dir_colors"
+-'  171  0  ~/.dir_colors
+|4,39,171,0,1697497971,"~/.dir_colors"
+-'  171  0  ~/.dir_colors
+|4,39,171,0,1697497971,"~/.dir_colors"
+-'  171  0  ~/.dir_colors
+|4,39,171,0,1697497971,"~/.dir_colors"
+-'  171  0  ~/.dir_colors
+|4,39,171,0,1697497971,"~/.dir_colors"
+-'  171  0  ~/.dir_colors
+|4,39,171,0,1697497971,"~/.dir_colors"
+-'  171  0  ~/.dir_colors
+|4,39,171,0,1697497971,"~/.dir_colors"
+-'  171  0  ~/.dir_colors
+|4,39,171,0,1697497971,"~/.dir_colors"
+-'  171  0  ~/.dir_colors
+|4,39,171,0,1697497971,"~/.dir_colors"
+-'  171  0  ~/.dir_colors
+|4,39,171,0,1697497971,"~/.dir_colors"
+-'  361  0  ~/.dir_colors
+|4,39,361,0,1697497957,"~/.dir_colors"
+-'  361  0  ~/.dir_colors
+|4,39,361,0,1697497957,"~/.dir_colors"
+-'  361  0  ~/.dir_colors
+|4,39,361,0,1697497957,"~/.dir_colors"
+-'  361  0  ~/.dir_colors
+|4,39,361,0,1697497957,"~/.dir_colors"
+-'  361  0  ~/.dir_colors
+|4,39,361,0,1697497957,"~/.dir_colors"
+-'  361  0  ~/.dir_colors
+|4,39,361,0,1697497957,"~/.dir_colors"
+-'  361  0  ~/.dir_colors
+|4,39,361,0,1697497957,"~/.dir_colors"
+-'  361  0  ~/.dir_colors
+|4,39,361,0,1697497957,"~/.dir_colors"
+-'  361  0  ~/.dir_colors
+|4,39,361,0,1697497957,"~/.dir_colors"
+-'  1  0  ~/.dir_colors
+|4,39,1,0,1697497930,"~/.dir_colors"
+-'  1  0  ~/.dir_colors
+|4,39,1,0,1697497930,"~/.dir_colors"
+-'  1  0  ~/.dir_colors
+|4,39,1,0,1697497930,"~/.dir_colors"
+-'  1  0  ~/.dir_colors
+|4,39,1,0,1697497930,"~/.dir_colors"
+-'  1  0  ~/.dir_colors
+|4,39,1,0,1697497930,"~/.dir_colors"
+-'  1  0  ~/.dir_colors
+|4,39,1,0,1697497930,"~/.dir_colors"
+-'  1  0  ~/.dir_colors
+|4,39,1,0,1697497930,"~/.dir_colors"
+-'  1  0  ~/.dir_colors
+|4,39,1,0,1697497930,"~/.dir_colors"
+-'  1  0  ~/.dir_colors
+|4,39,1,0,1697497930,"~/.dir_colors"
 -'  12  18  ~/.zshrc
 |4,39,12,18,1697497095,"~/.zshrc"
+-'  12  18  ~/.zshrc
+|4,39,12,18,1697497095,"~/.zshrc"
+-'  12  18  ~/.zshrc
+|4,39,12,18,1697497095,"~/.zshrc"
+-'  12  18  ~/.zshrc
+|4,39,12,18,1697497095,"~/.zshrc"
+-'  247  0  ~/.zshrc
+|4,39,247,0,1697497073,"~/.zshrc"
+-'  248  0  ~/.zshrc
+|4,39,248,0,1697497073,"~/.zshrc"
+-'  247  0  ~/.zshrc
+|4,39,247,0,1697497073,"~/.zshrc"
+-'  248  0  ~/.zshrc
+|4,39,248,0,1697497073,"~/.zshrc"
+-'  248  0  ~/.zshrc
+|4,39,248,0,1697497073,"~/.zshrc"
+-'  248  0  ~/.zshrc
+|4,39,248,0,1697497073,"~/.zshrc"
+-'  248  0  ~/.zshrc
+|4,39,248,0,1697497073,"~/.zshrc"
+-'  248  0  ~/.zshrc
+|4,39,248,0,1697497073,"~/.zshrc"
+-'  248  0  ~/.zshrc
+|4,39,248,0,1697497073,"~/.zshrc"
 -'  248  0  ~/.zshrc
 |4,39,248,0,1697497073,"~/.zshrc"
 -'  37  27  ~/.aliases
 |4,39,37,27,1697390385,"~/.aliases"
 -'  37  27  ~/.aliases
 |4,39,37,27,1697390385,"~/.aliases"
--'  7  0  ~/.aliases
-|4,39,7,0,1697390316,"~/.aliases"
--'  7  0  ~/.aliases
-|4,39,7,0,1697390316,"~/.aliases"
--'  7  31  ~/.aliases
-|4,39,7,31,1697390312,"~/.aliases"
--'  7  31  ~/.aliases
-|4,39,7,31,1697390312,"~/.aliases"
--'  7  23  ~/.aliases
-|4,39,7,23,1697390288,"~/.aliases"
--'  7  23  ~/.aliases
-|4,39,7,23,1697390288,"~/.aliases"
--'  37  0  ~/.aliases
-|4,39,37,0,1697390277,"~/.aliases"
--'  37  0  ~/.aliases
-|4,39,37,0,1697390277,"~/.aliases"
--'  37  0  ~/.aliases
-|4,39,37,0,1697390277,"~/.aliases"
--'  37  0  ~/.aliases
-|4,39,37,0,1697390277,"~/.aliases"
 -'  37  27  ~/.aliases
-|4,39,37,27,1697390264,"~/.aliases"
+|4,39,37,27,1697390385,"~/.aliases"
 -'  37  27  ~/.aliases
-|4,39,37,27,1697390264,"~/.aliases"
--'  1  0  ~/.aliases
-|4,39,1,0,1697390246,"~/.aliases"
--'  1  0  ~/.aliases
-|4,39,1,0,1697390246,"~/.aliases"
--'  1  0  ~/.aliases
-|4,39,1,0,1697390246,"~/.aliases"
--'  1  0  ~/.aliases
-|4,39,1,0,1697390246,"~/.aliases"
--'  1  0  ~/.aliases
-|4,39,1,0,1697390246,"~/.aliases"
--'  1  0  ~/.aliases
-|4,39,1,0,1697390246,"~/.aliases"
--'  1  0  ~/.aliases
-|4,39,1,0,1697390246,"~/.aliases"
--'  1  0  ~/.aliases
-|4,39,1,0,1697390246,"~/.aliases"
--'  4  39  ~/project/cmake_test_proj/CMakeList.txt
-|4,39,4,39,1697389926,"~/project/cmake_test_proj/CMakeList.txt"
--'  4  39  ~/project/cmake_test_proj/CMakeList.txt
-|4,39,4,39,1697389926,"~/project/cmake_test_proj/CMakeList.txt"
--'  4  39  ~/project/cmake_test_proj/CMakeList.txt
-|4,39,4,39,1697389926,"~/project/cmake_test_proj/CMakeList.txt"
--'  4  39  ~/project/cmake_test_proj/CMakeList.txt
-|4,39,4,39,1697389926,"~/project/cmake_test_proj/CMakeList.txt"
--'  4  39  ~/project/cmake_test_proj/CMakeList.txt
-|4,39,4,39,1697389926,"~/project/cmake_test_proj/CMakeList.txt"
--'  4  39  ~/project/cmake_test_proj/CMakeList.txt
-|4,39,4,39,1697389926,"~/project/cmake_test_proj/CMakeList.txt"
--'  4  39  ~/project/cmake_test_proj/CMakeList.txt
-|4,39,4,39,1697389926,"~/project/cmake_test_proj/CMakeList.txt"
--'  4  39  ~/project/cmake_test_proj/CMakeList.txt
-|4,39,4,39,1697389926,"~/project/cmake_test_proj/CMakeList.txt"
--'  4  39  ~/project/cmake_test_proj/CMakeList.txt
-|4,39,4,39,1697389926,"~/project/cmake_test_proj/CMakeList.txt"
--'  4  39  ~/project/cmake_test_proj/CMakeList.txt
-|4,39,4,39,1697389926,"~/project/cmake_test_proj/CMakeList.txt"
--'  4  39  ~/project/cmake_test_proj/CMakeList.txt
-|4,39,4,39,1697389926,"~/project/cmake_test_proj/CMakeList.txt"
--'  4  39  ~/project/cmake_test_proj/CMakeList.txt
-|4,39,4,39,1697389926,"~/project/cmake_test_proj/CMakeList.txt"
--'  4  39  ~/project/cmake_test_proj/CMakeList.txt
-|4,39,4,39,1697389926,"~/project/cmake_test_proj/CMakeList.txt"
--'  4  39  ~/project/cmake_test_proj/CMakeList.txt
-|4,39,4,39,1697389926,"~/project/cmake_test_proj/CMakeList.txt"
--'  4  39  ~/project/cmake_test_proj/CMakeList.txt
-|4,39,4,39,1697389926,"~/project/cmake_test_proj/CMakeList.txt"
--'  4  39  ~/project/cmake_test_proj/CMakeList.txt
-|4,39,4,39,1697389926,"~/project/cmake_test_proj/CMakeList.txt"
--'  4  39  ~/project/cmake_test_proj/CMakeList.txt
-|4,39,4,39,1697389926,"~/project/cmake_test_proj/CMakeList.txt"
--'  4  39  ~/project/cmake_test_proj/CMakeList.txt
-|4,39,4,39,1697389926,"~/project/cmake_test_proj/CMakeList.txt"
--'  4  39  ~/project/cmake_test_proj/CMakeList.txt
-|4,39,4,39,1697389926,"~/project/cmake_test_proj/CMakeList.txt"
--'  4  39  ~/project/cmake_test_proj/CMakeList.txt
-|4,39,4,39,1697389926,"~/project/cmake_test_proj/CMakeList.txt"
--'  4  39  ~/project/cmake_test_proj/CMakeList.txt
-|4,39,4,39,1697389926,"~/project/cmake_test_proj/CMakeList.txt"
--'  4  39  ~/project/cmake_test_proj/CMakeList.txt
-|4,39,4,39,1697389926,"~/project/cmake_test_proj/CMakeList.txt"
--'  4  39  ~/project/cmake_test_proj/CMakeList.txt
-|4,39,4,39,1697389926,"~/project/cmake_test_proj/CMakeList.txt"
--'  4  39  ~/project/cmake_test_proj/CMakeList.txt
-|4,39,4,39,1697389926,"~/project/cmake_test_proj/CMakeList.txt"
--'  4  39  ~/project/cmake_test_proj/CMakeList.txt
-|4,39,4,39,1697389926,"~/project/cmake_test_proj/CMakeList.txt"
--'  4  39  ~/project/cmake_test_proj/CMakeList.txt
-|4,39,4,39,1697389926,"~/project/cmake_test_proj/CMakeList.txt"
--'  4  39  ~/project/cmake_test_proj/CMakeList.txt
-|4,39,4,39,1697389926,"~/project/cmake_test_proj/CMakeList.txt"
--'  4  39  ~/project/cmake_test_proj/CMakeList.txt
-|4,39,4,39,1697389926,"~/project/cmake_test_proj/CMakeList.txt"
--'  4  39  ~/project/cmake_test_proj/CMakeList.txt
-|4,39,4,39,1697389926,"~/project/cmake_test_proj/CMakeList.txt"
--'  4  39  ~/project/cmake_test_proj/CMakeList.txt
-|4,39,4,39,1697389926,"~/project/cmake_test_proj/CMakeList.txt"
--'  4  39  ~/project/cmake_test_proj/CMakeList.txt
-|4,39,4,39,1697389926,"~/project/cmake_test_proj/CMakeList.txt"
--'  4  39  ~/project/cmake_test_proj/CMakeList.txt
-|4,39,4,39,1697389926,"~/project/cmake_test_proj/CMakeList.txt"
--'  1  0  ~/project/cmake_test_proj/CMakeList.txt
-|4,39,1,0,1697389864,"~/project/cmake_test_proj/CMakeList.txt"
--'  1  0  ~/project/cmake_test_proj/CMakeList.txt
-|4,39,1,0,1697389864,"~/project/cmake_test_proj/CMakeList.txt"
--'  1  0  ~/project/cmake_test_proj/CMakeList.txt
-|4,39,1,0,1697389864,"~/project/cmake_test_proj/CMakeList.txt"
--'  1  0  ~/project/cmake_test_proj/CMakeList.txt
-|4,39,1,0,1697389864,"~/project/cmake_test_proj/CMakeList.txt"
--'  1  0  ~/project/cmake_test_proj/CMakeList.txt
-|4,39,1,0,1697389864,"~/project/cmake_test_proj/CMakeList.txt"
--'  1  0  ~/project/cmake_test_proj/CMakeList.txt
-|4,39,1,0,1697389864,"~/project/cmake_test_proj/CMakeList.txt"
--'  1  0  ~/project/cmake_test_proj/CMakeList.txt
-|4,39,1,0,1697389864,"~/project/cmake_test_proj/CMakeList.txt"
--'  1  0  ~/project/cmake_test_proj/CMakeList.txt
-|4,39,1,0,1697389864,"~/project/cmake_test_proj/CMakeList.txt"
--'  1  0  ~/project/cmake_test_proj/CMakeList.txt
-|4,39,1,0,1697389864,"~/project/cmake_test_proj/CMakeList.txt"
--'  1  0  ~/project/cmake_test_proj/CMakeList.txt
-|4,39,1,0,1697389864,"~/project/cmake_test_proj/CMakeList.txt"
--'  1  0  ~/project/cmake_test_proj/CMakeList.txt
-|4,39,1,0,1697389864,"~/project/cmake_test_proj/CMakeList.txt"
--'  1  0  ~/project/cmake_test_proj/CMakeList.txt
-|4,39,1,0,1697389864,"~/project/cmake_test_proj/CMakeList.txt"
--'  1  0  ~/project/cmake_test_proj/CMakeList.txt
-|4,39,1,0,1697389864,"~/project/cmake_test_proj/CMakeList.txt"
--'  1  0  ~/project/cmake_test_proj/CMakeList.txt
-|4,39,1,0,1697389864,"~/project/cmake_test_proj/CMakeList.txt"
--'  1  0  ~/project/cmake_test_proj/CMakeList.txt
-|4,39,1,0,1697389864,"~/project/cmake_test_proj/CMakeList.txt"
--'  1  0  ~/project/cmake_test_proj/CMakeList.txt
-|4,39,1,0,1697389864,"~/project/cmake_test_proj/CMakeList.txt"
--'  1  0  ~/project/cmake_test_proj/CMakeList.txt
-|4,39,1,0,1697389864,"~/project/cmake_test_proj/CMakeList.txt"
--'  1  0  ~/project/cmake_test_proj/CMakeList.txt
-|4,39,1,0,1697389864,"~/project/cmake_test_proj/CMakeList.txt"
--'  1  0  ~/project/cmake_test_proj/CMakeList.txt
-|4,39,1,0,1697389864,"~/project/cmake_test_proj/CMakeList.txt"
--'  1  0  ~/project/cmake_test_proj/CMakeList.txt
-|4,39,1,0,1697389864,"~/project/cmake_test_proj/CMakeList.txt"
--'  1  0  ~/project/cmake_test_proj/CMakeList.txt
-|4,39,1,0,1697389864,"~/project/cmake_test_proj/CMakeList.txt"
--'  1  0  ~/project/cmake_test_proj/CMakeList.txt
-|4,39,1,0,1697389864,"~/project/cmake_test_proj/CMakeList.txt"
--'  1  0  ~/project/cmake_test_proj/CMakeList.txt
-|4,39,1,0,1697389864,"~/project/cmake_test_proj/CMakeList.txt"
--'  1  0  ~/project/cmake_test_proj/CMakeList.txt
-|4,39,1,0,1697389864,"~/project/cmake_test_proj/CMakeList.txt"
--'  1  0  ~/project/cmake_test_proj/CMakeList.txt
-|4,39,1,0,1697389864,"~/project/cmake_test_proj/CMakeList.txt"
--'  1  0  ~/project/cmake_test_proj/CMakeList.txt
-|4,39,1,0,1697389864,"~/project/cmake_test_proj/CMakeList.txt"
--'  1  0  ~/project/cmake_test_proj/CMakeList.txt
-|4,39,1,0,1697389864,"~/project/cmake_test_proj/CMakeList.txt"
--'  1  0  ~/project/cmake_test_proj/CMakeList.txt
-|4,39,1,0,1697389864,"~/project/cmake_test_proj/CMakeList.txt"
--'  1  0  ~/project/cmake_test_proj/CMakeList.txt
-|4,39,1,0,1697389864,"~/project/cmake_test_proj/CMakeList.txt"
--'  1  0  ~/project/cmake_test_proj/CMakeList.txt
-|4,39,1,0,1697389864,"~/project/cmake_test_proj/CMakeList.txt"
--'  1  0  ~/project/cmake_test_proj/CMakeList.txt
-|4,39,1,0,1697389864,"~/project/cmake_test_proj/CMakeList.txt"
--'  1  0  ~/project/cmake_test_proj/CMakeList.txt
-|4,39,1,0,1697389864,"~/project/cmake_test_proj/CMakeList.txt"
--'  6  11  ~/project/cmake_test_proj/main.cpp
-|4,39,6,11,1697389856,"~/project/cmake_test_proj/main.cpp"
--'  6  11  ~/project/cmake_test_proj/main.cpp
-|4,39,6,11,1697389856,"~/project/cmake_test_proj/main.cpp"
--'  6  11  ~/project/cmake_test_proj/main.cpp
-|4,39,6,11,1697389856,"~/project/cmake_test_proj/main.cpp"
--'  6  11  ~/project/cmake_test_proj/main.cpp
-|4,39,6,11,1697389856,"~/project/cmake_test_proj/main.cpp"
--'  6  11  ~/project/cmake_test_proj/main.cpp
-|4,39,6,11,1697389856,"~/project/cmake_test_proj/main.cpp"
--'  6  11  ~/project/cmake_test_proj/main.cpp
-|4,39,6,11,1697389856,"~/project/cmake_test_proj/main.cpp"
--'  6  11  ~/project/cmake_test_proj/main.cpp
-|4,39,6,11,1697389856,"~/project/cmake_test_proj/main.cpp"
--'  6  11  ~/project/cmake_test_proj/main.cpp
-|4,39,6,11,1697389856,"~/project/cmake_test_proj/main.cpp"
--'  6  11  ~/project/cmake_test_proj/main.cpp
-|4,39,6,11,1697389856,"~/project/cmake_test_proj/main.cpp"
--'  6  11  ~/project/cmake_test_proj/main.cpp
-|4,39,6,11,1697389856,"~/project/cmake_test_proj/main.cpp"
--'  6  11  ~/project/cmake_test_proj/main.cpp
-|4,39,6,11,1697389856,"~/project/cmake_test_proj/main.cpp"
--'  6  11  ~/project/cmake_test_proj/main.cpp
-|4,39,6,11,1697389856,"~/project/cmake_test_proj/main.cpp"
+|4,39,37,27,1697390385,"~/.aliases"
+-'  37  27  ~/.aliases
+|4,39,37,27,1697390385,"~/.aliases"
+-'  37  27  ~/.aliases
+|4,39,37,27,1697390385,"~/.aliases"
+-'  37  27  ~/.aliases
+|4,39,37,27,1697390385,"~/.aliases"
+-'  37  27  ~/.aliases
+|4,39,37,27,1697390385,"~/.aliases"
+-'  37  27  ~/.aliases
+|4,39,37,27,1697390385,"~/.aliases"
+-'  37  27  ~/.aliases
+|4,39,37,27,1697390385,"~/.aliases"
+-'  37  27  ~/.aliases
+|4,39,37,27,1697390385,"~/.aliases"
+-'  37  27  ~/.aliases
+|4,39,37,27,1697390385,"~/.aliases"
 
 # History of marks within files (newest to oldest):
 
+> ~/.dir_colors
+	*	1697500752	0
+	"	148	8
+	^	148	9
+	.	148	8
+	+	150	6
+	+	152	5
+	+	148	8
+
 > ~/.zshrc
-	*	1697497094	0
-	"	12	18
-	^	12	19
-	.	12	18
+	*	1697500660	0
+	"	38	0
+	.	38	0
 	+	12	10
 	+	2	34
+	+	247	0
+	+	247	123
 	+	248	0
-	+	248	123
-	+	249	0
-	+	248	174
+	+	247	174
 	+	11	0
-	+	12	18
+	+	12	20
+	+	12	19
+	+	12	0
+	+	11	0
+	+	38	21
+	+	38	15
+	+	38	0
+
+> ~/.vimrc
+	*	1697498181	0
+	"	56	0
+	^	56	1
+	.	56	0
+	+	56	0
 
 > ~/.aliases
 	*	1697390384	0

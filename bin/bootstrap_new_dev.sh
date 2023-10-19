@@ -50,7 +50,7 @@ sudo apt install -y \
 	zsh \
 	pkg-config \
 	openssh-server \
-	vim-gtk
+	vim-gtk3
 
 sudo ufw allow ssh
 

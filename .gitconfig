@@ -26,6 +26,7 @@
    dt = difftool
    sh = !git-sh
    permission-reset = !git diff -p -R | grep -E \"^(diff|(old|new) mode)\" | git apply
+	investigate = blame
 
 [core]
    pager = less -FRX
@@ -81,3 +82,7 @@
 	colorMoved = zebra
 [init]
 	defaultBranch = main
+[help]
+	autocorrect = 1
+[sort]
+	commiterdate = true

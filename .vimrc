@@ -53,7 +53,7 @@ set tags=./tags,tags,../tags
 "Set colorsheme
 "colorscheme desert
 "colorscheme elflord
-"colorscheme murphy
+colorscheme murphy
 
 let g:explVertical=1	" Split vertically
 "#set listchars=eol:$,tab:>-,trail:~,extends:>,precedes:<

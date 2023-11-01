@@ -46,3 +46,12 @@ which zsh
 chsh -s /usr/bin/zsh
 sudo passwd
 su -
+cd bin/
+ls
+more bootstrap_new_dev.sh 
+./bootstrap_new_dev.sh 
+sudo chsh -s /bin/zsh mreid
+exit
+ls
+zsh
+echo $SHELL

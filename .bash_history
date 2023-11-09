@@ -55,3 +55,58 @@ exit
 ls
 zsh
 echo $SHELL
+sudo apt install yadm -y
+yadm clone git@github.com:cybercritter/yadam_store.git
+yadm clone https://github.com/cybercritter/yadam_store.git
+ssh-keygen -t ed25519 -c "cybercritter@kayla"
+ssh-keygen -t ed25519 -C "cybercritter@kayla"
+gedit .ssh/id_ed25519.pub 
+yadm clone git@github.com:cybercritter/yadam_store.git
+git st
+yadm st
+git stash
+yadm stash
+cd bin/
+ls
+./bootstrap_new_dev.sh 
+ls
+./mount_winston.sh 
+sudo mkdir /winston
+./mount_winston.sh 
+sudo ./mount_winston.sh 
+more mount_winston.sh 
+cd /winston/
+ls
+cd -
+ls
+./mount_winston.sh 
+ping 192.168.50.180
+sudo gedit /root/.smbcredentials
+./mount_winston.sh 
+sudo passwd 
+su -
+cd
+cp /winston/wallpaper/* Pictures/
+ls
+rm -rf Music/ Templates/ Videos/ Public/
+l
+ls
+rm Documents/
+rm -rf Documents/
+ls
+reboot
+sudo apt install snapd
+sudo apt install snap-store
+snap install snap-store
+snap-stpre
+snap-store
+snap install code
+snap install --classic code
+snap install python3
+snap install python
+sudo snap-store
+snap-store
+ls
+sudo chsh -s /bin/zsh mreid
+echo $SHELL
+chsh -s /bin/zsh 

@@ -245,3 +245,5 @@ bindkey "${terminfo[kcud1]}" down-line-or-beginning-search
 
 
 export PATH=$PATH:/opt/bin:/home/mreid/bin:/usr/local/bin:/home/mreid/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+
+eval $(dircolors /etc/DIR_COLORS)

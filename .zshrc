@@ -95,7 +95,7 @@ source $ZSH/oh-my-zsh.sh
 export LANG=en_US.UTF-8
 
 # add to path
-export PATH=~/bin:~/.venv/bin:~/.local/bin:$PATH
+export PATH=~/bin:~/.venv/bin:~/.local/bin:/opt/cmake:$PATH
 
 alias 'today=calendar -A 0 -f /usr/share/calendar/calendar.mark | sort'
 alias 'dus=du -sckx * | sort -nr'

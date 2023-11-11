@@ -110,3 +110,8 @@ ls
 sudo chsh -s /bin/zsh mreid
 echo $SHELL
 chsh -s /bin/zsh 
+ls
+echo $SHELL
+ls
+ll
+exit

@@ -1,0 +1,17 @@
+# necessary packages
+requests
+pillow
+scrapy
+asyncio
+#tkinter
+six
+kivy
+numpy
+scipy
+scikit-learn
+matplotlib
+pandas
+pyyaml
+python-dateutil
+setuptools
+

@@ -115,3 +115,30 @@ echo $SHELL
 ls
 ll
 exit
+ls
+cd ./
+cd /
+ls
+sudo mkdir share projects
+sudo mount -a
+cd /share/
+ls
+cd /projects/
+ls
+clear
+sudo apt-get update;sudo apt-get upgrade -y; sudo apt-get autoremove --purge
+su -
+sudo passwd
+su -
+sudo umount /projects 
+su -
+cp Downloads/*.jpg ~/Pictures/
+cp Downloads/*.png ~/Pictures/
+ssh-keygen -t ed25519 -c "august"
+ssh-keygen -t ed25519 -C "august"
+gedit .ssh/id_ed25519.pub 
+gpg --full-generate-key
+gpg --armor --export 8E82EF85752EE012
+gpg --armor --export 8E82EF85752EE012 > gpg.key
+gedit gpg.key 
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"

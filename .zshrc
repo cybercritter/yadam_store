@@ -8,9 +8,9 @@ export ZSH="$HOME/.oh-my-zsh"
 # load a random theme each time oh-my-zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
 # See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
-#ZSH_THEME="alanpeabody"
+ZSH_THEME="alanpeabody"
 #ZSH_THEME="apple"
-ZSH_THEME="robbyrussel"
+#ZSH_THEME="robbyrussel"
 
 # Set list of themes to pick from when loading at random
 # Setting this variable when ZSH_THEME=random will cause zsh to load
@@ -246,5 +246,5 @@ bindkey "${terminfo[kcuu1]}" up-line-or-beginning-search
 bindkey "${terminfo[kcud1]}" down-line-or-beginning-search
 
 
-export PATH=$PATH:/opt/bin:/home/mreid/bin:/usr/local/bin:/home/mreid/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+export PATH=$PATH:/opt/python/3.12.0/bin/:/opt/bin:/home/mreid/bin:/usr/local/bin:/home/mreid/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
 

@@ -1,6 +1,7 @@
 [user]
     name =  Michael Reid
     email = cybercritter@comcast.net 
+	signingkey = C4B62EF3AC596A78E37297E86C2644D40E312E8F
 
 [alias]
    a = add -A .

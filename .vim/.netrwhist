@@ -1,5 +1,6 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhistcnt =9
+let g:netrw_dirhistcnt =0
+let g:netrw_dirhist_0='/home/mreid/.local/lib/python3.12/site-packages/pcapy_ng-1.0.9.dist-info'
 let g:netrw_dirhist_9='/share/projects/utils_from_github/cmake-automation-example/src'
 let g:netrw_dirhist_8='/home/mreid/.oh-my-zsh/custom/themes'
 let g:netrw_dirhist_7='/home/mreid/.oh-my-zsh/custom'

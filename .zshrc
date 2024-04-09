@@ -1,5 +1,5 @@
 # If you come from bash you might have to change your $PATH.
-export PATH=/home/mreid/bin:/opt/bin:/opt/python/3.12.0/bin:$HOME/bin:/usr/local/bin:$PATH
+export PATH=/opt/bin:/opt/python/3.12.3/bin:/usr/usr/local/bin:/usr/local/sbin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:~/bin:~/.local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
 export ZSH="$HOME/.oh-my-zsh"
@@ -242,6 +242,6 @@ bindkey "${terminfo[kcuu1]}" up-line-or-beginning-search
 # start typing + [Down-Arrow] - fuzzy find history backward
 bindkey "${terminfo[kcud1]}" down-line-or-beginning-search
 
-
-export PATH=$PATH:/opt/python/3.12.0/bin/:/opt/bin:/home/mreid/bin:/usr/local/bin:/home/mreid/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
-
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion

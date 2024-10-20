@@ -142,3 +142,19 @@ gpg --armor --export 8E82EF85752EE012
 gpg --armor --export 8E82EF85752EE012 > gpg.key
 gedit gpg.key 
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+sudo apt install yadm build-essential git gdb 
+ssh-keygen -t ed25519 -C"michael"
+cd .ssh/
+ls
+cat id_ed25519.pub > authorized_keys
+gedit id_ed25519.pub 
+cd
+yadm clone git@github.com:cybercritter/yadam_store.git
+yadm status
+yadm restore .bash_history  .ssh/known_hosts .ssh/known_hosts.old 
+yadm status
+sudo apt install zsh
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+exti
+sudo apt install clang-format
+clang-format --style=Google --dump-config >.clang-format

@@ -1,7 +1,6 @@
 [user]
     name =  Michael Reid
     email = cybercritter@comcast.net 
-	signingkey = 9B84DD308C12A6404F6958284ADAE26B6B4F7CA3
 
 [alias]
    a = add -A .
@@ -46,10 +45,6 @@
    added = green
    changed = yellow
    untracked = red
-
-[commit]
- template = ~/.gitmessage.txt
- gpgsign = true
 
 [filter "sshconfig_trailer"]
  clean = sed '/^. Everything below will be ignored by git.$/q'
